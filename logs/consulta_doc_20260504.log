@@ -1,0 +1,2197 @@
+[PROD] Lanzando consulta-doc en https://microservicio.codeplex.cloud:8076 
+"uvicorn" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+[PROD] Lanzando consulta-doc en https://microservicio.codeplex.cloud:8076 
+INFO:     Uvicorn running on https://0.0.0.0:8076 (Press CTRL+C to quit)
+INFO:     Started parent process [51508]
+INFO:     Started server process [71580]
+INFO:     Waiting for application startup.
+INFO:     Started server process [66276]
+INFO:     Waiting for application startup.
+INFO:     Started server process [61472]
+INFO:     Waiting for application startup.
+INFO:     Started server process [53588]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Application startup failed. Exiting.
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [53588]
+INFO:     Child process [53588] died
+INFO:     Waiting for child process [71580]
+INFO:     Child process [71580] died
+INFO:     Waiting for child process [66276]
+INFO:     Child process [66276] died
+INFO:     Waiting for child process [61472]
+INFO:     Child process [61472] died
+INFO:     Started server process [32624]
+INFO:     Waiting for application startup.
+INFO:     Started server process [46824]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [73864]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [4128]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [73864]
+INFO:     Child process [73864] died
+INFO:     Waiting for child process [4128]
+INFO:     Child process [4128] died
+INFO:     Waiting for child process [32624]
+INFO:     Child process [32624] died
+INFO:     Waiting for child process [46824]
+INFO:     Child process [46824] died
+INFO:     Started server process [55260]
+INFO:     Waiting for application startup.
+INFO:     Started server process [70304]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [38468]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+INFO:     Started server process [49708]
+INFO:     Waiting for application startup.
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [38468]
+INFO:     Child process [38468] died
+INFO:     Waiting for child process [70304]
+INFO:     Child process [70304] died
+INFO:     Waiting for child process [55260]
+INFO:     Child process [55260] died
+INFO:     Waiting for child process [49708]
+INFO:     Child process [49708] died
+^C[PROD] Lanzando consulta-doc en https://microservicio.codeplex.cloud:8076 
+INFO:     Uvicorn running on https://0.0.0.0:8076 (Press CTRL+C to quit)
+INFO:     Started parent process [42312]
+INFO:     Started server process [57320]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [7828]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [62592]
+INFO:     Waiting for application startup.
+INFO:     Started server process [3728]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [62592]
+INFO:     Child process [62592] died
+INFO:     Waiting for child process [57320]
+INFO:     Child process [57320] died
+INFO:     Waiting for child process [7828]
+INFO:     Child process [7828] died
+INFO:     Waiting for child process [3728]
+INFO:     Child process [3728] died
+INFO:     Started server process [49472]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [46664]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [25596]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [58540]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [25596]
+INFO:     Child process [25596] died
+INFO:     Waiting for child process [58540]
+INFO:     Child process [58540] died
+INFO:     Waiting for child process [46664]
+INFO:     Child process [46664] died
+INFO:     Waiting for child process [49472]
+INFO:     Child process [49472] died
+INFO:     Started server process [2648]
+INFO:     Waiting for application startup.
+INFO:     Started server process [36360]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [28516]
+INFO:     Waiting for application startup.
+INFO:     Started server process [55020]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [28516]
+INFO:     Child process [28516] died
+INFO:     Waiting for child process [2648]
+INFO:     Child process [2648] died
+INFO:     Waiting for child process [55020]
+INFO:     Child process [55020] died
+INFO:     Waiting for child process [36360]
+INFO:     Child process [36360] died
+INFO:     Started server process [59752]
+INFO:     Waiting for application startup.
+INFO:     Started server process [64700]
+INFO:     Waiting for application startup.
+INFO:     Started server process [64876]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [19868]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [64700]
+INFO:     Child process [64700] died
+INFO:     Waiting for child process [59752]
+INFO:     Child process [59752] died
+INFO:     Waiting for child process [19868]
+INFO:     Child process [19868] died
+INFO:     Waiting for child process [64876]
+INFO:     Child process [64876] died
+INFO:     Started server process [46376]
+INFO:     Waiting for application startup.
+INFO:     Started server process [59396]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [41748]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [17928]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [41748]
+INFO:     Child process [41748] died
+INFO:     Waiting for child process [17928]
+INFO:     Child process [17928] died
+INFO:     Waiting for child process [59396]
+INFO:     Child process [59396] died
+INFO:     Waiting for child process [46376]
+INFO:     Child process [46376] died
+INFO:     Started server process [74056]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [28772]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+INFO:     Started server process [49944]
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [7348]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [49944]
+INFO:     Child process [49944] died
+INFO:     Waiting for child process [28772]
+INFO:     Child process [28772] died
+INFO:     Waiting for child process [7348]
+INFO:     Child process [7348] died
+INFO:     Waiting for child process [74056]
+INFO:     Child process [74056] died
+INFO:     Started server process [33904]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [58244]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [63368]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [24128]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [63368]
+INFO:     Child process [63368] died
+INFO:     Waiting for child process [24128]
+INFO:     Child process [24128] died
+INFO:     Waiting for child process [33904]
+INFO:     Child process [33904] died
+INFO:     Waiting for child process [58244]
+INFO:     Child process [58244] died
+INFO:     Started server process [74520]
+INFO:     Waiting for application startup.
+INFO:     Started server process [39904]
+INFO:     Waiting for application startup.
+INFO:     Started server process [46888]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [46032]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [46032]
+INFO:     Child process [46032] died
+INFO:     Waiting for child process [39904]
+INFO:     Child process [39904] died
+INFO:     Waiting for child process [74520]
+INFO:     Child process [74520] died
+INFO:     Waiting for child process [46888]
+INFO:     Child process [46888] died
+INFO:     Started server process [55744]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [50924]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [26252]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [32240]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [26252]
+INFO:     Child process [26252] died
+INFO:     Waiting for child process [50924]
+INFO:     Child process [50924] died
+INFO:     Waiting for child process [32240]
+INFO:     Child process [32240] died
+INFO:     Waiting for child process [55744]
+INFO:     Child process [55744] died
+INFO:     Started server process [27776]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [69252]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [54084]
+INFO:     Waiting for application startup.
+INFO:     Started server process [51844]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [27776]
+INFO:     Child process [27776] died
+INFO:     Waiting for child process [51844]
+INFO:     Child process [51844] died
+INFO:     Waiting for child process [69252]
+INFO:     Child process [69252] died
+INFO:     Waiting for child process [54084]
+INFO:     Child process [54084] died
+^C[PROD] Lanzando consulta-doc en https://microservicio.codeplex.cloud:8076 
+INFO:     Uvicorn running on https://0.0.0.0:8076 (Press CTRL+C to quit)
+INFO:     Started parent process [61700]
+INFO:     Started server process [11272]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [72024]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [16156]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [41140]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [72024]
+INFO:     Child process [72024] died
+INFO:     Waiting for child process [11272]
+INFO:     Child process [11272] died
+INFO:     Waiting for child process [16156]
+INFO:     Child process [16156] died
+INFO:     Waiting for child process [41140]
+INFO:     Child process [41140] died
+INFO:     Started server process [67596]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [50532]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [33048]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [67496]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [67496]
+INFO:     Child process [67496] died
+INFO:     Waiting for child process [33048]
+INFO:     Child process [33048] died
+INFO:     Waiting for child process [50532]
+INFO:     Child process [50532] died
+INFO:     Waiting for child process [67596]
+INFO:     Child process [67596] died
+INFO:     Started server process [39960]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [58088]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [74064]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [63736]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [39960]
+INFO:     Child process [39960] died
+INFO:     Waiting for child process [58088]
+INFO:     Child process [58088] died
+INFO:     Waiting for child process [74064]
+INFO:     Child process [74064] died
+INFO:     Waiting for child process [63736]
+INFO:     Child process [63736] died
+INFO:     Started server process [8056]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [14500]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [58668]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [44368]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [14500]
+INFO:     Child process [14500] died
+INFO:     Waiting for child process [8056]
+INFO:     Child process [8056] died
+INFO:     Waiting for child process [58668]
+INFO:     Child process [58668] died
+INFO:     Waiting for child process [44368]
+INFO:     Child process [44368] died
+INFO:     Started server process [56984]
+INFO:     Waiting for application startup.
+INFO:     Started server process [58652]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [68400]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [53240]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [68400]
+INFO:     Child process [68400] died
+INFO:     Waiting for child process [58652]
+INFO:     Child process [58652] died
+INFO:     Waiting for child process [53240]
+INFO:     Child process [53240] died
+INFO:     Waiting for child process [56984]
+INFO:     Child process [56984] died
+INFO:     Started server process [65232]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [50860]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [16220]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [67116]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [65232]
+INFO:     Child process [65232] died
+INFO:     Waiting for child process [50860]
+INFO:     Child process [50860] died
+INFO:     Waiting for child process [67116]
+INFO:     Child process [67116] died
+INFO:     Waiting for child process [16220]
+INFO:     Child process [16220] died
+INFO:     Started server process [74332]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [33000]
+INFO:     Waiting for application startup.
+INFO:     Started server process [65492]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [19468]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [19468]
+INFO:     Child process [19468] died
+INFO:     Waiting for child process [65492]
+INFO:     Child process [65492] died
+INFO:     Waiting for child process [33000]
+INFO:     Child process [33000] died
+INFO:     Waiting for child process [74332]
+INFO:     Child process [74332] died
+INFO:     Started server process [16824]
+INFO:     Waiting for application startup.
+INFO:     Started server process [50648]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [42584]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [32788]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [32788]
+INFO:     Child process [32788] died
+INFO:     Waiting for child process [42584]
+INFO:     Child process [42584] died
+INFO:     Waiting for child process [16824]
+INFO:     Child process [16824] died
+INFO:     Waiting for child process [50648]
+INFO:     Child process [50648] died
+INFO:     Started server process [22076]
+INFO:     Waiting for application startup.
+INFO:     Started server process [65968]
+INFO:     Waiting for application startup.
+INFO:     Started server process [26616]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [19904]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [26616]
+INFO:     Child process [26616] died
+INFO:     Waiting for child process [22076]
+INFO:     Child process [22076] died
+INFO:     Waiting for child process [19904]
+INFO:     Child process [19904] died
+INFO:     Waiting for child process [65968]
+INFO:     Child process [65968] died
+INFO:     Started server process [74492]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [59224]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [72352]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [39592]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [39592]
+INFO:     Child process [39592] died
+INFO:     Waiting for child process [72352]
+INFO:     Child process [72352] died
+INFO:     Waiting for child process [74492]
+INFO:     Child process [74492] died
+INFO:     Waiting for child process [59224]
+INFO:     Child process [59224] died
+INFO:     Started server process [63676]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [6264]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [48956]
+INFO:     Waiting for application startup.
+INFO:     Started server process [64252]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [6264]
+INFO:     Child process [6264] died
+INFO:     Waiting for child process [64252]
+INFO:     Child process [64252] died
+INFO:     Waiting for child process [63676]
+INFO:     Child process [63676] died
+INFO:     Waiting for child process [48956]
+INFO:     Child process [48956] died
+INFO:     Started server process [41808]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [74236]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [66208]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [59496]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [59496]
+INFO:     Child process [59496] died
+INFO:     Waiting for child process [74236]
+INFO:     Child process [74236] died
+INFO:     Waiting for child process [41808]
+INFO:     Child process [41808] died
+INFO:     Waiting for child process [66208]
+INFO:     Child process [66208] died
+INFO:     Started server process [47228]
+INFO:     Waiting for application startup.
+INFO:     Started server process [50156]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [66496]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [73652]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [50156]
+INFO:     Child process [50156] died
+INFO:     Waiting for child process [66496]
+INFO:     Child process [66496] died
+INFO:     Waiting for child process [47228]
+INFO:     Child process [47228] died
+INFO:     Waiting for child process [73652]
+INFO:     Child process [73652] died
+INFO:     Started server process [29996]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [66224]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [62696]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [41464]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} \u2192 {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [29996]
+INFO:     Child process [29996] died
+INFO:     Waiting for child process [62696]
+INFO:     Child process [62696] died
+INFO:     Waiting for child process [66224]
+INFO:     Child process [66224] died
+INFO:     Waiting for child process [41464]
+INFO:     Child process [41464] died
+INFO:     Started server process [24900]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} -> {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [33204]
+INFO:     Waiting for application startup.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} -> {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Started server process [68704]
+INFO:     Waiting for application startup.
+INFO:     Started server process [7532]
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} -> {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+INFO:     Waiting for application startup.
+ERROR:    Application startup failed. Exiting.
+ERROR:    Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\laragon\bin\python\python-3.12\Lib\site-packages\starlette\routing.py", line 670, in startup
+    await handler()
+  File "C:\go\consulta-doc\main.py", line 172, in on_startup
+    print(f"\n  [OK] consulta-doc {NODE_ENV} -> {base}")
+  File "C:\laragon\bin\python\python-3.12\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 33: character maps to <undefined>
+
+ERROR:    Application startup failed. Exiting.
+INFO:     Waiting for child process [24900]
+INFO:     Child process [24900] died
+INFO:     Waiting for child process [68704]
+INFO:     Child process [68704] died
+INFO:     Waiting for child process [33204]
+INFO:     Child process [33204] died
+INFO:     Waiting for child process [7532]
+INFO:     Child process [7532] died
+INFO:     Started server process [17624]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [15736]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [55856]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [71712]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+
+  [OK] consulta-doc production -> https://localhost:8076
+  Swagger: https://localhost:8076/docs
+
+INFO:     38.25.16.10:12783 - "GET /Servicios/consultaDocumento/20539782232 HTTP/1.1" 200 OK
+INFO:     38.25.16.10:12783 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+^C[PROD] Lanzando consulta-doc en https://microservicio.codeplex.cloud:8076 
+INFO:     Uvicorn running on https://0.0.0.0:8076 (Press CTRL+C to quit)
+INFO:     Started parent process [60024]
+INFO:     Started server process [12008]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [50924]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [27628]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [55744]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+
+  [OK] consulta-doc production -> https://localhost:8076
+  Swagger: https://localhost:8076/docs
+
+INFO:     38.25.16.10:15268 - "GET /Servicios/consultaDocumento/20539782232 HTTP/1.1" 200 OK
+INFO:     38.25.16.10:15268 - "GET /Servicios/consultaDocumento/72098347 HTTP/1.1" 200 OK
+INFO:     38.25.16.10:15268 - "GET /Servicios/consultaDocumento/20539782232 HTTP/1.1" 200 OK
+
+  [OK] consulta-doc production -> https://localhost:8076
+  Swagger: https://localhost:8076/docs
+
+INFO:     45.189.109.47:22540 - "GET /Servicios/consultaDocumento/20539782232 HTTP/1.1" 200 OK
+INFO:     45.189.109.47:22540 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+
+  [OK] consulta-doc production -> https://localhost:8076
+  Swagger: https://localhost:8076/docs
+
+INFO:     38.25.16.10:33233 - "GET /Servicios/consultaDocumento/20539782232 HTTP/1.1" 200 OK
+
+  [OK] consulta-doc production -> https://localhost:8076
+  Swagger: https://localhost:8076/docs
+
+INFO:     45.189.109.47:22554 - "GET /Servicios/consultaDocumento/80638967 HTTP/1.1" 200 OK
+INFO:     38.25.16.10:28372 - "GET /Servicios/consultaDocumento/10448539500 HTTP/1.1" 200 OK
