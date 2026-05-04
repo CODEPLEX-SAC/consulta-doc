@@ -169,7 +169,7 @@ def health():
 async def on_startup():
     proto = "https" if os.getenv("CERT") else "http"
     base = f"{proto}://localhost:{PORT}"
-    print(f"\n  [OK] consulta-doc {NODE_ENV} → {base}")
+    print(f"\n  [OK] consulta-doc {NODE_ENV} -> {base}")
     print(f"  Swagger: {base}/docs\n")
     if NODE_ENV != "production":
         Timer(1.0, lambda: webbrowser.open(f"{base}/docs")).start()

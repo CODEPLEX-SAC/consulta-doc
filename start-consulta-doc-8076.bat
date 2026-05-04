@@ -46,7 +46,7 @@ if not exist "%KEY%" (
 )
 
 REM ========== 6) Instalar dependencias si faltan ==========
-python -c "import fastapi" >nul 2>&1 || (
+python -c "import fastapi, uvicorn" >nul 2>&1 || (
   echo [INFO] Instalando dependencias...
   pip install -r requirements.txt -q
 )
@@ -64,7 +64,7 @@ REM ========== 9) Lanzar uvicorn con SSL ==========
 echo [PROD] Lanzando consulta-doc en https://microservicio.codeplex.cloud:8076 >> "%LOGFILE%"
 echo [INFO] Iniciando...
 
-start "" /b cmd /c "uvicorn main:app --host 0.0.0.0 --port %PORT% --ssl-certfile ""%CERT%"" --ssl-keyfile ""%KEY%"" --workers 4 >> ""%LOGFILE%"" 2>&1"
+start "" /b cmd /c "python -m uvicorn main:app --host 0.0.0.0 --port %PORT% --ssl-certfile ""%CERT%"" --ssl-keyfile ""%KEY%"" --workers 4 >> ""%LOGFILE%"" 2>&1"
 
 REM ========== 10) Verificar arranque ==========
 timeout /t 4 >nul
