@@ -1,0 +1,9372 @@
+{
+    "100101": {
+        "d": "Huánuco",
+        "p": "Huánuco",
+        "di": "Huanuco"
+    },
+    "100102": {
+        "d": "Huánuco",
+        "p": "Huánuco",
+        "di": "Amarilis"
+    },
+    "100103": {
+        "d": "Huánuco",
+        "p": "Huánuco",
+        "di": "Chinchao"
+    },
+    "100104": {
+        "d": "Huánuco",
+        "p": "Huánuco",
+        "di": "Churubamba"
+    },
+    "100105": {
+        "d": "Huánuco",
+        "p": "Huánuco",
+        "di": "Margos"
+    },
+    "100106": {
+        "d": "Huánuco",
+        "p": "Huánuco",
+        "di": "Quisqui (Kichki)"
+    },
+    "100107": {
+        "d": "Huánuco",
+        "p": "Huánuco",
+        "di": "San Francisco de Cayran"
+    },
+    "100108": {
+        "d": "Huánuco",
+        "p": "Huánuco",
+        "di": "San Pedro de Chaulan"
+    },
+    "100109": {
+        "d": "Huánuco",
+        "p": "Huánuco",
+        "di": "Santa María del Valle"
+    },
+    "100110": {
+        "d": "Huánuco",
+        "p": "Huánuco",
+        "di": "Yarumayo"
+    },
+    "100111": {
+        "d": "Huánuco",
+        "p": "Huánuco",
+        "di": "Pillco Marca"
+    },
+    "100112": {
+        "d": "Huánuco",
+        "p": "Huánuco",
+        "di": "Yacus"
+    },
+    "100113": {
+        "d": "Huánuco",
+        "p": "Huánuco",
+        "di": "San Pablo de Pillao"
+    },
+    "100201": {
+        "d": "Huánuco",
+        "p": "Ambo",
+        "di": "Ambo"
+    },
+    "100202": {
+        "d": "Huánuco",
+        "p": "Ambo",
+        "di": "Cayna"
+    },
+    "100203": {
+        "d": "Huánuco",
+        "p": "Ambo",
+        "di": "Colpas"
+    },
+    "100204": {
+        "d": "Huánuco",
+        "p": "Ambo",
+        "di": "Conchamarca"
+    },
+    "100205": {
+        "d": "Huánuco",
+        "p": "Ambo",
+        "di": "Huacar"
+    },
+    "100206": {
+        "d": "Huánuco",
+        "p": "Ambo",
+        "di": "San Francisco"
+    },
+    "100207": {
+        "d": "Huánuco",
+        "p": "Ambo",
+        "di": "San Rafael"
+    },
+    "100208": {
+        "d": "Huánuco",
+        "p": "Ambo",
+        "di": "Tomay Kichwa"
+    },
+    "100301": {
+        "d": "Huánuco",
+        "p": "Dos de Mayo",
+        "di": "La Unión"
+    },
+    "100307": {
+        "d": "Huánuco",
+        "p": "Dos de Mayo",
+        "di": "Chuquis"
+    },
+    "100311": {
+        "d": "Huánuco",
+        "p": "Dos de Mayo",
+        "di": "Marías"
+    },
+    "100313": {
+        "d": "Huánuco",
+        "p": "Dos de Mayo",
+        "di": "Pachas"
+    },
+    "100316": {
+        "d": "Huánuco",
+        "p": "Dos de Mayo",
+        "di": "Quivilla"
+    },
+    "100317": {
+        "d": "Huánuco",
+        "p": "Dos de Mayo",
+        "di": "Ripan"
+    },
+    "100321": {
+        "d": "Huánuco",
+        "p": "Dos de Mayo",
+        "di": "Shunqui"
+    },
+    "100322": {
+        "d": "Huánuco",
+        "p": "Dos de Mayo",
+        "di": "Sillapata"
+    },
+    "100323": {
+        "d": "Huánuco",
+        "p": "Dos de Mayo",
+        "di": "Yanas"
+    },
+    "100401": {
+        "d": "Huánuco",
+        "p": "Huacaybamba",
+        "di": "Huacaybamba"
+    },
+    "100402": {
+        "d": "Huánuco",
+        "p": "Huacaybamba",
+        "di": "Canchabamba"
+    },
+    "100403": {
+        "d": "Huánuco",
+        "p": "Huacaybamba",
+        "di": "Cochabamba"
+    },
+    "100404": {
+        "d": "Huánuco",
+        "p": "Huacaybamba",
+        "di": "Pinra"
+    },
+    "100501": {
+        "d": "Huánuco",
+        "p": "Huamalíes",
+        "di": "Llata"
+    },
+    "100502": {
+        "d": "Huánuco",
+        "p": "Huamalíes",
+        "di": "Arancay"
+    },
+    "100503": {
+        "d": "Huánuco",
+        "p": "Huamalíes",
+        "di": "Chavín de Pariarca"
+    },
+    "100504": {
+        "d": "Huánuco",
+        "p": "Huamalíes",
+        "di": "Jacas Grande"
+    },
+    "100505": {
+        "d": "Huánuco",
+        "p": "Huamalíes",
+        "di": "Jircan"
+    },
+    "100506": {
+        "d": "Huánuco",
+        "p": "Huamalíes",
+        "di": "Miraflores"
+    },
+    "100507": {
+        "d": "Huánuco",
+        "p": "Huamalíes",
+        "di": "Monzón"
+    },
+    "100508": {
+        "d": "Huánuco",
+        "p": "Huamalíes",
+        "di": "Punchao"
+    },
+    "100509": {
+        "d": "Huánuco",
+        "p": "Huamalíes",
+        "di": "Puños"
+    },
+    "100510": {
+        "d": "Huánuco",
+        "p": "Huamalíes",
+        "di": "Singa"
+    },
+    "100511": {
+        "d": "Huánuco",
+        "p": "Huamalíes",
+        "di": "Tantamayo"
+    },
+    "100601": {
+        "d": "Huánuco",
+        "p": "Leoncio Prado",
+        "di": "Rupa-Rupa"
+    },
+    "100602": {
+        "d": "Huánuco",
+        "p": "Leoncio Prado",
+        "di": "Daniel Alomía Robles"
+    },
+    "100603": {
+        "d": "Huánuco",
+        "p": "Leoncio Prado",
+        "di": "Hermílio Valdizan"
+    },
+    "100604": {
+        "d": "Huánuco",
+        "p": "Leoncio Prado",
+        "di": "José Crespo y Castillo"
+    },
+    "100605": {
+        "d": "Huánuco",
+        "p": "Leoncio Prado",
+        "di": "Luyando"
+    },
+    "100606": {
+        "d": "Huánuco",
+        "p": "Leoncio Prado",
+        "di": "Mariano Damaso Beraun"
+    },
+    "100607": {
+        "d": "Huánuco",
+        "p": "Leoncio Prado",
+        "di": "Pucayacu"
+    },
+    "100608": {
+        "d": "Huánuco",
+        "p": "Leoncio Prado",
+        "di": "Castillo Grande"
+    },
+    "100609": {
+        "d": "Huánuco",
+        "p": "Leoncio Prado",
+        "di": "Pueblo Nuevo"
+    },
+    "100610": {
+        "d": "Huánuco",
+        "p": "Leoncio Prado",
+        "di": "Santo Domingo de Anda"
+    },
+    "100701": {
+        "d": "Huánuco",
+        "p": "Marañón",
+        "di": "Huacrachuco"
+    },
+    "100702": {
+        "d": "Huánuco",
+        "p": "Marañón",
+        "di": "Cholon"
+    },
+    "100703": {
+        "d": "Huánuco",
+        "p": "Marañón",
+        "di": "San Buenaventura"
+    },
+    "100704": {
+        "d": "Huánuco",
+        "p": "Marañón",
+        "di": "La Morada"
+    },
+    "100705": {
+        "d": "Huánuco",
+        "p": "Marañón",
+        "di": "Santa Rosa de Alto Yanajanca"
+    },
+    "100801": {
+        "d": "Huánuco",
+        "p": "Pachitea",
+        "di": "Panao"
+    },
+    "100802": {
+        "d": "Huánuco",
+        "p": "Pachitea",
+        "di": "Chaglla"
+    },
+    "100803": {
+        "d": "Huánuco",
+        "p": "Pachitea",
+        "di": "Molino"
+    },
+    "100804": {
+        "d": "Huánuco",
+        "p": "Pachitea",
+        "di": "Umari"
+    },
+    "100901": {
+        "d": "Huánuco",
+        "p": "Puerto Inca",
+        "di": "Puerto Inca"
+    },
+    "100902": {
+        "d": "Huánuco",
+        "p": "Puerto Inca",
+        "di": "Codo del Pozuzo"
+    },
+    "100903": {
+        "d": "Huánuco",
+        "p": "Puerto Inca",
+        "di": "Honoria"
+    },
+    "100904": {
+        "d": "Huánuco",
+        "p": "Puerto Inca",
+        "di": "Tournavista"
+    },
+    "100905": {
+        "d": "Huánuco",
+        "p": "Puerto Inca",
+        "di": "Yuyapichis"
+    },
+    "101001": {
+        "d": "Huánuco",
+        "p": "Lauricocha",
+        "di": "Jesús"
+    },
+    "101002": {
+        "d": "Huánuco",
+        "p": "Lauricocha",
+        "di": "Baños"
+    },
+    "101003": {
+        "d": "Huánuco",
+        "p": "Lauricocha",
+        "di": "Jivia"
+    },
+    "101004": {
+        "d": "Huánuco",
+        "p": "Lauricocha",
+        "di": "Queropalca"
+    },
+    "101005": {
+        "d": "Huánuco",
+        "p": "Lauricocha",
+        "di": "Rondos"
+    },
+    "101006": {
+        "d": "Huánuco",
+        "p": "Lauricocha",
+        "di": "San Francisco de Asís"
+    },
+    "101007": {
+        "d": "Huánuco",
+        "p": "Lauricocha",
+        "di": "San Miguel de Cauri"
+    },
+    "101101": {
+        "d": "Huánuco",
+        "p": "Yarowilca",
+        "di": "Chavinillo"
+    },
+    "101102": {
+        "d": "Huánuco",
+        "p": "Yarowilca",
+        "di": "Cahuac"
+    },
+    "101103": {
+        "d": "Huánuco",
+        "p": "Yarowilca",
+        "di": "Chacabamba"
+    },
+    "101104": {
+        "d": "Huánuco",
+        "p": "Yarowilca",
+        "di": "Aparicio Pomares"
+    },
+    "101105": {
+        "d": "Huánuco",
+        "p": "Yarowilca",
+        "di": "Jacas Chico"
+    },
+    "101106": {
+        "d": "Huánuco",
+        "p": "Yarowilca",
+        "di": "Obas"
+    },
+    "101107": {
+        "d": "Huánuco",
+        "p": "Yarowilca",
+        "di": "Pampamarca"
+    },
+    "101108": {
+        "d": "Huánuco",
+        "p": "Yarowilca",
+        "di": "Choras"
+    },
+    "110101": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "Ica"
+    },
+    "110102": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "La Tinguiña"
+    },
+    "110103": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "Los Aquijes"
+    },
+    "110104": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "Ocucaje"
+    },
+    "110105": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "Pachacutec"
+    },
+    "110106": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "Parcona"
+    },
+    "110107": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "Pueblo Nuevo"
+    },
+    "110108": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "Salas"
+    },
+    "110109": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "San José de Los Molinos"
+    },
+    "110110": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "San Juan Bautista"
+    },
+    "110111": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "Santiago"
+    },
+    "110112": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "Subtanjalla"
+    },
+    "110113": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "Tate"
+    },
+    "110114": {
+        "d": "Ica",
+        "p": "Ica",
+        "di": "Yauca del Rosario"
+    },
+    "110201": {
+        "d": "Ica",
+        "p": "Chincha",
+        "di": "Chincha Alta"
+    },
+    "110202": {
+        "d": "Ica",
+        "p": "Chincha",
+        "di": "Alto Laran"
+    },
+    "110203": {
+        "d": "Ica",
+        "p": "Chincha",
+        "di": "Chavin"
+    },
+    "110204": {
+        "d": "Ica",
+        "p": "Chincha",
+        "di": "Chincha Baja"
+    },
+    "110205": {
+        "d": "Ica",
+        "p": "Chincha",
+        "di": "El Carmen"
+    },
+    "110206": {
+        "d": "Ica",
+        "p": "Chincha",
+        "di": "Grocio Prado"
+    },
+    "110207": {
+        "d": "Ica",
+        "p": "Chincha",
+        "di": "Pueblo Nuevo"
+    },
+    "110208": {
+        "d": "Ica",
+        "p": "Chincha",
+        "di": "San Juan de Yanac"
+    },
+    "110209": {
+        "d": "Ica",
+        "p": "Chincha",
+        "di": "San Pedro de Huacarpana"
+    },
+    "110210": {
+        "d": "Ica",
+        "p": "Chincha",
+        "di": "Sunampe"
+    },
+    "110211": {
+        "d": "Ica",
+        "p": "Chincha",
+        "di": "Tambo de Mora"
+    },
+    "110301": {
+        "d": "Ica",
+        "p": "Nasca",
+        "di": "Nasca"
+    },
+    "110302": {
+        "d": "Ica",
+        "p": "Nasca",
+        "di": "Changuillo"
+    },
+    "110303": {
+        "d": "Ica",
+        "p": "Nasca",
+        "di": "El Ingenio"
+    },
+    "110304": {
+        "d": "Ica",
+        "p": "Nasca",
+        "di": "Marcona"
+    },
+    "110305": {
+        "d": "Ica",
+        "p": "Nasca",
+        "di": "Vista Alegre"
+    },
+    "110401": {
+        "d": "Ica",
+        "p": "Palpa",
+        "di": "Palpa"
+    },
+    "110402": {
+        "d": "Ica",
+        "p": "Palpa",
+        "di": "Llipata"
+    },
+    "110403": {
+        "d": "Ica",
+        "p": "Palpa",
+        "di": "Río Grande"
+    },
+    "110404": {
+        "d": "Ica",
+        "p": "Palpa",
+        "di": "Santa Cruz"
+    },
+    "110405": {
+        "d": "Ica",
+        "p": "Palpa",
+        "di": "Tibillo"
+    },
+    "110501": {
+        "d": "Ica",
+        "p": "Pisco",
+        "di": "Pisco"
+    },
+    "110502": {
+        "d": "Ica",
+        "p": "Pisco",
+        "di": "Huancano"
+    },
+    "110503": {
+        "d": "Ica",
+        "p": "Pisco",
+        "di": "Humay"
+    },
+    "110504": {
+        "d": "Ica",
+        "p": "Pisco",
+        "di": "Independencia"
+    },
+    "110505": {
+        "d": "Ica",
+        "p": "Pisco",
+        "di": "Paracas"
+    },
+    "110506": {
+        "d": "Ica",
+        "p": "Pisco",
+        "di": "San Andrés"
+    },
+    "110507": {
+        "d": "Ica",
+        "p": "Pisco",
+        "di": "San Clemente"
+    },
+    "110508": {
+        "d": "Ica",
+        "p": "Pisco",
+        "di": "Tupac Amaru Inca"
+    },
+    "120101": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Huancayo"
+    },
+    "120104": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Carhuacallanga"
+    },
+    "120105": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Chacapampa"
+    },
+    "120106": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Chicche"
+    },
+    "120107": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Chilca"
+    },
+    "120108": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Chongos Alto"
+    },
+    "120111": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Chupuro"
+    },
+    "120112": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Colca"
+    },
+    "120113": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Cullhuas"
+    },
+    "120114": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "El Tambo"
+    },
+    "120116": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Huacrapuquio"
+    },
+    "120117": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Hualhuas"
+    },
+    "120119": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Huancan"
+    },
+    "120120": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Huasicancha"
+    },
+    "120121": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Huayucachi"
+    },
+    "120122": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Ingenio"
+    },
+    "120124": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Pariahuanca"
+    },
+    "120125": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Pilcomayo"
+    },
+    "120126": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Pucara"
+    },
+    "120127": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Quichuay"
+    },
+    "120128": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Quilcas"
+    },
+    "120129": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "San Agustín"
+    },
+    "120130": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "San Jerónimo de Tunan"
+    },
+    "120132": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Saño"
+    },
+    "120133": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Sapallanga"
+    },
+    "120134": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Sicaya"
+    },
+    "120135": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Santo Domingo de Acobamba"
+    },
+    "120136": {
+        "d": "Junín",
+        "p": "Huancayo",
+        "di": "Viques"
+    },
+    "120201": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Concepción"
+    },
+    "120202": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Aco"
+    },
+    "120203": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Andamarca"
+    },
+    "120204": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Chambara"
+    },
+    "120205": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Cochas"
+    },
+    "120206": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Comas"
+    },
+    "120207": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Heroínas Toledo"
+    },
+    "120208": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Manzanares"
+    },
+    "120209": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Mariscal Castilla"
+    },
+    "120210": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Matahuasi"
+    },
+    "120211": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Mito"
+    },
+    "120212": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Nueve de Julio"
+    },
+    "120213": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Orcotuna"
+    },
+    "120214": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "San José de Quero"
+    },
+    "120215": {
+        "d": "Junín",
+        "p": "Concepción",
+        "di": "Santa Rosa de Ocopa"
+    },
+    "120301": {
+        "d": "Junín",
+        "p": "Chanchamayo",
+        "di": "Chanchamayo"
+    },
+    "120302": {
+        "d": "Junín",
+        "p": "Chanchamayo",
+        "di": "Perene"
+    },
+    "120303": {
+        "d": "Junín",
+        "p": "Chanchamayo",
+        "di": "Pichanaqui"
+    },
+    "120304": {
+        "d": "Junín",
+        "p": "Chanchamayo",
+        "di": "San Luis de Shuaro"
+    },
+    "120305": {
+        "d": "Junín",
+        "p": "Chanchamayo",
+        "di": "San Ramón"
+    },
+    "120306": {
+        "d": "Junín",
+        "p": "Chanchamayo",
+        "di": "Vitoc"
+    },
+    "120401": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Jauja"
+    },
+    "120402": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Acolla"
+    },
+    "120403": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Apata"
+    },
+    "120404": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Ataura"
+    },
+    "120405": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Canchayllo"
+    },
+    "120406": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Curicaca"
+    },
+    "120407": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "El Mantaro"
+    },
+    "120408": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Huamali"
+    },
+    "120409": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Huaripampa"
+    },
+    "120410": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Huertas"
+    },
+    "120411": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Janjaillo"
+    },
+    "120412": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Julcán"
+    },
+    "120413": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Leonor Ordóñez"
+    },
+    "120414": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Llocllapampa"
+    },
+    "120415": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Marco"
+    },
+    "120416": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Masma"
+    },
+    "120417": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Masma Chicche"
+    },
+    "120418": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Molinos"
+    },
+    "120419": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Monobamba"
+    },
+    "120420": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Muqui"
+    },
+    "120421": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Muquiyauyo"
+    },
+    "120422": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Paca"
+    },
+    "120423": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Paccha"
+    },
+    "120424": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Pancan"
+    },
+    "120425": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Parco"
+    },
+    "120426": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Pomacancha"
+    },
+    "120427": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Ricran"
+    },
+    "120428": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "San Lorenzo"
+    },
+    "120429": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "San Pedro de Chunan"
+    },
+    "120430": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Sausa"
+    },
+    "120431": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Sincos"
+    },
+    "120432": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Tunan Marca"
+    },
+    "120433": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Yauli"
+    },
+    "120434": {
+        "d": "Junín",
+        "p": "Jauja",
+        "di": "Yauyos"
+    },
+    "120501": {
+        "d": "Junín",
+        "p": "Junín",
+        "di": "Junin"
+    },
+    "120502": {
+        "d": "Junín",
+        "p": "Junín",
+        "di": "Carhuamayo"
+    },
+    "120503": {
+        "d": "Junín",
+        "p": "Junín",
+        "di": "Ondores"
+    },
+    "120504": {
+        "d": "Junín",
+        "p": "Junín",
+        "di": "Ulcumayo"
+    },
+    "120601": {
+        "d": "Junín",
+        "p": "Satipo",
+        "di": "Satipo"
+    },
+    "120602": {
+        "d": "Junín",
+        "p": "Satipo",
+        "di": "Coviriali"
+    },
+    "120603": {
+        "d": "Junín",
+        "p": "Satipo",
+        "di": "Llaylla"
+    },
+    "120604": {
+        "d": "Junín",
+        "p": "Satipo",
+        "di": "Mazamari"
+    },
+    "120605": {
+        "d": "Junín",
+        "p": "Satipo",
+        "di": "Pampa Hermosa"
+    },
+    "120606": {
+        "d": "Junín",
+        "p": "Satipo",
+        "di": "Pangoa"
+    },
+    "120607": {
+        "d": "Junín",
+        "p": "Satipo",
+        "di": "Río Negro"
+    },
+    "120608": {
+        "d": "Junín",
+        "p": "Satipo",
+        "di": "Río Tambo"
+    },
+    "120609": {
+        "d": "Junín",
+        "p": "Satipo",
+        "di": "Vizcatan del Ene"
+    },
+    "120701": {
+        "d": "Junín",
+        "p": "Tarma",
+        "di": "Tarma"
+    },
+    "120702": {
+        "d": "Junín",
+        "p": "Tarma",
+        "di": "Acobamba"
+    },
+    "120703": {
+        "d": "Junín",
+        "p": "Tarma",
+        "di": "Huaricolca"
+    },
+    "120704": {
+        "d": "Junín",
+        "p": "Tarma",
+        "di": "Huasahuasi"
+    },
+    "120705": {
+        "d": "Junín",
+        "p": "Tarma",
+        "di": "La Unión"
+    },
+    "120706": {
+        "d": "Junín",
+        "p": "Tarma",
+        "di": "Palca"
+    },
+    "120707": {
+        "d": "Junín",
+        "p": "Tarma",
+        "di": "Palcamayo"
+    },
+    "120708": {
+        "d": "Junín",
+        "p": "Tarma",
+        "di": "San Pedro de Cajas"
+    },
+    "120709": {
+        "d": "Junín",
+        "p": "Tarma",
+        "di": "Tapo"
+    },
+    "120801": {
+        "d": "Junín",
+        "p": "Yauli",
+        "di": "La Oroya"
+    },
+    "120802": {
+        "d": "Junín",
+        "p": "Yauli",
+        "di": "Chacapalpa"
+    },
+    "120803": {
+        "d": "Junín",
+        "p": "Yauli",
+        "di": "Huay-Huay"
+    },
+    "120804": {
+        "d": "Junín",
+        "p": "Yauli",
+        "di": "Marcapomacocha"
+    },
+    "120805": {
+        "d": "Junín",
+        "p": "Yauli",
+        "di": "Morococha"
+    },
+    "120806": {
+        "d": "Junín",
+        "p": "Yauli",
+        "di": "Paccha"
+    },
+    "120807": {
+        "d": "Junín",
+        "p": "Yauli",
+        "di": "Santa Bárbara de Carhuacayan"
+    },
+    "120808": {
+        "d": "Junín",
+        "p": "Yauli",
+        "di": "Santa Rosa de Sacco"
+    },
+    "120809": {
+        "d": "Junín",
+        "p": "Yauli",
+        "di": "Suitucancha"
+    },
+    "120810": {
+        "d": "Junín",
+        "p": "Yauli",
+        "di": "Yauli"
+    },
+    "120901": {
+        "d": "Junín",
+        "p": "Chupaca",
+        "di": "Chupaca"
+    },
+    "120902": {
+        "d": "Junín",
+        "p": "Chupaca",
+        "di": "Ahuac"
+    },
+    "120903": {
+        "d": "Junín",
+        "p": "Chupaca",
+        "di": "Chongos Bajo"
+    },
+    "120904": {
+        "d": "Junín",
+        "p": "Chupaca",
+        "di": "Huachac"
+    },
+    "120905": {
+        "d": "Junín",
+        "p": "Chupaca",
+        "di": "Huamancaca Chico"
+    },
+    "120906": {
+        "d": "Junín",
+        "p": "Chupaca",
+        "di": "San Juan de Iscos"
+    },
+    "120907": {
+        "d": "Junín",
+        "p": "Chupaca",
+        "di": "San Juan de Jarpa"
+    },
+    "120908": {
+        "d": "Junín",
+        "p": "Chupaca",
+        "di": "Tres de Diciembre"
+    },
+    "120909": {
+        "d": "Junín",
+        "p": "Chupaca",
+        "di": "Yanacancha"
+    },
+    "130101": {
+        "d": "La Libertad",
+        "p": "Trujillo",
+        "di": "Trujillo"
+    },
+    "130102": {
+        "d": "La Libertad",
+        "p": "Trujillo",
+        "di": "El Porvenir"
+    },
+    "130103": {
+        "d": "La Libertad",
+        "p": "Trujillo",
+        "di": "Florencia de Mora"
+    },
+    "130104": {
+        "d": "La Libertad",
+        "p": "Trujillo",
+        "di": "Huanchaco"
+    },
+    "130105": {
+        "d": "La Libertad",
+        "p": "Trujillo",
+        "di": "La Esperanza"
+    },
+    "130106": {
+        "d": "La Libertad",
+        "p": "Trujillo",
+        "di": "Laredo"
+    },
+    "130107": {
+        "d": "La Libertad",
+        "p": "Trujillo",
+        "di": "Moche"
+    },
+    "130108": {
+        "d": "La Libertad",
+        "p": "Trujillo",
+        "di": "Poroto"
+    },
+    "130109": {
+        "d": "La Libertad",
+        "p": "Trujillo",
+        "di": "Salaverry"
+    },
+    "130110": {
+        "d": "La Libertad",
+        "p": "Trujillo",
+        "di": "Simbal"
+    },
+    "130111": {
+        "d": "La Libertad",
+        "p": "Trujillo",
+        "di": "Victor Larco Herrera"
+    },
+    "130201": {
+        "d": "La Libertad",
+        "p": "Ascope",
+        "di": "Ascope"
+    },
+    "130202": {
+        "d": "La Libertad",
+        "p": "Ascope",
+        "di": "Chicama"
+    },
+    "130203": {
+        "d": "La Libertad",
+        "p": "Ascope",
+        "di": "Chocope"
+    },
+    "130204": {
+        "d": "La Libertad",
+        "p": "Ascope",
+        "di": "Magdalena de Cao"
+    },
+    "130205": {
+        "d": "La Libertad",
+        "p": "Ascope",
+        "di": "Paijan"
+    },
+    "130206": {
+        "d": "La Libertad",
+        "p": "Ascope",
+        "di": "Rázuri"
+    },
+    "130207": {
+        "d": "La Libertad",
+        "p": "Ascope",
+        "di": "Santiago de Cao"
+    },
+    "130208": {
+        "d": "La Libertad",
+        "p": "Ascope",
+        "di": "Casa Grande"
+    },
+    "130301": {
+        "d": "La Libertad",
+        "p": "Bolívar",
+        "di": "Bolívar"
+    },
+    "130302": {
+        "d": "La Libertad",
+        "p": "Bolívar",
+        "di": "Bambamarca"
+    },
+    "130303": {
+        "d": "La Libertad",
+        "p": "Bolívar",
+        "di": "Condormarca"
+    },
+    "130304": {
+        "d": "La Libertad",
+        "p": "Bolívar",
+        "di": "Longotea"
+    },
+    "130305": {
+        "d": "La Libertad",
+        "p": "Bolívar",
+        "di": "Uchumarca"
+    },
+    "130306": {
+        "d": "La Libertad",
+        "p": "Bolívar",
+        "di": "Ucuncha"
+    },
+    "130401": {
+        "d": "La Libertad",
+        "p": "Chepén",
+        "di": "Chepen"
+    },
+    "130402": {
+        "d": "La Libertad",
+        "p": "Chepén",
+        "di": "Pacanga"
+    },
+    "130403": {
+        "d": "La Libertad",
+        "p": "Chepén",
+        "di": "Pueblo Nuevo"
+    },
+    "130501": {
+        "d": "La Libertad",
+        "p": "Julcán",
+        "di": "Julcan"
+    },
+    "130502": {
+        "d": "La Libertad",
+        "p": "Julcán",
+        "di": "Calamarca"
+    },
+    "130503": {
+        "d": "La Libertad",
+        "p": "Julcán",
+        "di": "Carabamba"
+    },
+    "130504": {
+        "d": "La Libertad",
+        "p": "Julcán",
+        "di": "Huaso"
+    },
+    "130601": {
+        "d": "La Libertad",
+        "p": "Otuzco",
+        "di": "Otuzco"
+    },
+    "130602": {
+        "d": "La Libertad",
+        "p": "Otuzco",
+        "di": "Agallpampa"
+    },
+    "130604": {
+        "d": "La Libertad",
+        "p": "Otuzco",
+        "di": "Charat"
+    },
+    "130605": {
+        "d": "La Libertad",
+        "p": "Otuzco",
+        "di": "Huaranchal"
+    },
+    "130606": {
+        "d": "La Libertad",
+        "p": "Otuzco",
+        "di": "La Cuesta"
+    },
+    "130608": {
+        "d": "La Libertad",
+        "p": "Otuzco",
+        "di": "Mache"
+    },
+    "130610": {
+        "d": "La Libertad",
+        "p": "Otuzco",
+        "di": "Paranday"
+    },
+    "130611": {
+        "d": "La Libertad",
+        "p": "Otuzco",
+        "di": "Salpo"
+    },
+    "130613": {
+        "d": "La Libertad",
+        "p": "Otuzco",
+        "di": "Sinsicap"
+    },
+    "130614": {
+        "d": "La Libertad",
+        "p": "Otuzco",
+        "di": "Usquil"
+    },
+    "130701": {
+        "d": "La Libertad",
+        "p": "Pacasmayo",
+        "di": "San Pedro de Lloc"
+    },
+    "130702": {
+        "d": "La Libertad",
+        "p": "Pacasmayo",
+        "di": "Guadalupe"
+    },
+    "130703": {
+        "d": "La Libertad",
+        "p": "Pacasmayo",
+        "di": "Jequetepeque"
+    },
+    "130704": {
+        "d": "La Libertad",
+        "p": "Pacasmayo",
+        "di": "Pacasmayo"
+    },
+    "130705": {
+        "d": "La Libertad",
+        "p": "Pacasmayo",
+        "di": "San José"
+    },
+    "130801": {
+        "d": "La Libertad",
+        "p": "Pataz",
+        "di": "Tayabamba"
+    },
+    "130802": {
+        "d": "La Libertad",
+        "p": "Pataz",
+        "di": "Buldibuyo"
+    },
+    "130803": {
+        "d": "La Libertad",
+        "p": "Pataz",
+        "di": "Chillia"
+    },
+    "130804": {
+        "d": "La Libertad",
+        "p": "Pataz",
+        "di": "Huancaspata"
+    },
+    "130805": {
+        "d": "La Libertad",
+        "p": "Pataz",
+        "di": "Huaylillas"
+    },
+    "130806": {
+        "d": "La Libertad",
+        "p": "Pataz",
+        "di": "Huayo"
+    },
+    "130807": {
+        "d": "La Libertad",
+        "p": "Pataz",
+        "di": "Ongon"
+    },
+    "130808": {
+        "d": "La Libertad",
+        "p": "Pataz",
+        "di": "Parcoy"
+    },
+    "130809": {
+        "d": "La Libertad",
+        "p": "Pataz",
+        "di": "Pataz"
+    },
+    "130810": {
+        "d": "La Libertad",
+        "p": "Pataz",
+        "di": "Pias"
+    },
+    "130811": {
+        "d": "La Libertad",
+        "p": "Pataz",
+        "di": "Santiago de Challas"
+    },
+    "130812": {
+        "d": "La Libertad",
+        "p": "Pataz",
+        "di": "Taurija"
+    },
+    "130813": {
+        "d": "La Libertad",
+        "p": "Pataz",
+        "di": "Urpay"
+    },
+    "130901": {
+        "d": "La Libertad",
+        "p": "Sánchez Carrión",
+        "di": "Huamachuco"
+    },
+    "130902": {
+        "d": "La Libertad",
+        "p": "Sánchez Carrión",
+        "di": "Chugay"
+    },
+    "130903": {
+        "d": "La Libertad",
+        "p": "Sánchez Carrión",
+        "di": "Cochorco"
+    },
+    "130904": {
+        "d": "La Libertad",
+        "p": "Sánchez Carrión",
+        "di": "Curgos"
+    },
+    "130905": {
+        "d": "La Libertad",
+        "p": "Sánchez Carrión",
+        "di": "Marcabal"
+    },
+    "130906": {
+        "d": "La Libertad",
+        "p": "Sánchez Carrión",
+        "di": "Sanagoran"
+    },
+    "130907": {
+        "d": "La Libertad",
+        "p": "Sánchez Carrión",
+        "di": "Sarin"
+    },
+    "130908": {
+        "d": "La Libertad",
+        "p": "Sánchez Carrión",
+        "di": "Sartimbamba"
+    },
+    "131001": {
+        "d": "La Libertad",
+        "p": "Santiago de Chuco",
+        "di": "Santiago de Chuco"
+    },
+    "131002": {
+        "d": "La Libertad",
+        "p": "Santiago de Chuco",
+        "di": "Angasmarca"
+    },
+    "131003": {
+        "d": "La Libertad",
+        "p": "Santiago de Chuco",
+        "di": "Cachicadan"
+    },
+    "131004": {
+        "d": "La Libertad",
+        "p": "Santiago de Chuco",
+        "di": "Mollebamba"
+    },
+    "131005": {
+        "d": "La Libertad",
+        "p": "Santiago de Chuco",
+        "di": "Mollepata"
+    },
+    "131006": {
+        "d": "La Libertad",
+        "p": "Santiago de Chuco",
+        "di": "Quiruvilca"
+    },
+    "131007": {
+        "d": "La Libertad",
+        "p": "Santiago de Chuco",
+        "di": "Santa Cruz de Chuca"
+    },
+    "131008": {
+        "d": "La Libertad",
+        "p": "Santiago de Chuco",
+        "di": "Sitabamba"
+    },
+    "131101": {
+        "d": "La Libertad",
+        "p": "Gran Chimú",
+        "di": "Cascas"
+    },
+    "131102": {
+        "d": "La Libertad",
+        "p": "Gran Chimú",
+        "di": "Lucma"
+    },
+    "131103": {
+        "d": "La Libertad",
+        "p": "Gran Chimú",
+        "di": "Marmot"
+    },
+    "131104": {
+        "d": "La Libertad",
+        "p": "Gran Chimú",
+        "di": "Sayapullo"
+    },
+    "131201": {
+        "d": "La Libertad",
+        "p": "Virú",
+        "di": "Viru"
+    },
+    "131202": {
+        "d": "La Libertad",
+        "p": "Virú",
+        "di": "Chao"
+    },
+    "131203": {
+        "d": "La Libertad",
+        "p": "Virú",
+        "di": "Guadalupito"
+    },
+    "140101": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Chiclayo"
+    },
+    "140102": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Chongoyape"
+    },
+    "140103": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Eten"
+    },
+    "140104": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Eten Puerto"
+    },
+    "140105": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "José Leonardo Ortiz"
+    },
+    "140106": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "La Victoria"
+    },
+    "140107": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Lagunas"
+    },
+    "140108": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Monsefu"
+    },
+    "140109": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Nueva Arica"
+    },
+    "140110": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Oyotun"
+    },
+    "140111": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Picsi"
+    },
+    "140112": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Pimentel"
+    },
+    "140113": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Reque"
+    },
+    "140114": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Santa Rosa"
+    },
+    "140115": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Saña"
+    },
+    "140116": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Cayalti"
+    },
+    "140117": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Patapo"
+    },
+    "140118": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Pomalca"
+    },
+    "140119": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Pucala"
+    },
+    "140120": {
+        "d": "Lambayeque",
+        "p": "Chiclayo",
+        "di": "Tuman"
+    },
+    "140201": {
+        "d": "Lambayeque",
+        "p": "Ferreñafe",
+        "di": "Ferreñafe"
+    },
+    "140202": {
+        "d": "Lambayeque",
+        "p": "Ferreñafe",
+        "di": "Cañaris"
+    },
+    "140203": {
+        "d": "Lambayeque",
+        "p": "Ferreñafe",
+        "di": "Incahuasi"
+    },
+    "140204": {
+        "d": "Lambayeque",
+        "p": "Ferreñafe",
+        "di": "Manuel Antonio Mesones Muro"
+    },
+    "140205": {
+        "d": "Lambayeque",
+        "p": "Ferreñafe",
+        "di": "Pitipo"
+    },
+    "140206": {
+        "d": "Lambayeque",
+        "p": "Ferreñafe",
+        "di": "Pueblo Nuevo"
+    },
+    "140301": {
+        "d": "Lambayeque",
+        "p": "Lambayeque",
+        "di": "Lambayeque"
+    },
+    "140302": {
+        "d": "Lambayeque",
+        "p": "Lambayeque",
+        "di": "Chochope"
+    },
+    "140303": {
+        "d": "Lambayeque",
+        "p": "Lambayeque",
+        "di": "Illimo"
+    },
+    "140304": {
+        "d": "Lambayeque",
+        "p": "Lambayeque",
+        "di": "Jayanca"
+    },
+    "140305": {
+        "d": "Lambayeque",
+        "p": "Lambayeque",
+        "di": "Mochumi"
+    },
+    "140306": {
+        "d": "Lambayeque",
+        "p": "Lambayeque",
+        "di": "Morrope"
+    },
+    "140307": {
+        "d": "Lambayeque",
+        "p": "Lambayeque",
+        "di": "Motupe"
+    },
+    "140308": {
+        "d": "Lambayeque",
+        "p": "Lambayeque",
+        "di": "Olmos"
+    },
+    "140309": {
+        "d": "Lambayeque",
+        "p": "Lambayeque",
+        "di": "Pacora"
+    },
+    "140310": {
+        "d": "Lambayeque",
+        "p": "Lambayeque",
+        "di": "Salas"
+    },
+    "140311": {
+        "d": "Lambayeque",
+        "p": "Lambayeque",
+        "di": "San José"
+    },
+    "140312": {
+        "d": "Lambayeque",
+        "p": "Lambayeque",
+        "di": "Tucume"
+    },
+    "150101": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Lima"
+    },
+    "150102": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Ancón"
+    },
+    "150103": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Ate"
+    },
+    "150104": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Barranco"
+    },
+    "150105": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Breña"
+    },
+    "150106": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Carabayllo"
+    },
+    "150107": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Chaclacayo"
+    },
+    "150108": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Chorrillos"
+    },
+    "150109": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Cieneguilla"
+    },
+    "150110": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Comas"
+    },
+    "150111": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "El Agustino"
+    },
+    "150112": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Independencia"
+    },
+    "150113": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Jesús María"
+    },
+    "150114": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "La Molina"
+    },
+    "150115": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "La Victoria"
+    },
+    "150116": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Lince"
+    },
+    "150117": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Los Olivos"
+    },
+    "150118": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Lurigancho"
+    },
+    "150119": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Lurin"
+    },
+    "150120": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Magdalena del Mar"
+    },
+    "150121": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Pueblo Libre"
+    },
+    "150122": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Miraflores"
+    },
+    "150123": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Pachacamac"
+    },
+    "150124": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Pucusana"
+    },
+    "150125": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Puente Piedra"
+    },
+    "150126": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Punta Hermosa"
+    },
+    "150127": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Punta Negra"
+    },
+    "150128": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Rímac"
+    },
+    "150129": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "San Bartolo"
+    },
+    "150130": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "San Borja"
+    },
+    "150131": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "San Isidro"
+    },
+    "150132": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "San Juan de Lurigancho"
+    },
+    "150133": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "San Juan de Miraflores"
+    },
+    "150134": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "San Luis"
+    },
+    "150135": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "San Martín de Porres"
+    },
+    "150136": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "San Miguel"
+    },
+    "150137": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Santa Anita"
+    },
+    "150138": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Santa María del Mar"
+    },
+    "150139": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Santa Rosa"
+    },
+    "150140": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Santiago de Surco"
+    },
+    "150141": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Surquillo"
+    },
+    "150142": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Villa El Salvador"
+    },
+    "150143": {
+        "d": "Lima",
+        "p": "Lima",
+        "di": "Villa María del Triunfo"
+    },
+    "150201": {
+        "d": "Lima",
+        "p": "Barranca",
+        "di": "Barranca"
+    },
+    "150202": {
+        "d": "Lima",
+        "p": "Barranca",
+        "di": "Paramonga"
+    },
+    "150203": {
+        "d": "Lima",
+        "p": "Barranca",
+        "di": "Pativilca"
+    },
+    "150204": {
+        "d": "Lima",
+        "p": "Barranca",
+        "di": "Supe"
+    },
+    "150205": {
+        "d": "Lima",
+        "p": "Barranca",
+        "di": "Supe Puerto"
+    },
+    "150301": {
+        "d": "Lima",
+        "p": "Cajatambo",
+        "di": "Cajatambo"
+    },
+    "150302": {
+        "d": "Lima",
+        "p": "Cajatambo",
+        "di": "Copa"
+    },
+    "150303": {
+        "d": "Lima",
+        "p": "Cajatambo",
+        "di": "Gorgor"
+    },
+    "150304": {
+        "d": "Lima",
+        "p": "Cajatambo",
+        "di": "Huancapon"
+    },
+    "150305": {
+        "d": "Lima",
+        "p": "Cajatambo",
+        "di": "Manas"
+    },
+    "150401": {
+        "d": "Lima",
+        "p": "Canta",
+        "di": "Canta"
+    },
+    "150402": {
+        "d": "Lima",
+        "p": "Canta",
+        "di": "Arahuay"
+    },
+    "150403": {
+        "d": "Lima",
+        "p": "Canta",
+        "di": "Huamantanga"
+    },
+    "150404": {
+        "d": "Lima",
+        "p": "Canta",
+        "di": "Huaros"
+    },
+    "150405": {
+        "d": "Lima",
+        "p": "Canta",
+        "di": "Lachaqui"
+    },
+    "150406": {
+        "d": "Lima",
+        "p": "Canta",
+        "di": "San Buenaventura"
+    },
+    "150407": {
+        "d": "Lima",
+        "p": "Canta",
+        "di": "Santa Rosa de Quives"
+    },
+    "150501": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "San Vicente de Cañete"
+    },
+    "150502": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "Asia"
+    },
+    "150503": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "Calango"
+    },
+    "150504": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "Cerro Azul"
+    },
+    "150505": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "Chilca"
+    },
+    "150506": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "Coayllo"
+    },
+    "150507": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "Imperial"
+    },
+    "150508": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "Lunahuana"
+    },
+    "150509": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "Mala"
+    },
+    "150510": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "Nuevo Imperial"
+    },
+    "150511": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "Pacaran"
+    },
+    "150512": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "Quilmana"
+    },
+    "150513": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "San Antonio"
+    },
+    "150514": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "San Luis"
+    },
+    "150515": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "Santa Cruz de Flores"
+    },
+    "150516": {
+        "d": "Lima",
+        "p": "Cañete",
+        "di": "Zúñiga"
+    },
+    "150601": {
+        "d": "Lima",
+        "p": "Huaral",
+        "di": "Huaral"
+    },
+    "150602": {
+        "d": "Lima",
+        "p": "Huaral",
+        "di": "Atavillos Alto"
+    },
+    "150603": {
+        "d": "Lima",
+        "p": "Huaral",
+        "di": "Atavillos Bajo"
+    },
+    "150604": {
+        "d": "Lima",
+        "p": "Huaral",
+        "di": "Aucallama"
+    },
+    "150605": {
+        "d": "Lima",
+        "p": "Huaral",
+        "di": "Chancay"
+    },
+    "150606": {
+        "d": "Lima",
+        "p": "Huaral",
+        "di": "Ihuari"
+    },
+    "150607": {
+        "d": "Lima",
+        "p": "Huaral",
+        "di": "Lampian"
+    },
+    "150608": {
+        "d": "Lima",
+        "p": "Huaral",
+        "di": "Pacaraos"
+    },
+    "150609": {
+        "d": "Lima",
+        "p": "Huaral",
+        "di": "San Miguel de Acos"
+    },
+    "150610": {
+        "d": "Lima",
+        "p": "Huaral",
+        "di": "Santa Cruz de Andamarca"
+    },
+    "150611": {
+        "d": "Lima",
+        "p": "Huaral",
+        "di": "Sumbilca"
+    },
+    "150612": {
+        "d": "Lima",
+        "p": "Huaral",
+        "di": "Veintisiete de Noviembre"
+    },
+    "150701": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Matucana"
+    },
+    "150702": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Antioquia"
+    },
+    "150703": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Callahuanca"
+    },
+    "150704": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Carampoma"
+    },
+    "150705": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Chicla"
+    },
+    "150706": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Cuenca"
+    },
+    "150707": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Huachupampa"
+    },
+    "150708": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Huanza"
+    },
+    "150709": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Huarochiri"
+    },
+    "150710": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Lahuaytambo"
+    },
+    "150711": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Langa"
+    },
+    "150712": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Laraos"
+    },
+    "150713": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Mariatana"
+    },
+    "150714": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Ricardo Palma"
+    },
+    "150715": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "San Andrés de Tupicocha"
+    },
+    "150716": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "San Antonio"
+    },
+    "150717": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "San Bartolomé"
+    },
+    "150718": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "San Damian"
+    },
+    "150719": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "San Juan de Iris"
+    },
+    "150720": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "San Juan de Tantaranche"
+    },
+    "150721": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "San Lorenzo de Quinti"
+    },
+    "150722": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "San Mateo"
+    },
+    "150723": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "San Mateo de Otao"
+    },
+    "150724": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "San Pedro de Casta"
+    },
+    "150725": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "San Pedro de Huancayre"
+    },
+    "150726": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Sangallaya"
+    },
+    "150727": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Santa Cruz de Cocachacra"
+    },
+    "150728": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Santa Eulalia"
+    },
+    "150729": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Santiago de Anchucaya"
+    },
+    "150730": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Santiago de Tuna"
+    },
+    "150731": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Santo Domingo de Los Olleros"
+    },
+    "150732": {
+        "d": "Lima",
+        "p": "Huarochirí",
+        "di": "Surco"
+    },
+    "150801": {
+        "d": "Lima",
+        "p": "Huaura",
+        "di": "Huacho"
+    },
+    "150802": {
+        "d": "Lima",
+        "p": "Huaura",
+        "di": "Ambar"
+    },
+    "150803": {
+        "d": "Lima",
+        "p": "Huaura",
+        "di": "Caleta de Carquin"
+    },
+    "150804": {
+        "d": "Lima",
+        "p": "Huaura",
+        "di": "Checras"
+    },
+    "150805": {
+        "d": "Lima",
+        "p": "Huaura",
+        "di": "Hualmay"
+    },
+    "150806": {
+        "d": "Lima",
+        "p": "Huaura",
+        "di": "Huaura"
+    },
+    "150807": {
+        "d": "Lima",
+        "p": "Huaura",
+        "di": "Leoncio Prado"
+    },
+    "150808": {
+        "d": "Lima",
+        "p": "Huaura",
+        "di": "Paccho"
+    },
+    "150809": {
+        "d": "Lima",
+        "p": "Huaura",
+        "di": "Santa Leonor"
+    },
+    "150810": {
+        "d": "Lima",
+        "p": "Huaura",
+        "di": "Santa María"
+    },
+    "150811": {
+        "d": "Lima",
+        "p": "Huaura",
+        "di": "Sayan"
+    },
+    "150812": {
+        "d": "Lima",
+        "p": "Huaura",
+        "di": "Vegueta"
+    },
+    "150901": {
+        "d": "Lima",
+        "p": "Oyón",
+        "di": "Oyon"
+    },
+    "150902": {
+        "d": "Lima",
+        "p": "Oyón",
+        "di": "Andajes"
+    },
+    "150903": {
+        "d": "Lima",
+        "p": "Oyón",
+        "di": "Caujul"
+    },
+    "150904": {
+        "d": "Lima",
+        "p": "Oyón",
+        "di": "Cochamarca"
+    },
+    "150905": {
+        "d": "Lima",
+        "p": "Oyón",
+        "di": "Navan"
+    },
+    "150906": {
+        "d": "Lima",
+        "p": "Oyón",
+        "di": "Pachangara"
+    },
+    "151001": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Yauyos"
+    },
+    "151002": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Alis"
+    },
+    "151003": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Allauca"
+    },
+    "151004": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Ayaviri"
+    },
+    "151005": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Azángaro"
+    },
+    "151006": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Cacra"
+    },
+    "151007": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Carania"
+    },
+    "151008": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Catahuasi"
+    },
+    "151009": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Chocos"
+    },
+    "151010": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Cochas"
+    },
+    "151011": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Colonia"
+    },
+    "151012": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Hongos"
+    },
+    "151013": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Huampara"
+    },
+    "151014": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Huancaya"
+    },
+    "151015": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Huangascar"
+    },
+    "151016": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Huantan"
+    },
+    "151017": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Huañec"
+    },
+    "151018": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Laraos"
+    },
+    "151019": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Lincha"
+    },
+    "151020": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Madean"
+    },
+    "151021": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Miraflores"
+    },
+    "151022": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Omas"
+    },
+    "151023": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Putinza"
+    },
+    "151024": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Quinches"
+    },
+    "151025": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Quinocay"
+    },
+    "151026": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "San Joaquín"
+    },
+    "151027": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "San Pedro de Pilas"
+    },
+    "151028": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Tanta"
+    },
+    "151029": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Tauripampa"
+    },
+    "151030": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Tomas"
+    },
+    "151031": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Tupe"
+    },
+    "151032": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Viñac"
+    },
+    "151033": {
+        "d": "Lima",
+        "p": "Yauyos",
+        "di": "Vitis"
+    },
+    "160101": {
+        "d": "Loreto",
+        "p": "Maynas",
+        "di": "Iquitos"
+    },
+    "160102": {
+        "d": "Loreto",
+        "p": "Maynas",
+        "di": "Alto Nanay"
+    },
+    "160103": {
+        "d": "Loreto",
+        "p": "Maynas",
+        "di": "Fernando Lores"
+    },
+    "160104": {
+        "d": "Loreto",
+        "p": "Maynas",
+        "di": "Indiana"
+    },
+    "160105": {
+        "d": "Loreto",
+        "p": "Maynas",
+        "di": "Las Amazonas"
+    },
+    "160106": {
+        "d": "Loreto",
+        "p": "Maynas",
+        "di": "Mazan"
+    },
+    "160107": {
+        "d": "Loreto",
+        "p": "Maynas",
+        "di": "Napo"
+    },
+    "160108": {
+        "d": "Loreto",
+        "p": "Maynas",
+        "di": "Punchana"
+    },
+    "160110": {
+        "d": "Loreto",
+        "p": "Maynas",
+        "di": "Torres Causana"
+    },
+    "160112": {
+        "d": "Loreto",
+        "p": "Maynas",
+        "di": "Belén"
+    },
+    "160113": {
+        "d": "Loreto",
+        "p": "Maynas",
+        "di": "San Juan Bautista"
+    },
+    "160201": {
+        "d": "Loreto",
+        "p": "Alto Amazonas",
+        "di": "Yurimaguas"
+    },
+    "160202": {
+        "d": "Loreto",
+        "p": "Alto Amazonas",
+        "di": "Balsapuerto"
+    },
+    "160205": {
+        "d": "Loreto",
+        "p": "Alto Amazonas",
+        "di": "Jeberos"
+    },
+    "160206": {
+        "d": "Loreto",
+        "p": "Alto Amazonas",
+        "di": "Lagunas"
+    },
+    "160210": {
+        "d": "Loreto",
+        "p": "Alto Amazonas",
+        "di": "Santa Cruz"
+    },
+    "160211": {
+        "d": "Loreto",
+        "p": "Alto Amazonas",
+        "di": "Teniente Cesar López Rojas"
+    },
+    "160301": {
+        "d": "Loreto",
+        "p": "Loreto",
+        "di": "Nauta"
+    },
+    "160302": {
+        "d": "Loreto",
+        "p": "Loreto",
+        "di": "Parinari"
+    },
+    "160303": {
+        "d": "Loreto",
+        "p": "Loreto",
+        "di": "Tigre"
+    },
+    "160304": {
+        "d": "Loreto",
+        "p": "Loreto",
+        "di": "Trompeteros"
+    },
+    "160305": {
+        "d": "Loreto",
+        "p": "Loreto",
+        "di": "Urarinas"
+    },
+    "160401": {
+        "d": "Loreto",
+        "p": "Mariscal Ramón Castilla",
+        "di": "Ramón Castilla"
+    },
+    "160402": {
+        "d": "Loreto",
+        "p": "Mariscal Ramón Castilla",
+        "di": "Pebas"
+    },
+    "160403": {
+        "d": "Loreto",
+        "p": "Mariscal Ramón Castilla",
+        "di": "Yavari"
+    },
+    "160404": {
+        "d": "Loreto",
+        "p": "Mariscal Ramón Castilla",
+        "di": "San Pablo"
+    },
+    "160501": {
+        "d": "Loreto",
+        "p": "Requena",
+        "di": "Requena"
+    },
+    "160502": {
+        "d": "Loreto",
+        "p": "Requena",
+        "di": "Alto Tapiche"
+    },
+    "160503": {
+        "d": "Loreto",
+        "p": "Requena",
+        "di": "Capelo"
+    },
+    "160504": {
+        "d": "Loreto",
+        "p": "Requena",
+        "di": "Emilio San Martín"
+    },
+    "160505": {
+        "d": "Loreto",
+        "p": "Requena",
+        "di": "Maquia"
+    },
+    "160506": {
+        "d": "Loreto",
+        "p": "Requena",
+        "di": "Puinahua"
+    },
+    "160507": {
+        "d": "Loreto",
+        "p": "Requena",
+        "di": "Saquena"
+    },
+    "160508": {
+        "d": "Loreto",
+        "p": "Requena",
+        "di": "Soplin"
+    },
+    "160509": {
+        "d": "Loreto",
+        "p": "Requena",
+        "di": "Tapiche"
+    },
+    "160510": {
+        "d": "Loreto",
+        "p": "Requena",
+        "di": "Jenaro Herrera"
+    },
+    "160511": {
+        "d": "Loreto",
+        "p": "Requena",
+        "di": "Yaquerana"
+    },
+    "160601": {
+        "d": "Loreto",
+        "p": "Ucayali",
+        "di": "Contamana"
+    },
+    "160602": {
+        "d": "Loreto",
+        "p": "Ucayali",
+        "di": "Inahuaya"
+    },
+    "160603": {
+        "d": "Loreto",
+        "p": "Ucayali",
+        "di": "Padre Márquez"
+    },
+    "160604": {
+        "d": "Loreto",
+        "p": "Ucayali",
+        "di": "Pampa Hermosa"
+    },
+    "160605": {
+        "d": "Loreto",
+        "p": "Ucayali",
+        "di": "Sarayacu"
+    },
+    "160606": {
+        "d": "Loreto",
+        "p": "Ucayali",
+        "di": "Vargas Guerra"
+    },
+    "160701": {
+        "d": "Loreto",
+        "p": "Datem del Marañón",
+        "di": "Barranca"
+    },
+    "160702": {
+        "d": "Loreto",
+        "p": "Datem del Marañón",
+        "di": "Cahuapanas"
+    },
+    "160703": {
+        "d": "Loreto",
+        "p": "Datem del Marañón",
+        "di": "Manseriche"
+    },
+    "160704": {
+        "d": "Loreto",
+        "p": "Datem del Marañón",
+        "di": "Morona"
+    },
+    "160705": {
+        "d": "Loreto",
+        "p": "Datem del Marañón",
+        "di": "Pastaza"
+    },
+    "160706": {
+        "d": "Loreto",
+        "p": "Datem del Marañón",
+        "di": "Andoas"
+    },
+    "160801": {
+        "d": "Loreto",
+        "p": "Putumayo",
+        "di": "Putumayo"
+    },
+    "160802": {
+        "d": "Loreto",
+        "p": "Putumayo",
+        "di": "Rosa Panduro"
+    },
+    "160803": {
+        "d": "Loreto",
+        "p": "Putumayo",
+        "di": "Teniente Manuel Clavero"
+    },
+    "160804": {
+        "d": "Loreto",
+        "p": "Putumayo",
+        "di": "Yaguas"
+    },
+    "170101": {
+        "d": "Madre de Dios",
+        "p": "Tambopata",
+        "di": "Tambopata"
+    },
+    "170102": {
+        "d": "Madre de Dios",
+        "p": "Tambopata",
+        "di": "Inambari"
+    },
+    "170103": {
+        "d": "Madre de Dios",
+        "p": "Tambopata",
+        "di": "Las Piedras"
+    },
+    "170104": {
+        "d": "Madre de Dios",
+        "p": "Tambopata",
+        "di": "Laberinto"
+    },
+    "170201": {
+        "d": "Madre de Dios",
+        "p": "Manu",
+        "di": "Manu"
+    },
+    "170202": {
+        "d": "Madre de Dios",
+        "p": "Manu",
+        "di": "Fitzcarrald"
+    },
+    "170203": {
+        "d": "Madre de Dios",
+        "p": "Manu",
+        "di": "Madre de Dios"
+    },
+    "170204": {
+        "d": "Madre de Dios",
+        "p": "Manu",
+        "di": "Huepetuhe"
+    },
+    "170301": {
+        "d": "Madre de Dios",
+        "p": "Tahuamanu",
+        "di": "Iñapari"
+    },
+    "170302": {
+        "d": "Madre de Dios",
+        "p": "Tahuamanu",
+        "di": "Iberia"
+    },
+    "170303": {
+        "d": "Madre de Dios",
+        "p": "Tahuamanu",
+        "di": "Tahuamanu"
+    },
+    "180101": {
+        "d": "Moquegua",
+        "p": "Mariscal Nieto",
+        "di": "Moquegua"
+    },
+    "180102": {
+        "d": "Moquegua",
+        "p": "Mariscal Nieto",
+        "di": "Carumas"
+    },
+    "180103": {
+        "d": "Moquegua",
+        "p": "Mariscal Nieto",
+        "di": "Cuchumbaya"
+    },
+    "180104": {
+        "d": "Moquegua",
+        "p": "Mariscal Nieto",
+        "di": "Samegua"
+    },
+    "180105": {
+        "d": "Moquegua",
+        "p": "Mariscal Nieto",
+        "di": "San Cristóbal"
+    },
+    "180106": {
+        "d": "Moquegua",
+        "p": "Mariscal Nieto",
+        "di": "Torata"
+    },
+    "180201": {
+        "d": "Moquegua",
+        "p": "General Sánchez Cerro",
+        "di": "Omate"
+    },
+    "180202": {
+        "d": "Moquegua",
+        "p": "General Sánchez Cerro",
+        "di": "Chojata"
+    },
+    "180203": {
+        "d": "Moquegua",
+        "p": "General Sánchez Cerro",
+        "di": "Coalaque"
+    },
+    "180204": {
+        "d": "Moquegua",
+        "p": "General Sánchez Cerro",
+        "di": "Ichuña"
+    },
+    "180205": {
+        "d": "Moquegua",
+        "p": "General Sánchez Cerro",
+        "di": "La Capilla"
+    },
+    "180206": {
+        "d": "Moquegua",
+        "p": "General Sánchez Cerro",
+        "di": "Lloque"
+    },
+    "180207": {
+        "d": "Moquegua",
+        "p": "General Sánchez Cerro",
+        "di": "Matalaque"
+    },
+    "180208": {
+        "d": "Moquegua",
+        "p": "General Sánchez Cerro",
+        "di": "Puquina"
+    },
+    "180209": {
+        "d": "Moquegua",
+        "p": "General Sánchez Cerro",
+        "di": "Quinistaquillas"
+    },
+    "180210": {
+        "d": "Moquegua",
+        "p": "General Sánchez Cerro",
+        "di": "Ubinas"
+    },
+    "180211": {
+        "d": "Moquegua",
+        "p": "General Sánchez Cerro",
+        "di": "Yunga"
+    },
+    "180301": {
+        "d": "Moquegua",
+        "p": "Ilo",
+        "di": "Ilo"
+    },
+    "180302": {
+        "d": "Moquegua",
+        "p": "Ilo",
+        "di": "El Algarrobal"
+    },
+    "180303": {
+        "d": "Moquegua",
+        "p": "Ilo",
+        "di": "Pacocha"
+    },
+    "190101": {
+        "d": "Pasco",
+        "p": "Pasco",
+        "di": "Chaupimarca"
+    },
+    "190102": {
+        "d": "Pasco",
+        "p": "Pasco",
+        "di": "Huachon"
+    },
+    "190103": {
+        "d": "Pasco",
+        "p": "Pasco",
+        "di": "Huariaca"
+    },
+    "190104": {
+        "d": "Pasco",
+        "p": "Pasco",
+        "di": "Huayllay"
+    },
+    "190105": {
+        "d": "Pasco",
+        "p": "Pasco",
+        "di": "Ninacaca"
+    },
+    "190106": {
+        "d": "Pasco",
+        "p": "Pasco",
+        "di": "Pallanchacra"
+    },
+    "190107": {
+        "d": "Pasco",
+        "p": "Pasco",
+        "di": "Paucartambo"
+    },
+    "190108": {
+        "d": "Pasco",
+        "p": "Pasco",
+        "di": "San Francisco de Asís de Yarusyacan"
+    },
+    "190109": {
+        "d": "Pasco",
+        "p": "Pasco",
+        "di": "Simon Bolívar"
+    },
+    "190110": {
+        "d": "Pasco",
+        "p": "Pasco",
+        "di": "Ticlacayan"
+    },
+    "190111": {
+        "d": "Pasco",
+        "p": "Pasco",
+        "di": "Tinyahuarco"
+    },
+    "190112": {
+        "d": "Pasco",
+        "p": "Pasco",
+        "di": "Vicco"
+    },
+    "190113": {
+        "d": "Pasco",
+        "p": "Pasco",
+        "di": "Yanacancha"
+    },
+    "190201": {
+        "d": "Pasco",
+        "p": "Daniel Alcides Carrión",
+        "di": "Yanahuanca"
+    },
+    "190202": {
+        "d": "Pasco",
+        "p": "Daniel Alcides Carrión",
+        "di": "Chacayan"
+    },
+    "190203": {
+        "d": "Pasco",
+        "p": "Daniel Alcides Carrión",
+        "di": "Goyllarisquizga"
+    },
+    "190204": {
+        "d": "Pasco",
+        "p": "Daniel Alcides Carrión",
+        "di": "Paucar"
+    },
+    "190205": {
+        "d": "Pasco",
+        "p": "Daniel Alcides Carrión",
+        "di": "San Pedro de Pillao"
+    },
+    "190206": {
+        "d": "Pasco",
+        "p": "Daniel Alcides Carrión",
+        "di": "Santa Ana de Tusi"
+    },
+    "190207": {
+        "d": "Pasco",
+        "p": "Daniel Alcides Carrión",
+        "di": "Tapuc"
+    },
+    "190208": {
+        "d": "Pasco",
+        "p": "Daniel Alcides Carrión",
+        "di": "Vilcabamba"
+    },
+    "190301": {
+        "d": "Pasco",
+        "p": "Oxapampa",
+        "di": "Oxapampa"
+    },
+    "190302": {
+        "d": "Pasco",
+        "p": "Oxapampa",
+        "di": "Chontabamba"
+    },
+    "190303": {
+        "d": "Pasco",
+        "p": "Oxapampa",
+        "di": "Huancabamba"
+    },
+    "190304": {
+        "d": "Pasco",
+        "p": "Oxapampa",
+        "di": "Palcazu"
+    },
+    "190305": {
+        "d": "Pasco",
+        "p": "Oxapampa",
+        "di": "Pozuzo"
+    },
+    "190306": {
+        "d": "Pasco",
+        "p": "Oxapampa",
+        "di": "Puerto Bermúdez"
+    },
+    "190307": {
+        "d": "Pasco",
+        "p": "Oxapampa",
+        "di": "Villa Rica"
+    },
+    "190308": {
+        "d": "Pasco",
+        "p": "Oxapampa",
+        "di": "Constitución"
+    },
+    "200101": {
+        "d": "Piura",
+        "p": "Piura",
+        "di": "Piura"
+    },
+    "200104": {
+        "d": "Piura",
+        "p": "Piura",
+        "di": "Castilla"
+    },
+    "200105": {
+        "d": "Piura",
+        "p": "Piura",
+        "di": "Catacaos"
+    },
+    "200107": {
+        "d": "Piura",
+        "p": "Piura",
+        "di": "Cura Mori"
+    },
+    "200108": {
+        "d": "Piura",
+        "p": "Piura",
+        "di": "El Tallan"
+    },
+    "200109": {
+        "d": "Piura",
+        "p": "Piura",
+        "di": "La Arena"
+    },
+    "200110": {
+        "d": "Piura",
+        "p": "Piura",
+        "di": "La Unión"
+    },
+    "200111": {
+        "d": "Piura",
+        "p": "Piura",
+        "di": "Las Lomas"
+    },
+    "200114": {
+        "d": "Piura",
+        "p": "Piura",
+        "di": "Tambo Grande"
+    },
+    "200115": {
+        "d": "Piura",
+        "p": "Piura",
+        "di": "Veintiseis de Octubre"
+    },
+    "200201": {
+        "d": "Piura",
+        "p": "Ayabaca",
+        "di": "Ayabaca"
+    },
+    "200202": {
+        "d": "Piura",
+        "p": "Ayabaca",
+        "di": "Frias"
+    },
+    "200203": {
+        "d": "Piura",
+        "p": "Ayabaca",
+        "di": "Jilili"
+    },
+    "200204": {
+        "d": "Piura",
+        "p": "Ayabaca",
+        "di": "Lagunas"
+    },
+    "200205": {
+        "d": "Piura",
+        "p": "Ayabaca",
+        "di": "Montero"
+    },
+    "200206": {
+        "d": "Piura",
+        "p": "Ayabaca",
+        "di": "Pacaipampa"
+    },
+    "200207": {
+        "d": "Piura",
+        "p": "Ayabaca",
+        "di": "Paimas"
+    },
+    "200208": {
+        "d": "Piura",
+        "p": "Ayabaca",
+        "di": "Sapillica"
+    },
+    "200209": {
+        "d": "Piura",
+        "p": "Ayabaca",
+        "di": "Sicchez"
+    },
+    "200210": {
+        "d": "Piura",
+        "p": "Ayabaca",
+        "di": "Suyo"
+    },
+    "200301": {
+        "d": "Piura",
+        "p": "Huancabamba",
+        "di": "Huancabamba"
+    },
+    "200302": {
+        "d": "Piura",
+        "p": "Huancabamba",
+        "di": "Canchaque"
+    },
+    "200303": {
+        "d": "Piura",
+        "p": "Huancabamba",
+        "di": "El Carmen de la Frontera"
+    },
+    "200304": {
+        "d": "Piura",
+        "p": "Huancabamba",
+        "di": "Huarmaca"
+    },
+    "200305": {
+        "d": "Piura",
+        "p": "Huancabamba",
+        "di": "Lalaquiz"
+    },
+    "200306": {
+        "d": "Piura",
+        "p": "Huancabamba",
+        "di": "San Miguel de El Faique"
+    },
+    "200307": {
+        "d": "Piura",
+        "p": "Huancabamba",
+        "di": "Sondor"
+    },
+    "200308": {
+        "d": "Piura",
+        "p": "Huancabamba",
+        "di": "Sondorillo"
+    },
+    "200401": {
+        "d": "Piura",
+        "p": "Morropón",
+        "di": "Chulucanas"
+    },
+    "200402": {
+        "d": "Piura",
+        "p": "Morropón",
+        "di": "Buenos Aires"
+    },
+    "200403": {
+        "d": "Piura",
+        "p": "Morropón",
+        "di": "Chalaco"
+    },
+    "200404": {
+        "d": "Piura",
+        "p": "Morropón",
+        "di": "La Matanza"
+    },
+    "200405": {
+        "d": "Piura",
+        "p": "Morropón",
+        "di": "Morropon"
+    },
+    "200406": {
+        "d": "Piura",
+        "p": "Morropón",
+        "di": "Salitral"
+    },
+    "200407": {
+        "d": "Piura",
+        "p": "Morropón",
+        "di": "San Juan de Bigote"
+    },
+    "200408": {
+        "d": "Piura",
+        "p": "Morropón",
+        "di": "Santa Catalina de Mossa"
+    },
+    "200409": {
+        "d": "Piura",
+        "p": "Morropón",
+        "di": "Santo Domingo"
+    },
+    "200410": {
+        "d": "Piura",
+        "p": "Morropón",
+        "di": "Yamango"
+    },
+    "200501": {
+        "d": "Piura",
+        "p": "Paita",
+        "di": "Paita"
+    },
+    "200502": {
+        "d": "Piura",
+        "p": "Paita",
+        "di": "Amotape"
+    },
+    "200503": {
+        "d": "Piura",
+        "p": "Paita",
+        "di": "Arenal"
+    },
+    "200504": {
+        "d": "Piura",
+        "p": "Paita",
+        "di": "Colan"
+    },
+    "200505": {
+        "d": "Piura",
+        "p": "Paita",
+        "di": "La Huaca"
+    },
+    "200506": {
+        "d": "Piura",
+        "p": "Paita",
+        "di": "Tamarindo"
+    },
+    "200507": {
+        "d": "Piura",
+        "p": "Paita",
+        "di": "Vichayal"
+    },
+    "200601": {
+        "d": "Piura",
+        "p": "Sullana",
+        "di": "Sullana"
+    },
+    "200602": {
+        "d": "Piura",
+        "p": "Sullana",
+        "di": "Bellavista"
+    },
+    "200603": {
+        "d": "Piura",
+        "p": "Sullana",
+        "di": "Ignacio Escudero"
+    },
+    "200604": {
+        "d": "Piura",
+        "p": "Sullana",
+        "di": "Lancones"
+    },
+    "200605": {
+        "d": "Piura",
+        "p": "Sullana",
+        "di": "Marcavelica"
+    },
+    "200606": {
+        "d": "Piura",
+        "p": "Sullana",
+        "di": "Miguel Checa"
+    },
+    "200607": {
+        "d": "Piura",
+        "p": "Sullana",
+        "di": "Querecotillo"
+    },
+    "200608": {
+        "d": "Piura",
+        "p": "Sullana",
+        "di": "Salitral"
+    },
+    "200701": {
+        "d": "Piura",
+        "p": "Talara",
+        "di": "Pariñas"
+    },
+    "200702": {
+        "d": "Piura",
+        "p": "Talara",
+        "di": "El Alto"
+    },
+    "200703": {
+        "d": "Piura",
+        "p": "Talara",
+        "di": "La Brea"
+    },
+    "200704": {
+        "d": "Piura",
+        "p": "Talara",
+        "di": "Lobitos"
+    },
+    "200705": {
+        "d": "Piura",
+        "p": "Talara",
+        "di": "Los Organos"
+    },
+    "200706": {
+        "d": "Piura",
+        "p": "Talara",
+        "di": "Mancora"
+    },
+    "200801": {
+        "d": "Piura",
+        "p": "Sechura",
+        "di": "Sechura"
+    },
+    "200802": {
+        "d": "Piura",
+        "p": "Sechura",
+        "di": "Bellavista de la Unión"
+    },
+    "200803": {
+        "d": "Piura",
+        "p": "Sechura",
+        "di": "Bernal"
+    },
+    "200804": {
+        "d": "Piura",
+        "p": "Sechura",
+        "di": "Cristo Nos Valga"
+    },
+    "200805": {
+        "d": "Piura",
+        "p": "Sechura",
+        "di": "Vice"
+    },
+    "200806": {
+        "d": "Piura",
+        "p": "Sechura",
+        "di": "Rinconada Llicuar"
+    },
+    "210101": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Puno"
+    },
+    "210102": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Acora"
+    },
+    "210103": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Amantani"
+    },
+    "210104": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Atuncolla"
+    },
+    "210105": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Capachica"
+    },
+    "210106": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Chucuito"
+    },
+    "210107": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Coata"
+    },
+    "210108": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Huata"
+    },
+    "210109": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Mañazo"
+    },
+    "210110": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Paucarcolla"
+    },
+    "210111": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Pichacani"
+    },
+    "210112": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Plateria"
+    },
+    "210113": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "San Antonio"
+    },
+    "210114": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Tiquillaca"
+    },
+    "210115": {
+        "d": "Puno",
+        "p": "Puno",
+        "di": "Vilque"
+    },
+    "210201": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "Azángaro"
+    },
+    "210202": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "Achaya"
+    },
+    "210203": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "Arapa"
+    },
+    "210204": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "Asillo"
+    },
+    "210205": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "Caminaca"
+    },
+    "210206": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "Chupa"
+    },
+    "210207": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "José Domingo Choquehuanca"
+    },
+    "210208": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "Muñani"
+    },
+    "210209": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "Potoni"
+    },
+    "210210": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "Saman"
+    },
+    "210211": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "San Anton"
+    },
+    "210212": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "San José"
+    },
+    "210213": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "San Juan de Salinas"
+    },
+    "210214": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "Santiago de Pupuja"
+    },
+    "210215": {
+        "d": "Puno",
+        "p": "Azángaro",
+        "di": "Tirapata"
+    },
+    "210301": {
+        "d": "Puno",
+        "p": "Carabaya",
+        "di": "Macusani"
+    },
+    "210302": {
+        "d": "Puno",
+        "p": "Carabaya",
+        "di": "Ajoyani"
+    },
+    "210303": {
+        "d": "Puno",
+        "p": "Carabaya",
+        "di": "Ayapata"
+    },
+    "210304": {
+        "d": "Puno",
+        "p": "Carabaya",
+        "di": "Coasa"
+    },
+    "210305": {
+        "d": "Puno",
+        "p": "Carabaya",
+        "di": "Corani"
+    },
+    "210306": {
+        "d": "Puno",
+        "p": "Carabaya",
+        "di": "Crucero"
+    },
+    "210307": {
+        "d": "Puno",
+        "p": "Carabaya",
+        "di": "Ituata"
+    },
+    "210308": {
+        "d": "Puno",
+        "p": "Carabaya",
+        "di": "Ollachea"
+    },
+    "210309": {
+        "d": "Puno",
+        "p": "Carabaya",
+        "di": "San Gaban"
+    },
+    "210310": {
+        "d": "Puno",
+        "p": "Carabaya",
+        "di": "Usicayos"
+    },
+    "210401": {
+        "d": "Puno",
+        "p": "Chucuito",
+        "di": "Juli"
+    },
+    "210402": {
+        "d": "Puno",
+        "p": "Chucuito",
+        "di": "Desaguadero"
+    },
+    "210403": {
+        "d": "Puno",
+        "p": "Chucuito",
+        "di": "Huacullani"
+    },
+    "210404": {
+        "d": "Puno",
+        "p": "Chucuito",
+        "di": "Kelluyo"
+    },
+    "210405": {
+        "d": "Puno",
+        "p": "Chucuito",
+        "di": "Pisacoma"
+    },
+    "210406": {
+        "d": "Puno",
+        "p": "Chucuito",
+        "di": "Pomata"
+    },
+    "210407": {
+        "d": "Puno",
+        "p": "Chucuito",
+        "di": "Zepita"
+    },
+    "210501": {
+        "d": "Puno",
+        "p": "El Collao",
+        "di": "Ilave"
+    },
+    "210502": {
+        "d": "Puno",
+        "p": "El Collao",
+        "di": "Capazo"
+    },
+    "210503": {
+        "d": "Puno",
+        "p": "El Collao",
+        "di": "Pilcuyo"
+    },
+    "210504": {
+        "d": "Puno",
+        "p": "El Collao",
+        "di": "Santa Rosa"
+    },
+    "210505": {
+        "d": "Puno",
+        "p": "El Collao",
+        "di": "Conduriri"
+    },
+    "210601": {
+        "d": "Puno",
+        "p": "Huancané",
+        "di": "Huancane"
+    },
+    "210602": {
+        "d": "Puno",
+        "p": "Huancané",
+        "di": "Cojata"
+    },
+    "210603": {
+        "d": "Puno",
+        "p": "Huancané",
+        "di": "Huatasani"
+    },
+    "210604": {
+        "d": "Puno",
+        "p": "Huancané",
+        "di": "Inchupalla"
+    },
+    "210605": {
+        "d": "Puno",
+        "p": "Huancané",
+        "di": "Pusi"
+    },
+    "210606": {
+        "d": "Puno",
+        "p": "Huancané",
+        "di": "Rosaspata"
+    },
+    "210607": {
+        "d": "Puno",
+        "p": "Huancané",
+        "di": "Taraco"
+    },
+    "210608": {
+        "d": "Puno",
+        "p": "Huancané",
+        "di": "Vilque Chico"
+    },
+    "210701": {
+        "d": "Puno",
+        "p": "Lampa",
+        "di": "Lampa"
+    },
+    "210702": {
+        "d": "Puno",
+        "p": "Lampa",
+        "di": "Cabanilla"
+    },
+    "210703": {
+        "d": "Puno",
+        "p": "Lampa",
+        "di": "Calapuja"
+    },
+    "210704": {
+        "d": "Puno",
+        "p": "Lampa",
+        "di": "Nicasio"
+    },
+    "210705": {
+        "d": "Puno",
+        "p": "Lampa",
+        "di": "Ocuviri"
+    },
+    "210706": {
+        "d": "Puno",
+        "p": "Lampa",
+        "di": "Palca"
+    },
+    "210707": {
+        "d": "Puno",
+        "p": "Lampa",
+        "di": "Paratia"
+    },
+    "210708": {
+        "d": "Puno",
+        "p": "Lampa",
+        "di": "Pucara"
+    },
+    "210709": {
+        "d": "Puno",
+        "p": "Lampa",
+        "di": "Santa Lucia"
+    },
+    "210710": {
+        "d": "Puno",
+        "p": "Lampa",
+        "di": "Vilavila"
+    },
+    "210801": {
+        "d": "Puno",
+        "p": "Melgar",
+        "di": "Ayaviri"
+    },
+    "210802": {
+        "d": "Puno",
+        "p": "Melgar",
+        "di": "Antauta"
+    },
+    "210803": {
+        "d": "Puno",
+        "p": "Melgar",
+        "di": "Cupi"
+    },
+    "210804": {
+        "d": "Puno",
+        "p": "Melgar",
+        "di": "Llalli"
+    },
+    "210805": {
+        "d": "Puno",
+        "p": "Melgar",
+        "di": "Macari"
+    },
+    "210806": {
+        "d": "Puno",
+        "p": "Melgar",
+        "di": "Nuñoa"
+    },
+    "210807": {
+        "d": "Puno",
+        "p": "Melgar",
+        "di": "Orurillo"
+    },
+    "210808": {
+        "d": "Puno",
+        "p": "Melgar",
+        "di": "Santa Rosa"
+    },
+    "210809": {
+        "d": "Puno",
+        "p": "Melgar",
+        "di": "Umachiri"
+    },
+    "210901": {
+        "d": "Puno",
+        "p": "Moho",
+        "di": "Moho"
+    },
+    "210902": {
+        "d": "Puno",
+        "p": "Moho",
+        "di": "Conima"
+    },
+    "210903": {
+        "d": "Puno",
+        "p": "Moho",
+        "di": "Huayrapata"
+    },
+    "210904": {
+        "d": "Puno",
+        "p": "Moho",
+        "di": "Tilali"
+    },
+    "211001": {
+        "d": "Puno",
+        "p": "San Antonio de Putina",
+        "di": "Putina"
+    },
+    "211002": {
+        "d": "Puno",
+        "p": "San Antonio de Putina",
+        "di": "Ananea"
+    },
+    "211003": {
+        "d": "Puno",
+        "p": "San Antonio de Putina",
+        "di": "Pedro Vilca Apaza"
+    },
+    "211004": {
+        "d": "Puno",
+        "p": "San Antonio de Putina",
+        "di": "Quilcapuncu"
+    },
+    "211005": {
+        "d": "Puno",
+        "p": "San Antonio de Putina",
+        "di": "Sina"
+    },
+    "211101": {
+        "d": "Puno",
+        "p": "San Román",
+        "di": "Juliaca"
+    },
+    "211102": {
+        "d": "Puno",
+        "p": "San Román",
+        "di": "Cabana"
+    },
+    "211103": {
+        "d": "Puno",
+        "p": "San Román",
+        "di": "Cabanillas"
+    },
+    "211104": {
+        "d": "Puno",
+        "p": "San Román",
+        "di": "Caracoto"
+    },
+    "211105": {
+        "d": "Puno",
+        "p": "San Román",
+        "di": "San Miguel"
+    },
+    "211201": {
+        "d": "Puno",
+        "p": "Sandia",
+        "di": "Sandia"
+    },
+    "211202": {
+        "d": "Puno",
+        "p": "Sandia",
+        "di": "Cuyocuyo"
+    },
+    "211203": {
+        "d": "Puno",
+        "p": "Sandia",
+        "di": "Limbani"
+    },
+    "211204": {
+        "d": "Puno",
+        "p": "Sandia",
+        "di": "Patambuco"
+    },
+    "211205": {
+        "d": "Puno",
+        "p": "Sandia",
+        "di": "Phara"
+    },
+    "211206": {
+        "d": "Puno",
+        "p": "Sandia",
+        "di": "Quiaca"
+    },
+    "211207": {
+        "d": "Puno",
+        "p": "Sandia",
+        "di": "San Juan del Oro"
+    },
+    "211208": {
+        "d": "Puno",
+        "p": "Sandia",
+        "di": "Yanahuaya"
+    },
+    "211209": {
+        "d": "Puno",
+        "p": "Sandia",
+        "di": "Alto Inambari"
+    },
+    "211210": {
+        "d": "Puno",
+        "p": "Sandia",
+        "di": "San Pedro de Putina Punco"
+    },
+    "211301": {
+        "d": "Puno",
+        "p": "Yunguyo",
+        "di": "Yunguyo"
+    },
+    "211302": {
+        "d": "Puno",
+        "p": "Yunguyo",
+        "di": "Anapia"
+    },
+    "211303": {
+        "d": "Puno",
+        "p": "Yunguyo",
+        "di": "Copani"
+    },
+    "211304": {
+        "d": "Puno",
+        "p": "Yunguyo",
+        "di": "Cuturapi"
+    },
+    "211305": {
+        "d": "Puno",
+        "p": "Yunguyo",
+        "di": "Ollaraya"
+    },
+    "211306": {
+        "d": "Puno",
+        "p": "Yunguyo",
+        "di": "Tinicachi"
+    },
+    "211307": {
+        "d": "Puno",
+        "p": "Yunguyo",
+        "di": "Unicachi"
+    },
+    "220101": {
+        "d": "San Martín",
+        "p": "Moyobamba",
+        "di": "Moyobamba"
+    },
+    "220102": {
+        "d": "San Martín",
+        "p": "Moyobamba",
+        "di": "Calzada"
+    },
+    "220103": {
+        "d": "San Martín",
+        "p": "Moyobamba",
+        "di": "Habana"
+    },
+    "220104": {
+        "d": "San Martín",
+        "p": "Moyobamba",
+        "di": "Jepelacio"
+    },
+    "220105": {
+        "d": "San Martín",
+        "p": "Moyobamba",
+        "di": "Soritor"
+    },
+    "220106": {
+        "d": "San Martín",
+        "p": "Moyobamba",
+        "di": "Yantalo"
+    },
+    "220201": {
+        "d": "San Martín",
+        "p": "Bellavista",
+        "di": "Bellavista"
+    },
+    "220202": {
+        "d": "San Martín",
+        "p": "Bellavista",
+        "di": "Alto Biavo"
+    },
+    "220203": {
+        "d": "San Martín",
+        "p": "Bellavista",
+        "di": "Bajo Biavo"
+    },
+    "220204": {
+        "d": "San Martín",
+        "p": "Bellavista",
+        "di": "Huallaga"
+    },
+    "220205": {
+        "d": "San Martín",
+        "p": "Bellavista",
+        "di": "San Pablo"
+    },
+    "220206": {
+        "d": "San Martín",
+        "p": "Bellavista",
+        "di": "San Rafael"
+    },
+    "220301": {
+        "d": "San Martín",
+        "p": "El Dorado",
+        "di": "San José de Sisa"
+    },
+    "220302": {
+        "d": "San Martín",
+        "p": "El Dorado",
+        "di": "Agua Blanca"
+    },
+    "220303": {
+        "d": "San Martín",
+        "p": "El Dorado",
+        "di": "San Martín"
+    },
+    "220304": {
+        "d": "San Martín",
+        "p": "El Dorado",
+        "di": "Santa Rosa"
+    },
+    "220305": {
+        "d": "San Martín",
+        "p": "El Dorado",
+        "di": "Shatoja"
+    },
+    "220401": {
+        "d": "San Martín",
+        "p": "Huallaga",
+        "di": "Saposoa"
+    },
+    "220402": {
+        "d": "San Martín",
+        "p": "Huallaga",
+        "di": "Alto Saposoa"
+    },
+    "220403": {
+        "d": "San Martín",
+        "p": "Huallaga",
+        "di": "El Eslabón"
+    },
+    "220404": {
+        "d": "San Martín",
+        "p": "Huallaga",
+        "di": "Piscoyacu"
+    },
+    "220405": {
+        "d": "San Martín",
+        "p": "Huallaga",
+        "di": "Sacanche"
+    },
+    "220406": {
+        "d": "San Martín",
+        "p": "Huallaga",
+        "di": "Tingo de Saposoa"
+    },
+    "220501": {
+        "d": "San Martín",
+        "p": "Lamas",
+        "di": "Lamas"
+    },
+    "220502": {
+        "d": "San Martín",
+        "p": "Lamas",
+        "di": "Alonso de Alvarado"
+    },
+    "220503": {
+        "d": "San Martín",
+        "p": "Lamas",
+        "di": "Barranquita"
+    },
+    "220504": {
+        "d": "San Martín",
+        "p": "Lamas",
+        "di": "Caynarachi"
+    },
+    "220505": {
+        "d": "San Martín",
+        "p": "Lamas",
+        "di": "Cuñumbuqui"
+    },
+    "220506": {
+        "d": "San Martín",
+        "p": "Lamas",
+        "di": "Pinto Recodo"
+    },
+    "220507": {
+        "d": "San Martín",
+        "p": "Lamas",
+        "di": "Rumisapa"
+    },
+    "220508": {
+        "d": "San Martín",
+        "p": "Lamas",
+        "di": "San Roque de Cumbaza"
+    },
+    "220509": {
+        "d": "San Martín",
+        "p": "Lamas",
+        "di": "Shanao"
+    },
+    "220510": {
+        "d": "San Martín",
+        "p": "Lamas",
+        "di": "Tabalosos"
+    },
+    "220511": {
+        "d": "San Martín",
+        "p": "Lamas",
+        "di": "Zapatero"
+    },
+    "220601": {
+        "d": "San Martín",
+        "p": "Mariscal Cáceres",
+        "di": "Juanjuí"
+    },
+    "220602": {
+        "d": "San Martín",
+        "p": "Mariscal Cáceres",
+        "di": "Campanilla"
+    },
+    "220603": {
+        "d": "San Martín",
+        "p": "Mariscal Cáceres",
+        "di": "Huicungo"
+    },
+    "220604": {
+        "d": "San Martín",
+        "p": "Mariscal Cáceres",
+        "di": "Pachiza"
+    },
+    "220605": {
+        "d": "San Martín",
+        "p": "Mariscal Cáceres",
+        "di": "Pajarillo"
+    },
+    "220701": {
+        "d": "San Martín",
+        "p": "Picota",
+        "di": "Picota"
+    },
+    "220702": {
+        "d": "San Martín",
+        "p": "Picota",
+        "di": "Buenos Aires"
+    },
+    "220703": {
+        "d": "San Martín",
+        "p": "Picota",
+        "di": "Caspisapa"
+    },
+    "220704": {
+        "d": "San Martín",
+        "p": "Picota",
+        "di": "Pilluana"
+    },
+    "220705": {
+        "d": "San Martín",
+        "p": "Picota",
+        "di": "Pucacaca"
+    },
+    "220706": {
+        "d": "San Martín",
+        "p": "Picota",
+        "di": "San Cristóbal"
+    },
+    "220707": {
+        "d": "San Martín",
+        "p": "Picota",
+        "di": "San Hilarión"
+    },
+    "220708": {
+        "d": "San Martín",
+        "p": "Picota",
+        "di": "Shamboyacu"
+    },
+    "220709": {
+        "d": "San Martín",
+        "p": "Picota",
+        "di": "Tingo de Ponasa"
+    },
+    "220710": {
+        "d": "San Martín",
+        "p": "Picota",
+        "di": "Tres Unidos"
+    },
+    "220801": {
+        "d": "San Martín",
+        "p": "Rioja",
+        "di": "Rioja"
+    },
+    "220802": {
+        "d": "San Martín",
+        "p": "Rioja",
+        "di": "Awajun"
+    },
+    "220803": {
+        "d": "San Martín",
+        "p": "Rioja",
+        "di": "Elías Soplin Vargas"
+    },
+    "220804": {
+        "d": "San Martín",
+        "p": "Rioja",
+        "di": "Nueva Cajamarca"
+    },
+    "220805": {
+        "d": "San Martín",
+        "p": "Rioja",
+        "di": "Pardo Miguel"
+    },
+    "220806": {
+        "d": "San Martín",
+        "p": "Rioja",
+        "di": "Posic"
+    },
+    "220807": {
+        "d": "San Martín",
+        "p": "Rioja",
+        "di": "San Fernando"
+    },
+    "220808": {
+        "d": "San Martín",
+        "p": "Rioja",
+        "di": "Yorongos"
+    },
+    "220809": {
+        "d": "San Martín",
+        "p": "Rioja",
+        "di": "Yuracyacu"
+    },
+    "220901": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "Tarapoto"
+    },
+    "220902": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "Alberto Leveau"
+    },
+    "220903": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "Cacatachi"
+    },
+    "220904": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "Chazuta"
+    },
+    "220905": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "Chipurana"
+    },
+    "220906": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "El Porvenir"
+    },
+    "220907": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "Huimbayoc"
+    },
+    "220908": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "Juan Guerra"
+    },
+    "220909": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "La Banda de Shilcayo"
+    },
+    "220910": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "Morales"
+    },
+    "220911": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "Papaplaya"
+    },
+    "220912": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "San Antonio"
+    },
+    "220913": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "Sauce"
+    },
+    "220914": {
+        "d": "San Martín",
+        "p": "San Martín",
+        "di": "Shapaja"
+    },
+    "221001": {
+        "d": "San Martín",
+        "p": "Tocache",
+        "di": "Tocache"
+    },
+    "221002": {
+        "d": "San Martín",
+        "p": "Tocache",
+        "di": "Nuevo Progreso"
+    },
+    "221003": {
+        "d": "San Martín",
+        "p": "Tocache",
+        "di": "Polvora"
+    },
+    "221004": {
+        "d": "San Martín",
+        "p": "Tocache",
+        "di": "Shunte"
+    },
+    "221005": {
+        "d": "San Martín",
+        "p": "Tocache",
+        "di": "Uchiza"
+    },
+    "230101": {
+        "d": "Tacna",
+        "p": "Tacna",
+        "di": "Tacna"
+    },
+    "230102": {
+        "d": "Tacna",
+        "p": "Tacna",
+        "di": "Alto de la Alianza"
+    },
+    "230103": {
+        "d": "Tacna",
+        "p": "Tacna",
+        "di": "Calana"
+    },
+    "230104": {
+        "d": "Tacna",
+        "p": "Tacna",
+        "di": "Ciudad Nueva"
+    },
+    "230105": {
+        "d": "Tacna",
+        "p": "Tacna",
+        "di": "Inclan"
+    },
+    "230106": {
+        "d": "Tacna",
+        "p": "Tacna",
+        "di": "Pachia"
+    },
+    "230107": {
+        "d": "Tacna",
+        "p": "Tacna",
+        "di": "Palca"
+    },
+    "230108": {
+        "d": "Tacna",
+        "p": "Tacna",
+        "di": "Pocollay"
+    },
+    "230109": {
+        "d": "Tacna",
+        "p": "Tacna",
+        "di": "Sama"
+    },
+    "230110": {
+        "d": "Tacna",
+        "p": "Tacna",
+        "di": "Coronel Gregorio Albarracín Lanchipa"
+    },
+    "230111": {
+        "d": "Tacna",
+        "p": "Tacna",
+        "di": "La Yarada los Palos"
+    },
+    "230201": {
+        "d": "Tacna",
+        "p": "Candarave",
+        "di": "Candarave"
+    },
+    "230202": {
+        "d": "Tacna",
+        "p": "Candarave",
+        "di": "Cairani"
+    },
+    "230203": {
+        "d": "Tacna",
+        "p": "Candarave",
+        "di": "Camilaca"
+    },
+    "230204": {
+        "d": "Tacna",
+        "p": "Candarave",
+        "di": "Curibaya"
+    },
+    "230205": {
+        "d": "Tacna",
+        "p": "Candarave",
+        "di": "Huanuara"
+    },
+    "230206": {
+        "d": "Tacna",
+        "p": "Candarave",
+        "di": "Quilahuani"
+    },
+    "230301": {
+        "d": "Tacna",
+        "p": "Jorge Basadre",
+        "di": "Locumba"
+    },
+    "230302": {
+        "d": "Tacna",
+        "p": "Jorge Basadre",
+        "di": "Ilabaya"
+    },
+    "230303": {
+        "d": "Tacna",
+        "p": "Jorge Basadre",
+        "di": "Ite"
+    },
+    "230401": {
+        "d": "Tacna",
+        "p": "Tarata",
+        "di": "Tarata"
+    },
+    "230402": {
+        "d": "Tacna",
+        "p": "Tarata",
+        "di": "Héroes Albarracín"
+    },
+    "230403": {
+        "d": "Tacna",
+        "p": "Tarata",
+        "di": "Estique"
+    },
+    "230404": {
+        "d": "Tacna",
+        "p": "Tarata",
+        "di": "Estique-Pampa"
+    },
+    "230405": {
+        "d": "Tacna",
+        "p": "Tarata",
+        "di": "Sitajara"
+    },
+    "230406": {
+        "d": "Tacna",
+        "p": "Tarata",
+        "di": "Susapaya"
+    },
+    "230407": {
+        "d": "Tacna",
+        "p": "Tarata",
+        "di": "Tarucachi"
+    },
+    "230408": {
+        "d": "Tacna",
+        "p": "Tarata",
+        "di": "Ticaco"
+    },
+    "240101": {
+        "d": "Tumbes",
+        "p": "Tumbes",
+        "di": "Tumbes"
+    },
+    "240102": {
+        "d": "Tumbes",
+        "p": "Tumbes",
+        "di": "Corrales"
+    },
+    "240103": {
+        "d": "Tumbes",
+        "p": "Tumbes",
+        "di": "La Cruz"
+    },
+    "240104": {
+        "d": "Tumbes",
+        "p": "Tumbes",
+        "di": "Pampas de Hospital"
+    },
+    "240105": {
+        "d": "Tumbes",
+        "p": "Tumbes",
+        "di": "San Jacinto"
+    },
+    "240106": {
+        "d": "Tumbes",
+        "p": "Tumbes",
+        "di": "San Juan de la Virgen"
+    },
+    "240201": {
+        "d": "Tumbes",
+        "p": "Contralmirante Villar",
+        "di": "Zorritos"
+    },
+    "240202": {
+        "d": "Tumbes",
+        "p": "Contralmirante Villar",
+        "di": "Casitas"
+    },
+    "240203": {
+        "d": "Tumbes",
+        "p": "Contralmirante Villar",
+        "di": "Canoas de Punta Sal"
+    },
+    "240301": {
+        "d": "Tumbes",
+        "p": "Zarumilla",
+        "di": "Zarumilla"
+    },
+    "240302": {
+        "d": "Tumbes",
+        "p": "Zarumilla",
+        "di": "Aguas Verdes"
+    },
+    "240303": {
+        "d": "Tumbes",
+        "p": "Zarumilla",
+        "di": "Matapalo"
+    },
+    "240304": {
+        "d": "Tumbes",
+        "p": "Zarumilla",
+        "di": "Papayal"
+    },
+    "250101": {
+        "d": "Ucayali",
+        "p": "Coronel Portillo",
+        "di": "Calleria"
+    },
+    "250102": {
+        "d": "Ucayali",
+        "p": "Coronel Portillo",
+        "di": "Campoverde"
+    },
+    "250103": {
+        "d": "Ucayali",
+        "p": "Coronel Portillo",
+        "di": "Iparia"
+    },
+    "250104": {
+        "d": "Ucayali",
+        "p": "Coronel Portillo",
+        "di": "Masisea"
+    },
+    "250105": {
+        "d": "Ucayali",
+        "p": "Coronel Portillo",
+        "di": "Yarinacocha"
+    },
+    "250106": {
+        "d": "Ucayali",
+        "p": "Coronel Portillo",
+        "di": "Nueva Requena"
+    },
+    "250107": {
+        "d": "Ucayali",
+        "p": "Coronel Portillo",
+        "di": "Manantay"
+    },
+    "250201": {
+        "d": "Ucayali",
+        "p": "Atalaya",
+        "di": "Raymondi"
+    },
+    "250202": {
+        "d": "Ucayali",
+        "p": "Atalaya",
+        "di": "Sepahua"
+    },
+    "250203": {
+        "d": "Ucayali",
+        "p": "Atalaya",
+        "di": "Tahuania"
+    },
+    "250204": {
+        "d": "Ucayali",
+        "p": "Atalaya",
+        "di": "Yurua"
+    },
+    "250301": {
+        "d": "Ucayali",
+        "p": "Padre Abad",
+        "di": "Padre Abad"
+    },
+    "250302": {
+        "d": "Ucayali",
+        "p": "Padre Abad",
+        "di": "Irazola"
+    },
+    "250303": {
+        "d": "Ucayali",
+        "p": "Padre Abad",
+        "di": "Curimana"
+    },
+    "250304": {
+        "d": "Ucayali",
+        "p": "Padre Abad",
+        "di": "Neshuya"
+    },
+    "250305": {
+        "d": "Ucayali",
+        "p": "Padre Abad",
+        "di": "Alexander Von Humboldt"
+    },
+    "250401": {
+        "d": "Ucayali",
+        "p": "Purús",
+        "di": "Purus"
+    },
+    "010101": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Chachapoyas"
+    },
+    "010102": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Asunción"
+    },
+    "010103": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Balsas"
+    },
+    "010104": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Cheto"
+    },
+    "010105": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Chiliquin"
+    },
+    "010106": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Chuquibamba"
+    },
+    "010107": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Granada"
+    },
+    "010108": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Huancas"
+    },
+    "010109": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "La Jalca"
+    },
+    "010110": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Leimebamba"
+    },
+    "010111": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Levanto"
+    },
+    "010112": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Magdalena"
+    },
+    "010113": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Mariscal Castilla"
+    },
+    "010114": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Molinopampa"
+    },
+    "010115": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Montevideo"
+    },
+    "010116": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Olleros"
+    },
+    "010117": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Quinjalca"
+    },
+    "010118": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "San Francisco de Daguas"
+    },
+    "010119": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "San Isidro de Maino"
+    },
+    "010120": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Soloco"
+    },
+    "010121": {
+        "d": "Amazonas",
+        "p": "Chachapoyas",
+        "di": "Sonche"
+    },
+    "010201": {
+        "d": "Amazonas",
+        "p": "Bagua",
+        "di": "Bagua"
+    },
+    "010202": {
+        "d": "Amazonas",
+        "p": "Bagua",
+        "di": "Aramango"
+    },
+    "010203": {
+        "d": "Amazonas",
+        "p": "Bagua",
+        "di": "Copallin"
+    },
+    "010204": {
+        "d": "Amazonas",
+        "p": "Bagua",
+        "di": "El Parco"
+    },
+    "010205": {
+        "d": "Amazonas",
+        "p": "Bagua",
+        "di": "Imaza"
+    },
+    "010206": {
+        "d": "Amazonas",
+        "p": "Bagua",
+        "di": "La Peca"
+    },
+    "010301": {
+        "d": "Amazonas",
+        "p": "Bongará",
+        "di": "Jumbilla"
+    },
+    "010302": {
+        "d": "Amazonas",
+        "p": "Bongará",
+        "di": "Chisquilla"
+    },
+    "010303": {
+        "d": "Amazonas",
+        "p": "Bongará",
+        "di": "Churuja"
+    },
+    "010304": {
+        "d": "Amazonas",
+        "p": "Bongará",
+        "di": "Corosha"
+    },
+    "010305": {
+        "d": "Amazonas",
+        "p": "Bongará",
+        "di": "Cuispes"
+    },
+    "010306": {
+        "d": "Amazonas",
+        "p": "Bongará",
+        "di": "Florida"
+    },
+    "010307": {
+        "d": "Amazonas",
+        "p": "Bongará",
+        "di": "Jazan"
+    },
+    "010308": {
+        "d": "Amazonas",
+        "p": "Bongará",
+        "di": "Recta"
+    },
+    "010309": {
+        "d": "Amazonas",
+        "p": "Bongará",
+        "di": "San Carlos"
+    },
+    "010310": {
+        "d": "Amazonas",
+        "p": "Bongará",
+        "di": "Shipasbamba"
+    },
+    "010311": {
+        "d": "Amazonas",
+        "p": "Bongará",
+        "di": "Valera"
+    },
+    "010312": {
+        "d": "Amazonas",
+        "p": "Bongará",
+        "di": "Yambrasbamba"
+    },
+    "010401": {
+        "d": "Amazonas",
+        "p": "Condorcanqui",
+        "di": "Nieva"
+    },
+    "010402": {
+        "d": "Amazonas",
+        "p": "Condorcanqui",
+        "di": "El Cenepa"
+    },
+    "010403": {
+        "d": "Amazonas",
+        "p": "Condorcanqui",
+        "di": "Río Santiago"
+    },
+    "010501": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Lamud"
+    },
+    "010502": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Camporredondo"
+    },
+    "010503": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Cocabamba"
+    },
+    "010504": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Colcamar"
+    },
+    "010505": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Conila"
+    },
+    "010506": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Inguilpata"
+    },
+    "010507": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Longuita"
+    },
+    "010508": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Lonya Chico"
+    },
+    "010509": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Luya"
+    },
+    "010510": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Luya Viejo"
+    },
+    "010511": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "María"
+    },
+    "010512": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Ocalli"
+    },
+    "010513": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Ocumal"
+    },
+    "010514": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Pisuquia"
+    },
+    "010515": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Providencia"
+    },
+    "010516": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "San Cristóbal"
+    },
+    "010517": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "San Francisco de Yeso"
+    },
+    "010518": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "San Jerónimo"
+    },
+    "010519": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "San Juan de Lopecancha"
+    },
+    "010520": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Santa Catalina"
+    },
+    "010521": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Santo Tomas"
+    },
+    "010522": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Tingo"
+    },
+    "010523": {
+        "d": "Amazonas",
+        "p": "Luya",
+        "di": "Trita"
+    },
+    "010601": {
+        "d": "Amazonas",
+        "p": "Rodríguez de Mendoza",
+        "di": "San Nicolás"
+    },
+    "010602": {
+        "d": "Amazonas",
+        "p": "Rodríguez de Mendoza",
+        "di": "Chirimoto"
+    },
+    "010603": {
+        "d": "Amazonas",
+        "p": "Rodríguez de Mendoza",
+        "di": "Cochamal"
+    },
+    "010604": {
+        "d": "Amazonas",
+        "p": "Rodríguez de Mendoza",
+        "di": "Huambo"
+    },
+    "010605": {
+        "d": "Amazonas",
+        "p": "Rodríguez de Mendoza",
+        "di": "Limabamba"
+    },
+    "010606": {
+        "d": "Amazonas",
+        "p": "Rodríguez de Mendoza",
+        "di": "Longar"
+    },
+    "010607": {
+        "d": "Amazonas",
+        "p": "Rodríguez de Mendoza",
+        "di": "Mariscal Benavides"
+    },
+    "010608": {
+        "d": "Amazonas",
+        "p": "Rodríguez de Mendoza",
+        "di": "Milpuc"
+    },
+    "010609": {
+        "d": "Amazonas",
+        "p": "Rodríguez de Mendoza",
+        "di": "Omia"
+    },
+    "010610": {
+        "d": "Amazonas",
+        "p": "Rodríguez de Mendoza",
+        "di": "Santa Rosa"
+    },
+    "010611": {
+        "d": "Amazonas",
+        "p": "Rodríguez de Mendoza",
+        "di": "Totora"
+    },
+    "010612": {
+        "d": "Amazonas",
+        "p": "Rodríguez de Mendoza",
+        "di": "Vista Alegre"
+    },
+    "010701": {
+        "d": "Amazonas",
+        "p": "Utcubamba",
+        "di": "Bagua Grande"
+    },
+    "010702": {
+        "d": "Amazonas",
+        "p": "Utcubamba",
+        "di": "Cajaruro"
+    },
+    "010703": {
+        "d": "Amazonas",
+        "p": "Utcubamba",
+        "di": "Cumba"
+    },
+    "010704": {
+        "d": "Amazonas",
+        "p": "Utcubamba",
+        "di": "El Milagro"
+    },
+    "010705": {
+        "d": "Amazonas",
+        "p": "Utcubamba",
+        "di": "Jamalca"
+    },
+    "010706": {
+        "d": "Amazonas",
+        "p": "Utcubamba",
+        "di": "Lonya Grande"
+    },
+    "010707": {
+        "d": "Amazonas",
+        "p": "Utcubamba",
+        "di": "Yamon"
+    },
+    "020101": {
+        "d": "Áncash",
+        "p": "Huaraz",
+        "di": "Huaraz"
+    },
+    "020102": {
+        "d": "Áncash",
+        "p": "Huaraz",
+        "di": "Cochabamba"
+    },
+    "020103": {
+        "d": "Áncash",
+        "p": "Huaraz",
+        "di": "Colcabamba"
+    },
+    "020104": {
+        "d": "Áncash",
+        "p": "Huaraz",
+        "di": "Huanchay"
+    },
+    "020105": {
+        "d": "Áncash",
+        "p": "Huaraz",
+        "di": "Independencia"
+    },
+    "020106": {
+        "d": "Áncash",
+        "p": "Huaraz",
+        "di": "Jangas"
+    },
+    "020107": {
+        "d": "Áncash",
+        "p": "Huaraz",
+        "di": "La Libertad"
+    },
+    "020108": {
+        "d": "Áncash",
+        "p": "Huaraz",
+        "di": "Olleros"
+    },
+    "020109": {
+        "d": "Áncash",
+        "p": "Huaraz",
+        "di": "Pampas Grande"
+    },
+    "020110": {
+        "d": "Áncash",
+        "p": "Huaraz",
+        "di": "Pariacoto"
+    },
+    "020111": {
+        "d": "Áncash",
+        "p": "Huaraz",
+        "di": "Pira"
+    },
+    "020112": {
+        "d": "Áncash",
+        "p": "Huaraz",
+        "di": "Tarica"
+    },
+    "020201": {
+        "d": "Áncash",
+        "p": "Aija",
+        "di": "Aija"
+    },
+    "020202": {
+        "d": "Áncash",
+        "p": "Aija",
+        "di": "Coris"
+    },
+    "020203": {
+        "d": "Áncash",
+        "p": "Aija",
+        "di": "Huacllan"
+    },
+    "020204": {
+        "d": "Áncash",
+        "p": "Aija",
+        "di": "La Merced"
+    },
+    "020205": {
+        "d": "Áncash",
+        "p": "Aija",
+        "di": "Succha"
+    },
+    "020301": {
+        "d": "Áncash",
+        "p": "Antonio Raymondi",
+        "di": "Llamellin"
+    },
+    "020302": {
+        "d": "Áncash",
+        "p": "Antonio Raymondi",
+        "di": "Aczo"
+    },
+    "020303": {
+        "d": "Áncash",
+        "p": "Antonio Raymondi",
+        "di": "Chaccho"
+    },
+    "020304": {
+        "d": "Áncash",
+        "p": "Antonio Raymondi",
+        "di": "Chingas"
+    },
+    "020305": {
+        "d": "Áncash",
+        "p": "Antonio Raymondi",
+        "di": "Mirgas"
+    },
+    "020306": {
+        "d": "Áncash",
+        "p": "Antonio Raymondi",
+        "di": "San Juan de Rontoy"
+    },
+    "020401": {
+        "d": "Áncash",
+        "p": "Asunción",
+        "di": "Chacas"
+    },
+    "020402": {
+        "d": "Áncash",
+        "p": "Asunción",
+        "di": "Acochaca"
+    },
+    "020501": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "Chiquian"
+    },
+    "020502": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "Abelardo Pardo Lezameta"
+    },
+    "020503": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "Antonio Raymondi"
+    },
+    "020504": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "Aquia"
+    },
+    "020505": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "Cajacay"
+    },
+    "020506": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "Canis"
+    },
+    "020507": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "Colquioc"
+    },
+    "020508": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "Huallanca"
+    },
+    "020509": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "Huasta"
+    },
+    "020510": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "Huayllacayan"
+    },
+    "020511": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "La Primavera"
+    },
+    "020512": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "Mangas"
+    },
+    "020513": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "Pacllon"
+    },
+    "020514": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "San Miguel de Corpanqui"
+    },
+    "020515": {
+        "d": "Áncash",
+        "p": "Bolognesi",
+        "di": "Ticllos"
+    },
+    "020601": {
+        "d": "Áncash",
+        "p": "Carhuaz",
+        "di": "Carhuaz"
+    },
+    "020602": {
+        "d": "Áncash",
+        "p": "Carhuaz",
+        "di": "Acopampa"
+    },
+    "020603": {
+        "d": "Áncash",
+        "p": "Carhuaz",
+        "di": "Amashca"
+    },
+    "020604": {
+        "d": "Áncash",
+        "p": "Carhuaz",
+        "di": "Anta"
+    },
+    "020605": {
+        "d": "Áncash",
+        "p": "Carhuaz",
+        "di": "Ataquero"
+    },
+    "020606": {
+        "d": "Áncash",
+        "p": "Carhuaz",
+        "di": "Marcara"
+    },
+    "020607": {
+        "d": "Áncash",
+        "p": "Carhuaz",
+        "di": "Pariahuanca"
+    },
+    "020608": {
+        "d": "Áncash",
+        "p": "Carhuaz",
+        "di": "San Miguel de Aco"
+    },
+    "020609": {
+        "d": "Áncash",
+        "p": "Carhuaz",
+        "di": "Shilla"
+    },
+    "020610": {
+        "d": "Áncash",
+        "p": "Carhuaz",
+        "di": "Tinco"
+    },
+    "020611": {
+        "d": "Áncash",
+        "p": "Carhuaz",
+        "di": "Yungar"
+    },
+    "020701": {
+        "d": "Áncash",
+        "p": "Carlos Fermín Fitzcarrald",
+        "di": "San Luis"
+    },
+    "020702": {
+        "d": "Áncash",
+        "p": "Carlos Fermín Fitzcarrald",
+        "di": "San Nicolás"
+    },
+    "020703": {
+        "d": "Áncash",
+        "p": "Carlos Fermín Fitzcarrald",
+        "di": "Yauya"
+    },
+    "020801": {
+        "d": "Áncash",
+        "p": "Casma",
+        "di": "Casma"
+    },
+    "020802": {
+        "d": "Áncash",
+        "p": "Casma",
+        "di": "Buena Vista Alta"
+    },
+    "020803": {
+        "d": "Áncash",
+        "p": "Casma",
+        "di": "Comandante Noel"
+    },
+    "020804": {
+        "d": "Áncash",
+        "p": "Casma",
+        "di": "Yautan"
+    },
+    "020901": {
+        "d": "Áncash",
+        "p": "Corongo",
+        "di": "Corongo"
+    },
+    "020902": {
+        "d": "Áncash",
+        "p": "Corongo",
+        "di": "Aco"
+    },
+    "020903": {
+        "d": "Áncash",
+        "p": "Corongo",
+        "di": "Bambas"
+    },
+    "020904": {
+        "d": "Áncash",
+        "p": "Corongo",
+        "di": "Cusca"
+    },
+    "020905": {
+        "d": "Áncash",
+        "p": "Corongo",
+        "di": "La Pampa"
+    },
+    "020906": {
+        "d": "Áncash",
+        "p": "Corongo",
+        "di": "Yanac"
+    },
+    "020907": {
+        "d": "Áncash",
+        "p": "Corongo",
+        "di": "Yupan"
+    },
+    "021001": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Huari"
+    },
+    "021002": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Anra"
+    },
+    "021003": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Cajay"
+    },
+    "021004": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Chavin de Huantar"
+    },
+    "021005": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Huacachi"
+    },
+    "021006": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Huacchis"
+    },
+    "021007": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Huachis"
+    },
+    "021008": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Huantar"
+    },
+    "021009": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Masin"
+    },
+    "021010": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Paucas"
+    },
+    "021011": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Ponto"
+    },
+    "021012": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Rahuapampa"
+    },
+    "021013": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Rapayan"
+    },
+    "021014": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "San Marcos"
+    },
+    "021015": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "San Pedro de Chana"
+    },
+    "021016": {
+        "d": "Áncash",
+        "p": "Huari",
+        "di": "Uco"
+    },
+    "021101": {
+        "d": "Áncash",
+        "p": "Huarmey",
+        "di": "Huarmey"
+    },
+    "021102": {
+        "d": "Áncash",
+        "p": "Huarmey",
+        "di": "Cochapeti"
+    },
+    "021103": {
+        "d": "Áncash",
+        "p": "Huarmey",
+        "di": "Culebras"
+    },
+    "021104": {
+        "d": "Áncash",
+        "p": "Huarmey",
+        "di": "Huayan"
+    },
+    "021105": {
+        "d": "Áncash",
+        "p": "Huarmey",
+        "di": "Malvas"
+    },
+    "021201": {
+        "d": "Áncash",
+        "p": "Huaylas",
+        "di": "Caraz"
+    },
+    "021202": {
+        "d": "Áncash",
+        "p": "Huaylas",
+        "di": "Huallanca"
+    },
+    "021203": {
+        "d": "Áncash",
+        "p": "Huaylas",
+        "di": "Huata"
+    },
+    "021204": {
+        "d": "Áncash",
+        "p": "Huaylas",
+        "di": "Huaylas"
+    },
+    "021205": {
+        "d": "Áncash",
+        "p": "Huaylas",
+        "di": "Mato"
+    },
+    "021206": {
+        "d": "Áncash",
+        "p": "Huaylas",
+        "di": "Pamparomas"
+    },
+    "021207": {
+        "d": "Áncash",
+        "p": "Huaylas",
+        "di": "Pueblo Libre"
+    },
+    "021208": {
+        "d": "Áncash",
+        "p": "Huaylas",
+        "di": "Santa Cruz"
+    },
+    "021209": {
+        "d": "Áncash",
+        "p": "Huaylas",
+        "di": "Santo Toribio"
+    },
+    "021210": {
+        "d": "Áncash",
+        "p": "Huaylas",
+        "di": "Yuracmarca"
+    },
+    "021301": {
+        "d": "Áncash",
+        "p": "Mariscal Luzuriaga",
+        "di": "Piscobamba"
+    },
+    "021302": {
+        "d": "Áncash",
+        "p": "Mariscal Luzuriaga",
+        "di": "Casca"
+    },
+    "021303": {
+        "d": "Áncash",
+        "p": "Mariscal Luzuriaga",
+        "di": "Eleazar Guzmán Barron"
+    },
+    "021304": {
+        "d": "Áncash",
+        "p": "Mariscal Luzuriaga",
+        "di": "Fidel Olivas Escudero"
+    },
+    "021305": {
+        "d": "Áncash",
+        "p": "Mariscal Luzuriaga",
+        "di": "Llama"
+    },
+    "021306": {
+        "d": "Áncash",
+        "p": "Mariscal Luzuriaga",
+        "di": "Llumpa"
+    },
+    "021307": {
+        "d": "Áncash",
+        "p": "Mariscal Luzuriaga",
+        "di": "Lucma"
+    },
+    "021308": {
+        "d": "Áncash",
+        "p": "Mariscal Luzuriaga",
+        "di": "Musga"
+    },
+    "021401": {
+        "d": "Áncash",
+        "p": "Ocros",
+        "di": "Ocros"
+    },
+    "021402": {
+        "d": "Áncash",
+        "p": "Ocros",
+        "di": "Acas"
+    },
+    "021403": {
+        "d": "Áncash",
+        "p": "Ocros",
+        "di": "Cajamarquilla"
+    },
+    "021404": {
+        "d": "Áncash",
+        "p": "Ocros",
+        "di": "Carhuapampa"
+    },
+    "021405": {
+        "d": "Áncash",
+        "p": "Ocros",
+        "di": "Cochas"
+    },
+    "021406": {
+        "d": "Áncash",
+        "p": "Ocros",
+        "di": "Congas"
+    },
+    "021407": {
+        "d": "Áncash",
+        "p": "Ocros",
+        "di": "Llipa"
+    },
+    "021408": {
+        "d": "Áncash",
+        "p": "Ocros",
+        "di": "San Cristóbal de Rajan"
+    },
+    "021409": {
+        "d": "Áncash",
+        "p": "Ocros",
+        "di": "San Pedro"
+    },
+    "021410": {
+        "d": "Áncash",
+        "p": "Ocros",
+        "di": "Santiago de Chilcas"
+    },
+    "021501": {
+        "d": "Áncash",
+        "p": "Pallasca",
+        "di": "Cabana"
+    },
+    "021502": {
+        "d": "Áncash",
+        "p": "Pallasca",
+        "di": "Bolognesi"
+    },
+    "021503": {
+        "d": "Áncash",
+        "p": "Pallasca",
+        "di": "Conchucos"
+    },
+    "021504": {
+        "d": "Áncash",
+        "p": "Pallasca",
+        "di": "Huacaschuque"
+    },
+    "021505": {
+        "d": "Áncash",
+        "p": "Pallasca",
+        "di": "Huandoval"
+    },
+    "021506": {
+        "d": "Áncash",
+        "p": "Pallasca",
+        "di": "Lacabamba"
+    },
+    "021507": {
+        "d": "Áncash",
+        "p": "Pallasca",
+        "di": "Llapo"
+    },
+    "021508": {
+        "d": "Áncash",
+        "p": "Pallasca",
+        "di": "Pallasca"
+    },
+    "021509": {
+        "d": "Áncash",
+        "p": "Pallasca",
+        "di": "Pampas"
+    },
+    "021510": {
+        "d": "Áncash",
+        "p": "Pallasca",
+        "di": "Santa Rosa"
+    },
+    "021511": {
+        "d": "Áncash",
+        "p": "Pallasca",
+        "di": "Tauca"
+    },
+    "021601": {
+        "d": "Áncash",
+        "p": "Pomabamba",
+        "di": "Pomabamba"
+    },
+    "021602": {
+        "d": "Áncash",
+        "p": "Pomabamba",
+        "di": "Huayllan"
+    },
+    "021603": {
+        "d": "Áncash",
+        "p": "Pomabamba",
+        "di": "Parobamba"
+    },
+    "021604": {
+        "d": "Áncash",
+        "p": "Pomabamba",
+        "di": "Quinuabamba"
+    },
+    "021701": {
+        "d": "Áncash",
+        "p": "Recuay",
+        "di": "Recuay"
+    },
+    "021702": {
+        "d": "Áncash",
+        "p": "Recuay",
+        "di": "Catac"
+    },
+    "021703": {
+        "d": "Áncash",
+        "p": "Recuay",
+        "di": "Cotaparaco"
+    },
+    "021704": {
+        "d": "Áncash",
+        "p": "Recuay",
+        "di": "Huayllapampa"
+    },
+    "021705": {
+        "d": "Áncash",
+        "p": "Recuay",
+        "di": "Llacllin"
+    },
+    "021706": {
+        "d": "Áncash",
+        "p": "Recuay",
+        "di": "Marca"
+    },
+    "021707": {
+        "d": "Áncash",
+        "p": "Recuay",
+        "di": "Pampas Chico"
+    },
+    "021708": {
+        "d": "Áncash",
+        "p": "Recuay",
+        "di": "Pararin"
+    },
+    "021709": {
+        "d": "Áncash",
+        "p": "Recuay",
+        "di": "Tapacocha"
+    },
+    "021710": {
+        "d": "Áncash",
+        "p": "Recuay",
+        "di": "Ticapampa"
+    },
+    "021801": {
+        "d": "Áncash",
+        "p": "Santa",
+        "di": "Chimbote"
+    },
+    "021802": {
+        "d": "Áncash",
+        "p": "Santa",
+        "di": "Cáceres del Perú"
+    },
+    "021803": {
+        "d": "Áncash",
+        "p": "Santa",
+        "di": "Coishco"
+    },
+    "021804": {
+        "d": "Áncash",
+        "p": "Santa",
+        "di": "Macate"
+    },
+    "021805": {
+        "d": "Áncash",
+        "p": "Santa",
+        "di": "Moro"
+    },
+    "021806": {
+        "d": "Áncash",
+        "p": "Santa",
+        "di": "Nepeña"
+    },
+    "021807": {
+        "d": "Áncash",
+        "p": "Santa",
+        "di": "Samanco"
+    },
+    "021808": {
+        "d": "Áncash",
+        "p": "Santa",
+        "di": "Santa"
+    },
+    "021809": {
+        "d": "Áncash",
+        "p": "Santa",
+        "di": "Nuevo Chimbote"
+    },
+    "021901": {
+        "d": "Áncash",
+        "p": "Sihuas",
+        "di": "Sihuas"
+    },
+    "021902": {
+        "d": "Áncash",
+        "p": "Sihuas",
+        "di": "Acobamba"
+    },
+    "021903": {
+        "d": "Áncash",
+        "p": "Sihuas",
+        "di": "Alfonso Ugarte"
+    },
+    "021904": {
+        "d": "Áncash",
+        "p": "Sihuas",
+        "di": "Cashapampa"
+    },
+    "021905": {
+        "d": "Áncash",
+        "p": "Sihuas",
+        "di": "Chingalpo"
+    },
+    "021906": {
+        "d": "Áncash",
+        "p": "Sihuas",
+        "di": "Huayllabamba"
+    },
+    "021907": {
+        "d": "Áncash",
+        "p": "Sihuas",
+        "di": "Quiches"
+    },
+    "021908": {
+        "d": "Áncash",
+        "p": "Sihuas",
+        "di": "Ragash"
+    },
+    "021909": {
+        "d": "Áncash",
+        "p": "Sihuas",
+        "di": "San Juan"
+    },
+    "021910": {
+        "d": "Áncash",
+        "p": "Sihuas",
+        "di": "Sicsibamba"
+    },
+    "022001": {
+        "d": "Áncash",
+        "p": "Yungay",
+        "di": "Yungay"
+    },
+    "022002": {
+        "d": "Áncash",
+        "p": "Yungay",
+        "di": "Cascapara"
+    },
+    "022003": {
+        "d": "Áncash",
+        "p": "Yungay",
+        "di": "Mancos"
+    },
+    "022004": {
+        "d": "Áncash",
+        "p": "Yungay",
+        "di": "Matacoto"
+    },
+    "022005": {
+        "d": "Áncash",
+        "p": "Yungay",
+        "di": "Quillo"
+    },
+    "022006": {
+        "d": "Áncash",
+        "p": "Yungay",
+        "di": "Ranrahirca"
+    },
+    "022007": {
+        "d": "Áncash",
+        "p": "Yungay",
+        "di": "Shupluy"
+    },
+    "022008": {
+        "d": "Áncash",
+        "p": "Yungay",
+        "di": "Yanama"
+    },
+    "030101": {
+        "d": "Apurímac",
+        "p": "Abancay",
+        "di": "Abancay"
+    },
+    "030102": {
+        "d": "Apurímac",
+        "p": "Abancay",
+        "di": "Chacoche"
+    },
+    "030103": {
+        "d": "Apurímac",
+        "p": "Abancay",
+        "di": "Circa"
+    },
+    "030104": {
+        "d": "Apurímac",
+        "p": "Abancay",
+        "di": "Curahuasi"
+    },
+    "030105": {
+        "d": "Apurímac",
+        "p": "Abancay",
+        "di": "Huanipaca"
+    },
+    "030106": {
+        "d": "Apurímac",
+        "p": "Abancay",
+        "di": "Lambrama"
+    },
+    "030107": {
+        "d": "Apurímac",
+        "p": "Abancay",
+        "di": "Pichirhua"
+    },
+    "030108": {
+        "d": "Apurímac",
+        "p": "Abancay",
+        "di": "San Pedro de Cachora"
+    },
+    "030109": {
+        "d": "Apurímac",
+        "p": "Abancay",
+        "di": "Tamburco"
+    },
+    "030201": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Andahuaylas"
+    },
+    "030202": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Andarapa"
+    },
+    "030203": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Chiara"
+    },
+    "030204": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Huancarama"
+    },
+    "030205": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Huancaray"
+    },
+    "030206": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Huayana"
+    },
+    "030207": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Kishuara"
+    },
+    "030208": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Pacobamba"
+    },
+    "030209": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Pacucha"
+    },
+    "030210": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Pampachiri"
+    },
+    "030211": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Pomacocha"
+    },
+    "030212": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "San Antonio de Cachi"
+    },
+    "030213": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "San Jerónimo"
+    },
+    "030214": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "San Miguel de Chaccrampa"
+    },
+    "030215": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Santa María de Chicmo"
+    },
+    "030216": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Talavera"
+    },
+    "030217": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Tumay Huaraca"
+    },
+    "030218": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Turpo"
+    },
+    "030219": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "Kaquiabamba"
+    },
+    "030220": {
+        "d": "Apurímac",
+        "p": "Andahuaylas",
+        "di": "José María Arguedas"
+    },
+    "030301": {
+        "d": "Apurímac",
+        "p": "Antabamba",
+        "di": "Antabamba"
+    },
+    "030302": {
+        "d": "Apurímac",
+        "p": "Antabamba",
+        "di": "El Oro"
+    },
+    "030303": {
+        "d": "Apurímac",
+        "p": "Antabamba",
+        "di": "Huaquirca"
+    },
+    "030304": {
+        "d": "Apurímac",
+        "p": "Antabamba",
+        "di": "Juan Espinoza Medrano"
+    },
+    "030305": {
+        "d": "Apurímac",
+        "p": "Antabamba",
+        "di": "Oropesa"
+    },
+    "030306": {
+        "d": "Apurímac",
+        "p": "Antabamba",
+        "di": "Pachaconas"
+    },
+    "030307": {
+        "d": "Apurímac",
+        "p": "Antabamba",
+        "di": "Sabaino"
+    },
+    "030401": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Chalhuanca"
+    },
+    "030402": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Capaya"
+    },
+    "030403": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Caraybamba"
+    },
+    "030404": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Chapimarca"
+    },
+    "030405": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Colcabamba"
+    },
+    "030406": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Cotaruse"
+    },
+    "030407": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Ihuayllo"
+    },
+    "030408": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Justo Apu Sahuaraura"
+    },
+    "030409": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Lucre"
+    },
+    "030410": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Pocohuanca"
+    },
+    "030411": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "San Juan de Chacña"
+    },
+    "030412": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Sañayca"
+    },
+    "030413": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Soraya"
+    },
+    "030414": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Tapairihua"
+    },
+    "030415": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Tintay"
+    },
+    "030416": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Toraya"
+    },
+    "030417": {
+        "d": "Apurímac",
+        "p": "Aymaraes",
+        "di": "Yanaca"
+    },
+    "030501": {
+        "d": "Apurímac",
+        "p": "Cotabambas",
+        "di": "Tambobamba"
+    },
+    "030502": {
+        "d": "Apurímac",
+        "p": "Cotabambas",
+        "di": "Cotabambas"
+    },
+    "030503": {
+        "d": "Apurímac",
+        "p": "Cotabambas",
+        "di": "Coyllurqui"
+    },
+    "030504": {
+        "d": "Apurímac",
+        "p": "Cotabambas",
+        "di": "Haquira"
+    },
+    "030505": {
+        "d": "Apurímac",
+        "p": "Cotabambas",
+        "di": "Mara"
+    },
+    "030506": {
+        "d": "Apurímac",
+        "p": "Cotabambas",
+        "di": "Challhuahuacho"
+    },
+    "030601": {
+        "d": "Apurímac",
+        "p": "Chincheros",
+        "di": "Chincheros"
+    },
+    "030602": {
+        "d": "Apurímac",
+        "p": "Chincheros",
+        "di": "Anco_Huallo"
+    },
+    "030603": {
+        "d": "Apurímac",
+        "p": "Chincheros",
+        "di": "Cocharcas"
+    },
+    "030604": {
+        "d": "Apurímac",
+        "p": "Chincheros",
+        "di": "Huaccana"
+    },
+    "030605": {
+        "d": "Apurímac",
+        "p": "Chincheros",
+        "di": "Ocobamba"
+    },
+    "030606": {
+        "d": "Apurímac",
+        "p": "Chincheros",
+        "di": "Ongoy"
+    },
+    "030607": {
+        "d": "Apurímac",
+        "p": "Chincheros",
+        "di": "Uranmarca"
+    },
+    "030608": {
+        "d": "Apurímac",
+        "p": "Chincheros",
+        "di": "Ranracancha"
+    },
+    "030609": {
+        "d": "Apurímac",
+        "p": "Chincheros",
+        "di": "Rocchacc"
+    },
+    "030610": {
+        "d": "Apurímac",
+        "p": "Chincheros",
+        "di": "El Porvenir"
+    },
+    "030611": {
+        "d": "Apurímac",
+        "p": "Chincheros",
+        "di": "Los Chankas"
+    },
+    "030701": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "Chuquibambilla"
+    },
+    "030702": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "Curpahuasi"
+    },
+    "030703": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "Gamarra"
+    },
+    "030704": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "Huayllati"
+    },
+    "030705": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "Mamara"
+    },
+    "030706": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "Micaela Bastidas"
+    },
+    "030707": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "Pataypampa"
+    },
+    "030708": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "Progreso"
+    },
+    "030709": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "San Antonio"
+    },
+    "030710": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "Santa Rosa"
+    },
+    "030711": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "Turpay"
+    },
+    "030712": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "Vilcabamba"
+    },
+    "030713": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "Virundo"
+    },
+    "030714": {
+        "d": "Apurímac",
+        "p": "Grau",
+        "di": "Curasco"
+    },
+    "040101": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Arequipa"
+    },
+    "040102": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Alto Selva Alegre"
+    },
+    "040103": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Cayma"
+    },
+    "040104": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Cerro Colorado"
+    },
+    "040105": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Characato"
+    },
+    "040106": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Chiguata"
+    },
+    "040107": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Jacobo Hunter"
+    },
+    "040108": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "La Joya"
+    },
+    "040109": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Mariano Melgar"
+    },
+    "040110": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Miraflores"
+    },
+    "040111": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Mollebaya"
+    },
+    "040112": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Paucarpata"
+    },
+    "040113": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Pocsi"
+    },
+    "040114": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Polobaya"
+    },
+    "040115": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Quequeña"
+    },
+    "040116": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Sabandia"
+    },
+    "040117": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Sachaca"
+    },
+    "040118": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "San Juan de Siguas"
+    },
+    "040119": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "San Juan de Tarucani"
+    },
+    "040120": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Santa Isabel de Siguas"
+    },
+    "040121": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Santa Rita de Siguas"
+    },
+    "040122": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Socabaya"
+    },
+    "040123": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Tiabaya"
+    },
+    "040124": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Uchumayo"
+    },
+    "040125": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Vitor"
+    },
+    "040126": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Yanahuara"
+    },
+    "040127": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Yarabamba"
+    },
+    "040128": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "Yura"
+    },
+    "040129": {
+        "d": "Arequipa",
+        "p": "Arequipa",
+        "di": "José Luis Bustamante Y Rivero"
+    },
+    "040201": {
+        "d": "Arequipa",
+        "p": "Camaná",
+        "di": "Camaná"
+    },
+    "040202": {
+        "d": "Arequipa",
+        "p": "Camaná",
+        "di": "José María Quimper"
+    },
+    "040203": {
+        "d": "Arequipa",
+        "p": "Camaná",
+        "di": "Mariano Nicolás Valcárcel"
+    },
+    "040204": {
+        "d": "Arequipa",
+        "p": "Camaná",
+        "di": "Mariscal Cáceres"
+    },
+    "040205": {
+        "d": "Arequipa",
+        "p": "Camaná",
+        "di": "Nicolás de Pierola"
+    },
+    "040206": {
+        "d": "Arequipa",
+        "p": "Camaná",
+        "di": "Ocoña"
+    },
+    "040207": {
+        "d": "Arequipa",
+        "p": "Camaná",
+        "di": "Quilca"
+    },
+    "040208": {
+        "d": "Arequipa",
+        "p": "Camaná",
+        "di": "Samuel Pastor"
+    },
+    "040301": {
+        "d": "Arequipa",
+        "p": "Caravelí",
+        "di": "Caravelí"
+    },
+    "040302": {
+        "d": "Arequipa",
+        "p": "Caravelí",
+        "di": "Acarí"
+    },
+    "040303": {
+        "d": "Arequipa",
+        "p": "Caravelí",
+        "di": "Atico"
+    },
+    "040304": {
+        "d": "Arequipa",
+        "p": "Caravelí",
+        "di": "Atiquipa"
+    },
+    "040305": {
+        "d": "Arequipa",
+        "p": "Caravelí",
+        "di": "Bella Unión"
+    },
+    "040306": {
+        "d": "Arequipa",
+        "p": "Caravelí",
+        "di": "Cahuacho"
+    },
+    "040307": {
+        "d": "Arequipa",
+        "p": "Caravelí",
+        "di": "Chala"
+    },
+    "040308": {
+        "d": "Arequipa",
+        "p": "Caravelí",
+        "di": "Chaparra"
+    },
+    "040309": {
+        "d": "Arequipa",
+        "p": "Caravelí",
+        "di": "Huanuhuanu"
+    },
+    "040310": {
+        "d": "Arequipa",
+        "p": "Caravelí",
+        "di": "Jaqui"
+    },
+    "040311": {
+        "d": "Arequipa",
+        "p": "Caravelí",
+        "di": "Lomas"
+    },
+    "040312": {
+        "d": "Arequipa",
+        "p": "Caravelí",
+        "di": "Quicacha"
+    },
+    "040313": {
+        "d": "Arequipa",
+        "p": "Caravelí",
+        "di": "Yauca"
+    },
+    "040401": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Aplao"
+    },
+    "040402": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Andagua"
+    },
+    "040403": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Ayo"
+    },
+    "040404": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Chachas"
+    },
+    "040405": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Chilcaymarca"
+    },
+    "040406": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Choco"
+    },
+    "040407": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Huancarqui"
+    },
+    "040408": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Machaguay"
+    },
+    "040409": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Orcopampa"
+    },
+    "040410": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Pampacolca"
+    },
+    "040411": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Tipan"
+    },
+    "040412": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Uñon"
+    },
+    "040413": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Uraca"
+    },
+    "040414": {
+        "d": "Arequipa",
+        "p": "Castilla",
+        "di": "Viraco"
+    },
+    "040501": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Chivay"
+    },
+    "040502": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Achoma"
+    },
+    "040503": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Cabanaconde"
+    },
+    "040504": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Callalli"
+    },
+    "040505": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Caylloma"
+    },
+    "040506": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Coporaque"
+    },
+    "040507": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Huambo"
+    },
+    "040508": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Huanca"
+    },
+    "040509": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Ichupampa"
+    },
+    "040510": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Lari"
+    },
+    "040511": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Lluta"
+    },
+    "040512": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Maca"
+    },
+    "040513": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Madrigal"
+    },
+    "040514": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "San Antonio de Chuca"
+    },
+    "040515": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Sibayo"
+    },
+    "040516": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Tapay"
+    },
+    "040517": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Tisco"
+    },
+    "040518": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Tuti"
+    },
+    "040519": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Yanque"
+    },
+    "040520": {
+        "d": "Arequipa",
+        "p": "Caylloma",
+        "di": "Majes"
+    },
+    "040601": {
+        "d": "Arequipa",
+        "p": "Condesuyos",
+        "di": "Chuquibamba"
+    },
+    "040602": {
+        "d": "Arequipa",
+        "p": "Condesuyos",
+        "di": "Andaray"
+    },
+    "040603": {
+        "d": "Arequipa",
+        "p": "Condesuyos",
+        "di": "Cayarani"
+    },
+    "040604": {
+        "d": "Arequipa",
+        "p": "Condesuyos",
+        "di": "Chichas"
+    },
+    "040605": {
+        "d": "Arequipa",
+        "p": "Condesuyos",
+        "di": "Iray"
+    },
+    "040606": {
+        "d": "Arequipa",
+        "p": "Condesuyos",
+        "di": "Río Grande"
+    },
+    "040607": {
+        "d": "Arequipa",
+        "p": "Condesuyos",
+        "di": "Salamanca"
+    },
+    "040608": {
+        "d": "Arequipa",
+        "p": "Condesuyos",
+        "di": "Yanaquihua"
+    },
+    "040701": {
+        "d": "Arequipa",
+        "p": "Islay",
+        "di": "Mollendo"
+    },
+    "040702": {
+        "d": "Arequipa",
+        "p": "Islay",
+        "di": "Cocachacra"
+    },
+    "040703": {
+        "d": "Arequipa",
+        "p": "Islay",
+        "di": "Dean Valdivia"
+    },
+    "040704": {
+        "d": "Arequipa",
+        "p": "Islay",
+        "di": "Islay"
+    },
+    "040705": {
+        "d": "Arequipa",
+        "p": "Islay",
+        "di": "Mejia"
+    },
+    "040706": {
+        "d": "Arequipa",
+        "p": "Islay",
+        "di": "Punta de Bombón"
+    },
+    "040801": {
+        "d": "Arequipa",
+        "p": "La Uniòn",
+        "di": "Cotahuasi"
+    },
+    "040802": {
+        "d": "Arequipa",
+        "p": "La Uniòn",
+        "di": "Alca"
+    },
+    "040803": {
+        "d": "Arequipa",
+        "p": "La Uniòn",
+        "di": "Charcana"
+    },
+    "040804": {
+        "d": "Arequipa",
+        "p": "La Uniòn",
+        "di": "Huaynacotas"
+    },
+    "040805": {
+        "d": "Arequipa",
+        "p": "La Uniòn",
+        "di": "Pampamarca"
+    },
+    "040806": {
+        "d": "Arequipa",
+        "p": "La Uniòn",
+        "di": "Puyca"
+    },
+    "040807": {
+        "d": "Arequipa",
+        "p": "La Uniòn",
+        "di": "Quechualla"
+    },
+    "040808": {
+        "d": "Arequipa",
+        "p": "La Uniòn",
+        "di": "Sayla"
+    },
+    "040809": {
+        "d": "Arequipa",
+        "p": "La Uniòn",
+        "di": "Tauria"
+    },
+    "040810": {
+        "d": "Arequipa",
+        "p": "La Uniòn",
+        "di": "Tomepampa"
+    },
+    "040811": {
+        "d": "Arequipa",
+        "p": "La Uniòn",
+        "di": "Toro"
+    },
+    "050101": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Ayacucho"
+    },
+    "050102": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Acocro"
+    },
+    "050103": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Acos Vinchos"
+    },
+    "050104": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Carmen Alto"
+    },
+    "050105": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Chiara"
+    },
+    "050106": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Ocros"
+    },
+    "050107": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Pacaycasa"
+    },
+    "050108": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Quinua"
+    },
+    "050109": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "San José de Ticllas"
+    },
+    "050110": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "San Juan Bautista"
+    },
+    "050111": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Santiago de Pischa"
+    },
+    "050112": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Socos"
+    },
+    "050113": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Tambillo"
+    },
+    "050114": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Vinchos"
+    },
+    "050115": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Jesús Nazareno"
+    },
+    "050116": {
+        "d": "Ayacucho",
+        "p": "Huamanga",
+        "di": "Andrés Avelino Cáceres Dorregaray"
+    },
+    "050201": {
+        "d": "Ayacucho",
+        "p": "Cangallo",
+        "di": "Cangallo"
+    },
+    "050202": {
+        "d": "Ayacucho",
+        "p": "Cangallo",
+        "di": "Chuschi"
+    },
+    "050203": {
+        "d": "Ayacucho",
+        "p": "Cangallo",
+        "di": "Los Morochucos"
+    },
+    "050204": {
+        "d": "Ayacucho",
+        "p": "Cangallo",
+        "di": "María Parado de Bellido"
+    },
+    "050205": {
+        "d": "Ayacucho",
+        "p": "Cangallo",
+        "di": "Paras"
+    },
+    "050206": {
+        "d": "Ayacucho",
+        "p": "Cangallo",
+        "di": "Totos"
+    },
+    "050301": {
+        "d": "Ayacucho",
+        "p": "Huanca Sancos",
+        "di": "Sancos"
+    },
+    "050302": {
+        "d": "Ayacucho",
+        "p": "Huanca Sancos",
+        "di": "Carapo"
+    },
+    "050303": {
+        "d": "Ayacucho",
+        "p": "Huanca Sancos",
+        "di": "Sacsamarca"
+    },
+    "050304": {
+        "d": "Ayacucho",
+        "p": "Huanca Sancos",
+        "di": "Santiago de Lucanamarca"
+    },
+    "050401": {
+        "d": "Ayacucho",
+        "p": "Huanta",
+        "di": "Huanta"
+    },
+    "050402": {
+        "d": "Ayacucho",
+        "p": "Huanta",
+        "di": "Ayahuanco"
+    },
+    "050403": {
+        "d": "Ayacucho",
+        "p": "Huanta",
+        "di": "Huamanguilla"
+    },
+    "050404": {
+        "d": "Ayacucho",
+        "p": "Huanta",
+        "di": "Iguain"
+    },
+    "050405": {
+        "d": "Ayacucho",
+        "p": "Huanta",
+        "di": "Luricocha"
+    },
+    "050406": {
+        "d": "Ayacucho",
+        "p": "Huanta",
+        "di": "Santillana"
+    },
+    "050407": {
+        "d": "Ayacucho",
+        "p": "Huanta",
+        "di": "Sivia"
+    },
+    "050408": {
+        "d": "Ayacucho",
+        "p": "Huanta",
+        "di": "Llochegua"
+    },
+    "050409": {
+        "d": "Ayacucho",
+        "p": "Huanta",
+        "di": "Canayre"
+    },
+    "050410": {
+        "d": "Ayacucho",
+        "p": "Huanta",
+        "di": "Uchuraccay"
+    },
+    "050411": {
+        "d": "Ayacucho",
+        "p": "Huanta",
+        "di": "Pucacolpa"
+    },
+    "050412": {
+        "d": "Ayacucho",
+        "p": "Huanta",
+        "di": "Chaca"
+    },
+    "050501": {
+        "d": "Ayacucho",
+        "p": "La Mar",
+        "di": "San Miguel"
+    },
+    "050502": {
+        "d": "Ayacucho",
+        "p": "La Mar",
+        "di": "Anco"
+    },
+    "050503": {
+        "d": "Ayacucho",
+        "p": "La Mar",
+        "di": "Ayna"
+    },
+    "050504": {
+        "d": "Ayacucho",
+        "p": "La Mar",
+        "di": "Chilcas"
+    },
+    "050505": {
+        "d": "Ayacucho",
+        "p": "La Mar",
+        "di": "Chungui"
+    },
+    "050506": {
+        "d": "Ayacucho",
+        "p": "La Mar",
+        "di": "Luis Carranza"
+    },
+    "050507": {
+        "d": "Ayacucho",
+        "p": "La Mar",
+        "di": "Santa Rosa"
+    },
+    "050508": {
+        "d": "Ayacucho",
+        "p": "La Mar",
+        "di": "Tambo"
+    },
+    "050509": {
+        "d": "Ayacucho",
+        "p": "La Mar",
+        "di": "Samugari"
+    },
+    "050510": {
+        "d": "Ayacucho",
+        "p": "La Mar",
+        "di": "Anchihuay"
+    },
+    "050511": {
+        "d": "Ayacucho",
+        "p": "La Mar",
+        "di": "Oronccoy"
+    },
+    "050601": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Puquio"
+    },
+    "050602": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Aucara"
+    },
+    "050603": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Cabana"
+    },
+    "050604": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Carmen Salcedo"
+    },
+    "050605": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Chaviña"
+    },
+    "050606": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Chipao"
+    },
+    "050607": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Huac-Huas"
+    },
+    "050608": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Laramate"
+    },
+    "050609": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Leoncio Prado"
+    },
+    "050610": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Llauta"
+    },
+    "050611": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Lucanas"
+    },
+    "050612": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Ocaña"
+    },
+    "050613": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Otoca"
+    },
+    "050614": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Saisa"
+    },
+    "050615": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "San Cristóbal"
+    },
+    "050616": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "San Juan"
+    },
+    "050617": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "San Pedro"
+    },
+    "050618": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "San Pedro de Palco"
+    },
+    "050619": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Sancos"
+    },
+    "050620": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Santa Ana de Huaycahuacho"
+    },
+    "050621": {
+        "d": "Ayacucho",
+        "p": "Lucanas",
+        "di": "Santa Lucia"
+    },
+    "050701": {
+        "d": "Ayacucho",
+        "p": "Parinacochas",
+        "di": "Coracora"
+    },
+    "050702": {
+        "d": "Ayacucho",
+        "p": "Parinacochas",
+        "di": "Chumpi"
+    },
+    "050703": {
+        "d": "Ayacucho",
+        "p": "Parinacochas",
+        "di": "Coronel Castañeda"
+    },
+    "050704": {
+        "d": "Ayacucho",
+        "p": "Parinacochas",
+        "di": "Pacapausa"
+    },
+    "050705": {
+        "d": "Ayacucho",
+        "p": "Parinacochas",
+        "di": "Pullo"
+    },
+    "050706": {
+        "d": "Ayacucho",
+        "p": "Parinacochas",
+        "di": "Puyusca"
+    },
+    "050707": {
+        "d": "Ayacucho",
+        "p": "Parinacochas",
+        "di": "San Francisco de Ravacayco"
+    },
+    "050708": {
+        "d": "Ayacucho",
+        "p": "Parinacochas",
+        "di": "Upahuacho"
+    },
+    "050801": {
+        "d": "Ayacucho",
+        "p": "Pàucar del Sara Sara",
+        "di": "Pausa"
+    },
+    "050802": {
+        "d": "Ayacucho",
+        "p": "Pàucar del Sara Sara",
+        "di": "Colta"
+    },
+    "050803": {
+        "d": "Ayacucho",
+        "p": "Pàucar del Sara Sara",
+        "di": "Corculla"
+    },
+    "050804": {
+        "d": "Ayacucho",
+        "p": "Pàucar del Sara Sara",
+        "di": "Lampa"
+    },
+    "050805": {
+        "d": "Ayacucho",
+        "p": "Pàucar del Sara Sara",
+        "di": "Marcabamba"
+    },
+    "050806": {
+        "d": "Ayacucho",
+        "p": "Pàucar del Sara Sara",
+        "di": "Oyolo"
+    },
+    "050807": {
+        "d": "Ayacucho",
+        "p": "Pàucar del Sara Sara",
+        "di": "Pararca"
+    },
+    "050808": {
+        "d": "Ayacucho",
+        "p": "Pàucar del Sara Sara",
+        "di": "San Javier de Alpabamba"
+    },
+    "050809": {
+        "d": "Ayacucho",
+        "p": "Pàucar del Sara Sara",
+        "di": "San José de Ushua"
+    },
+    "050810": {
+        "d": "Ayacucho",
+        "p": "Pàucar del Sara Sara",
+        "di": "Sara Sara"
+    },
+    "050901": {
+        "d": "Ayacucho",
+        "p": "Sucre",
+        "di": "Querobamba"
+    },
+    "050902": {
+        "d": "Ayacucho",
+        "p": "Sucre",
+        "di": "Belén"
+    },
+    "050903": {
+        "d": "Ayacucho",
+        "p": "Sucre",
+        "di": "Chalcos"
+    },
+    "050904": {
+        "d": "Ayacucho",
+        "p": "Sucre",
+        "di": "Chilcayoc"
+    },
+    "050905": {
+        "d": "Ayacucho",
+        "p": "Sucre",
+        "di": "Huacaña"
+    },
+    "050906": {
+        "d": "Ayacucho",
+        "p": "Sucre",
+        "di": "Morcolla"
+    },
+    "050907": {
+        "d": "Ayacucho",
+        "p": "Sucre",
+        "di": "Paico"
+    },
+    "050908": {
+        "d": "Ayacucho",
+        "p": "Sucre",
+        "di": "San Pedro de Larcay"
+    },
+    "050909": {
+        "d": "Ayacucho",
+        "p": "Sucre",
+        "di": "San Salvador de Quije"
+    },
+    "050910": {
+        "d": "Ayacucho",
+        "p": "Sucre",
+        "di": "Santiago de Paucaray"
+    },
+    "050911": {
+        "d": "Ayacucho",
+        "p": "Sucre",
+        "di": "Soras"
+    },
+    "051001": {
+        "d": "Ayacucho",
+        "p": "Víctor Fajardo",
+        "di": "Huancapi"
+    },
+    "051002": {
+        "d": "Ayacucho",
+        "p": "Víctor Fajardo",
+        "di": "Alcamenca"
+    },
+    "051003": {
+        "d": "Ayacucho",
+        "p": "Víctor Fajardo",
+        "di": "Apongo"
+    },
+    "051004": {
+        "d": "Ayacucho",
+        "p": "Víctor Fajardo",
+        "di": "Asquipata"
+    },
+    "051005": {
+        "d": "Ayacucho",
+        "p": "Víctor Fajardo",
+        "di": "Canaria"
+    },
+    "051006": {
+        "d": "Ayacucho",
+        "p": "Víctor Fajardo",
+        "di": "Cayara"
+    },
+    "051007": {
+        "d": "Ayacucho",
+        "p": "Víctor Fajardo",
+        "di": "Colca"
+    },
+    "051008": {
+        "d": "Ayacucho",
+        "p": "Víctor Fajardo",
+        "di": "Huamanquiquia"
+    },
+    "051009": {
+        "d": "Ayacucho",
+        "p": "Víctor Fajardo",
+        "di": "Huancaraylla"
+    },
+    "051010": {
+        "d": "Ayacucho",
+        "p": "Víctor Fajardo",
+        "di": "Hualla"
+    },
+    "051011": {
+        "d": "Ayacucho",
+        "p": "Víctor Fajardo",
+        "di": "Sarhua"
+    },
+    "051012": {
+        "d": "Ayacucho",
+        "p": "Víctor Fajardo",
+        "di": "Vilcanchos"
+    },
+    "051101": {
+        "d": "Ayacucho",
+        "p": "Vilcas Huamán",
+        "di": "Vilcas Huaman"
+    },
+    "051102": {
+        "d": "Ayacucho",
+        "p": "Vilcas Huamán",
+        "di": "Accomarca"
+    },
+    "051103": {
+        "d": "Ayacucho",
+        "p": "Vilcas Huamán",
+        "di": "Carhuanca"
+    },
+    "051104": {
+        "d": "Ayacucho",
+        "p": "Vilcas Huamán",
+        "di": "Concepción"
+    },
+    "051105": {
+        "d": "Ayacucho",
+        "p": "Vilcas Huamán",
+        "di": "Huambalpa"
+    },
+    "051106": {
+        "d": "Ayacucho",
+        "p": "Vilcas Huamán",
+        "di": "Independencia"
+    },
+    "051107": {
+        "d": "Ayacucho",
+        "p": "Vilcas Huamán",
+        "di": "Saurama"
+    },
+    "051108": {
+        "d": "Ayacucho",
+        "p": "Vilcas Huamán",
+        "di": "Vischongo"
+    },
+    "060101": {
+        "d": "Cajamarca",
+        "p": "Cajamarca",
+        "di": "Cajamarca"
+    },
+    "060102": {
+        "d": "Cajamarca",
+        "p": "Cajamarca",
+        "di": "Asunción"
+    },
+    "060103": {
+        "d": "Cajamarca",
+        "p": "Cajamarca",
+        "di": "Chetilla"
+    },
+    "060104": {
+        "d": "Cajamarca",
+        "p": "Cajamarca",
+        "di": "Cospan"
+    },
+    "060105": {
+        "d": "Cajamarca",
+        "p": "Cajamarca",
+        "di": "Encañada"
+    },
+    "060106": {
+        "d": "Cajamarca",
+        "p": "Cajamarca",
+        "di": "Jesús"
+    },
+    "060107": {
+        "d": "Cajamarca",
+        "p": "Cajamarca",
+        "di": "Llacanora"
+    },
+    "060108": {
+        "d": "Cajamarca",
+        "p": "Cajamarca",
+        "di": "Los Baños del Inca"
+    },
+    "060109": {
+        "d": "Cajamarca",
+        "p": "Cajamarca",
+        "di": "Magdalena"
+    },
+    "060110": {
+        "d": "Cajamarca",
+        "p": "Cajamarca",
+        "di": "Matara"
+    },
+    "060111": {
+        "d": "Cajamarca",
+        "p": "Cajamarca",
+        "di": "Namora"
+    },
+    "060112": {
+        "d": "Cajamarca",
+        "p": "Cajamarca",
+        "di": "San Juan"
+    },
+    "060201": {
+        "d": "Cajamarca",
+        "p": "Cajabamba",
+        "di": "Cajabamba"
+    },
+    "060202": {
+        "d": "Cajamarca",
+        "p": "Cajabamba",
+        "di": "Cachachi"
+    },
+    "060203": {
+        "d": "Cajamarca",
+        "p": "Cajabamba",
+        "di": "Condebamba"
+    },
+    "060204": {
+        "d": "Cajamarca",
+        "p": "Cajabamba",
+        "di": "Sitacocha"
+    },
+    "060301": {
+        "d": "Cajamarca",
+        "p": "Celendín",
+        "di": "Celendín"
+    },
+    "060302": {
+        "d": "Cajamarca",
+        "p": "Celendín",
+        "di": "Chumuch"
+    },
+    "060303": {
+        "d": "Cajamarca",
+        "p": "Celendín",
+        "di": "Cortegana"
+    },
+    "060304": {
+        "d": "Cajamarca",
+        "p": "Celendín",
+        "di": "Huasmin"
+    },
+    "060305": {
+        "d": "Cajamarca",
+        "p": "Celendín",
+        "di": "Jorge Chávez"
+    },
+    "060306": {
+        "d": "Cajamarca",
+        "p": "Celendín",
+        "di": "José Gálvez"
+    },
+    "060307": {
+        "d": "Cajamarca",
+        "p": "Celendín",
+        "di": "Miguel Iglesias"
+    },
+    "060308": {
+        "d": "Cajamarca",
+        "p": "Celendín",
+        "di": "Oxamarca"
+    },
+    "060309": {
+        "d": "Cajamarca",
+        "p": "Celendín",
+        "di": "Sorochuco"
+    },
+    "060310": {
+        "d": "Cajamarca",
+        "p": "Celendín",
+        "di": "Sucre"
+    },
+    "060311": {
+        "d": "Cajamarca",
+        "p": "Celendín",
+        "di": "Utco"
+    },
+    "060312": {
+        "d": "Cajamarca",
+        "p": "Celendín",
+        "di": "La Libertad de Pallan"
+    },
+    "060401": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Chota"
+    },
+    "060402": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Anguia"
+    },
+    "060403": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Chadin"
+    },
+    "060404": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Chiguirip"
+    },
+    "060405": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Chimban"
+    },
+    "060406": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Choropampa"
+    },
+    "060407": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Cochabamba"
+    },
+    "060408": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Conchan"
+    },
+    "060409": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Huambos"
+    },
+    "060410": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Lajas"
+    },
+    "060411": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Llama"
+    },
+    "060412": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Miracosta"
+    },
+    "060413": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Paccha"
+    },
+    "060414": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Pion"
+    },
+    "060415": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Querocoto"
+    },
+    "060416": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "San Juan de Licupis"
+    },
+    "060417": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Tacabamba"
+    },
+    "060418": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Tocmoche"
+    },
+    "060419": {
+        "d": "Cajamarca",
+        "p": "Chota",
+        "di": "Chalamarca"
+    },
+    "060501": {
+        "d": "Cajamarca",
+        "p": "Contumazá",
+        "di": "Contumaza"
+    },
+    "060502": {
+        "d": "Cajamarca",
+        "p": "Contumazá",
+        "di": "Chilete"
+    },
+    "060503": {
+        "d": "Cajamarca",
+        "p": "Contumazá",
+        "di": "Cupisnique"
+    },
+    "060504": {
+        "d": "Cajamarca",
+        "p": "Contumazá",
+        "di": "Guzmango"
+    },
+    "060505": {
+        "d": "Cajamarca",
+        "p": "Contumazá",
+        "di": "San Benito"
+    },
+    "060506": {
+        "d": "Cajamarca",
+        "p": "Contumazá",
+        "di": "Santa Cruz de Toledo"
+    },
+    "060507": {
+        "d": "Cajamarca",
+        "p": "Contumazá",
+        "di": "Tantarica"
+    },
+    "060508": {
+        "d": "Cajamarca",
+        "p": "Contumazá",
+        "di": "Yonan"
+    },
+    "060601": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "Cutervo"
+    },
+    "060602": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "Callayuc"
+    },
+    "060603": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "Choros"
+    },
+    "060604": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "Cujillo"
+    },
+    "060605": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "La Ramada"
+    },
+    "060606": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "Pimpingos"
+    },
+    "060607": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "Querocotillo"
+    },
+    "060608": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "San Andrés de Cutervo"
+    },
+    "060609": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "San Juan de Cutervo"
+    },
+    "060610": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "San Luis de Lucma"
+    },
+    "060611": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "Santa Cruz"
+    },
+    "060612": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "Santo Domingo de la Capilla"
+    },
+    "060613": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "Santo Tomas"
+    },
+    "060614": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "Socota"
+    },
+    "060615": {
+        "d": "Cajamarca",
+        "p": "Cutervo",
+        "di": "Toribio Casanova"
+    },
+    "060701": {
+        "d": "Cajamarca",
+        "p": "Hualgayoc",
+        "di": "Bambamarca"
+    },
+    "060702": {
+        "d": "Cajamarca",
+        "p": "Hualgayoc",
+        "di": "Chugur"
+    },
+    "060703": {
+        "d": "Cajamarca",
+        "p": "Hualgayoc",
+        "di": "Hualgayoc"
+    },
+    "060801": {
+        "d": "Cajamarca",
+        "p": "Jaén",
+        "di": "Jaén"
+    },
+    "060802": {
+        "d": "Cajamarca",
+        "p": "Jaén",
+        "di": "Bellavista"
+    },
+    "060803": {
+        "d": "Cajamarca",
+        "p": "Jaén",
+        "di": "Chontali"
+    },
+    "060804": {
+        "d": "Cajamarca",
+        "p": "Jaén",
+        "di": "Colasay"
+    },
+    "060805": {
+        "d": "Cajamarca",
+        "p": "Jaén",
+        "di": "Huabal"
+    },
+    "060806": {
+        "d": "Cajamarca",
+        "p": "Jaén",
+        "di": "Las Pirias"
+    },
+    "060807": {
+        "d": "Cajamarca",
+        "p": "Jaén",
+        "di": "Pomahuaca"
+    },
+    "060808": {
+        "d": "Cajamarca",
+        "p": "Jaén",
+        "di": "Pucara"
+    },
+    "060809": {
+        "d": "Cajamarca",
+        "p": "Jaén",
+        "di": "Sallique"
+    },
+    "060810": {
+        "d": "Cajamarca",
+        "p": "Jaén",
+        "di": "San Felipe"
+    },
+    "060811": {
+        "d": "Cajamarca",
+        "p": "Jaén",
+        "di": "San José del Alto"
+    },
+    "060812": {
+        "d": "Cajamarca",
+        "p": "Jaén",
+        "di": "Santa Rosa"
+    },
+    "060901": {
+        "d": "Cajamarca",
+        "p": "San Ignacio",
+        "di": "San Ignacio"
+    },
+    "060902": {
+        "d": "Cajamarca",
+        "p": "San Ignacio",
+        "di": "Chirinos"
+    },
+    "060903": {
+        "d": "Cajamarca",
+        "p": "San Ignacio",
+        "di": "Huarango"
+    },
+    "060904": {
+        "d": "Cajamarca",
+        "p": "San Ignacio",
+        "di": "La Coipa"
+    },
+    "060905": {
+        "d": "Cajamarca",
+        "p": "San Ignacio",
+        "di": "Namballe"
+    },
+    "060906": {
+        "d": "Cajamarca",
+        "p": "San Ignacio",
+        "di": "San José de Lourdes"
+    },
+    "060907": {
+        "d": "Cajamarca",
+        "p": "San Ignacio",
+        "di": "Tabaconas"
+    },
+    "061001": {
+        "d": "Cajamarca",
+        "p": "San Marcos",
+        "di": "Pedro Gálvez"
+    },
+    "061002": {
+        "d": "Cajamarca",
+        "p": "San Marcos",
+        "di": "Chancay"
+    },
+    "061003": {
+        "d": "Cajamarca",
+        "p": "San Marcos",
+        "di": "Eduardo Villanueva"
+    },
+    "061004": {
+        "d": "Cajamarca",
+        "p": "San Marcos",
+        "di": "Gregorio Pita"
+    },
+    "061005": {
+        "d": "Cajamarca",
+        "p": "San Marcos",
+        "di": "Ichocan"
+    },
+    "061006": {
+        "d": "Cajamarca",
+        "p": "San Marcos",
+        "di": "José Manuel Quiroz"
+    },
+    "061007": {
+        "d": "Cajamarca",
+        "p": "San Marcos",
+        "di": "José Sabogal"
+    },
+    "061101": {
+        "d": "Cajamarca",
+        "p": "San Miguel",
+        "di": "San Miguel"
+    },
+    "061102": {
+        "d": "Cajamarca",
+        "p": "San Miguel",
+        "di": "Bolívar"
+    },
+    "061103": {
+        "d": "Cajamarca",
+        "p": "San Miguel",
+        "di": "Calquis"
+    },
+    "061104": {
+        "d": "Cajamarca",
+        "p": "San Miguel",
+        "di": "Catilluc"
+    },
+    "061105": {
+        "d": "Cajamarca",
+        "p": "San Miguel",
+        "di": "El Prado"
+    },
+    "061106": {
+        "d": "Cajamarca",
+        "p": "San Miguel",
+        "di": "La Florida"
+    },
+    "061107": {
+        "d": "Cajamarca",
+        "p": "San Miguel",
+        "di": "Llapa"
+    },
+    "061108": {
+        "d": "Cajamarca",
+        "p": "San Miguel",
+        "di": "Nanchoc"
+    },
+    "061109": {
+        "d": "Cajamarca",
+        "p": "San Miguel",
+        "di": "Niepos"
+    },
+    "061110": {
+        "d": "Cajamarca",
+        "p": "San Miguel",
+        "di": "San Gregorio"
+    },
+    "061111": {
+        "d": "Cajamarca",
+        "p": "San Miguel",
+        "di": "San Silvestre de Cochan"
+    },
+    "061112": {
+        "d": "Cajamarca",
+        "p": "San Miguel",
+        "di": "Tongod"
+    },
+    "061113": {
+        "d": "Cajamarca",
+        "p": "San Miguel",
+        "di": "Unión Agua Blanca"
+    },
+    "061201": {
+        "d": "Cajamarca",
+        "p": "San Pablo",
+        "di": "San Pablo"
+    },
+    "061202": {
+        "d": "Cajamarca",
+        "p": "San Pablo",
+        "di": "San Bernardino"
+    },
+    "061203": {
+        "d": "Cajamarca",
+        "p": "San Pablo",
+        "di": "San Luis"
+    },
+    "061204": {
+        "d": "Cajamarca",
+        "p": "San Pablo",
+        "di": "Tumbaden"
+    },
+    "061301": {
+        "d": "Cajamarca",
+        "p": "Santa Cruz",
+        "di": "Santa Cruz"
+    },
+    "061302": {
+        "d": "Cajamarca",
+        "p": "Santa Cruz",
+        "di": "Andabamba"
+    },
+    "061303": {
+        "d": "Cajamarca",
+        "p": "Santa Cruz",
+        "di": "Catache"
+    },
+    "061304": {
+        "d": "Cajamarca",
+        "p": "Santa Cruz",
+        "di": "Chancaybaños"
+    },
+    "061305": {
+        "d": "Cajamarca",
+        "p": "Santa Cruz",
+        "di": "La Esperanza"
+    },
+    "061306": {
+        "d": "Cajamarca",
+        "p": "Santa Cruz",
+        "di": "Ninabamba"
+    },
+    "061307": {
+        "d": "Cajamarca",
+        "p": "Santa Cruz",
+        "di": "Pulan"
+    },
+    "061308": {
+        "d": "Cajamarca",
+        "p": "Santa Cruz",
+        "di": "Saucepampa"
+    },
+    "061309": {
+        "d": "Cajamarca",
+        "p": "Santa Cruz",
+        "di": "Sexi"
+    },
+    "061310": {
+        "d": "Cajamarca",
+        "p": "Santa Cruz",
+        "di": "Uticyacu"
+    },
+    "061311": {
+        "d": "Cajamarca",
+        "p": "Santa Cruz",
+        "di": "Yauyucan"
+    },
+    "070101": {
+        "d": "Callao",
+        "p": "Prov. Const. del Callao",
+        "di": "Callao"
+    },
+    "070102": {
+        "d": "Callao",
+        "p": "Prov. Const. del Callao",
+        "di": "Bellavista"
+    },
+    "070103": {
+        "d": "Callao",
+        "p": "Prov. Const. del Callao",
+        "di": "Carmen de la Legua Reynoso"
+    },
+    "070104": {
+        "d": "Callao",
+        "p": "Prov. Const. del Callao",
+        "di": "La Perla"
+    },
+    "070105": {
+        "d": "Callao",
+        "p": "Prov. Const. del Callao",
+        "di": "La Punta"
+    },
+    "070106": {
+        "d": "Callao",
+        "p": "Prov. Const. del Callao",
+        "di": "Ventanilla"
+    },
+    "070107": {
+        "d": "Callao",
+        "p": "Prov. Const. del Callao",
+        "di": "Mi Perú"
+    },
+    "080101": {
+        "d": "Cusco",
+        "p": "Cusco",
+        "di": "Cusco"
+    },
+    "080102": {
+        "d": "Cusco",
+        "p": "Cusco",
+        "di": "Ccorca"
+    },
+    "080103": {
+        "d": "Cusco",
+        "p": "Cusco",
+        "di": "Poroy"
+    },
+    "080104": {
+        "d": "Cusco",
+        "p": "Cusco",
+        "di": "San Jerónimo"
+    },
+    "080105": {
+        "d": "Cusco",
+        "p": "Cusco",
+        "di": "San Sebastian"
+    },
+    "080106": {
+        "d": "Cusco",
+        "p": "Cusco",
+        "di": "Santiago"
+    },
+    "080107": {
+        "d": "Cusco",
+        "p": "Cusco",
+        "di": "Saylla"
+    },
+    "080108": {
+        "d": "Cusco",
+        "p": "Cusco",
+        "di": "Wanchaq"
+    },
+    "080201": {
+        "d": "Cusco",
+        "p": "Acomayo",
+        "di": "Acomayo"
+    },
+    "080202": {
+        "d": "Cusco",
+        "p": "Acomayo",
+        "di": "Acopia"
+    },
+    "080203": {
+        "d": "Cusco",
+        "p": "Acomayo",
+        "di": "Acos"
+    },
+    "080204": {
+        "d": "Cusco",
+        "p": "Acomayo",
+        "di": "Mosoc Llacta"
+    },
+    "080205": {
+        "d": "Cusco",
+        "p": "Acomayo",
+        "di": "Pomacanchi"
+    },
+    "080206": {
+        "d": "Cusco",
+        "p": "Acomayo",
+        "di": "Rondocan"
+    },
+    "080207": {
+        "d": "Cusco",
+        "p": "Acomayo",
+        "di": "Sangarara"
+    },
+    "080301": {
+        "d": "Cusco",
+        "p": "Anta",
+        "di": "Anta"
+    },
+    "080302": {
+        "d": "Cusco",
+        "p": "Anta",
+        "di": "Ancahuasi"
+    },
+    "080303": {
+        "d": "Cusco",
+        "p": "Anta",
+        "di": "Cachimayo"
+    },
+    "080304": {
+        "d": "Cusco",
+        "p": "Anta",
+        "di": "Chinchaypujio"
+    },
+    "080305": {
+        "d": "Cusco",
+        "p": "Anta",
+        "di": "Huarocondo"
+    },
+    "080306": {
+        "d": "Cusco",
+        "p": "Anta",
+        "di": "Limatambo"
+    },
+    "080307": {
+        "d": "Cusco",
+        "p": "Anta",
+        "di": "Mollepata"
+    },
+    "080308": {
+        "d": "Cusco",
+        "p": "Anta",
+        "di": "Pucyura"
+    },
+    "080309": {
+        "d": "Cusco",
+        "p": "Anta",
+        "di": "Zurite"
+    },
+    "080401": {
+        "d": "Cusco",
+        "p": "Calca",
+        "di": "Calca"
+    },
+    "080402": {
+        "d": "Cusco",
+        "p": "Calca",
+        "di": "Coya"
+    },
+    "080403": {
+        "d": "Cusco",
+        "p": "Calca",
+        "di": "Lamay"
+    },
+    "080404": {
+        "d": "Cusco",
+        "p": "Calca",
+        "di": "Lares"
+    },
+    "080405": {
+        "d": "Cusco",
+        "p": "Calca",
+        "di": "Pisac"
+    },
+    "080406": {
+        "d": "Cusco",
+        "p": "Calca",
+        "di": "San Salvador"
+    },
+    "080407": {
+        "d": "Cusco",
+        "p": "Calca",
+        "di": "Taray"
+    },
+    "080408": {
+        "d": "Cusco",
+        "p": "Calca",
+        "di": "Yanatile"
+    },
+    "080501": {
+        "d": "Cusco",
+        "p": "Canas",
+        "di": "Yanaoca"
+    },
+    "080502": {
+        "d": "Cusco",
+        "p": "Canas",
+        "di": "Checca"
+    },
+    "080503": {
+        "d": "Cusco",
+        "p": "Canas",
+        "di": "Kunturkanki"
+    },
+    "080504": {
+        "d": "Cusco",
+        "p": "Canas",
+        "di": "Langui"
+    },
+    "080505": {
+        "d": "Cusco",
+        "p": "Canas",
+        "di": "Layo"
+    },
+    "080506": {
+        "d": "Cusco",
+        "p": "Canas",
+        "di": "Pampamarca"
+    },
+    "080507": {
+        "d": "Cusco",
+        "p": "Canas",
+        "di": "Quehue"
+    },
+    "080508": {
+        "d": "Cusco",
+        "p": "Canas",
+        "di": "Tupac Amaru"
+    },
+    "080601": {
+        "d": "Cusco",
+        "p": "Canchis",
+        "di": "Sicuani"
+    },
+    "080602": {
+        "d": "Cusco",
+        "p": "Canchis",
+        "di": "Checacupe"
+    },
+    "080603": {
+        "d": "Cusco",
+        "p": "Canchis",
+        "di": "Combapata"
+    },
+    "080604": {
+        "d": "Cusco",
+        "p": "Canchis",
+        "di": "Marangani"
+    },
+    "080605": {
+        "d": "Cusco",
+        "p": "Canchis",
+        "di": "Pitumarca"
+    },
+    "080606": {
+        "d": "Cusco",
+        "p": "Canchis",
+        "di": "San Pablo"
+    },
+    "080607": {
+        "d": "Cusco",
+        "p": "Canchis",
+        "di": "San Pedro"
+    },
+    "080608": {
+        "d": "Cusco",
+        "p": "Canchis",
+        "di": "Tinta"
+    },
+    "080701": {
+        "d": "Cusco",
+        "p": "Chumbivilcas",
+        "di": "Santo Tomas"
+    },
+    "080702": {
+        "d": "Cusco",
+        "p": "Chumbivilcas",
+        "di": "Capacmarca"
+    },
+    "080703": {
+        "d": "Cusco",
+        "p": "Chumbivilcas",
+        "di": "Chamaca"
+    },
+    "080704": {
+        "d": "Cusco",
+        "p": "Chumbivilcas",
+        "di": "Colquemarca"
+    },
+    "080705": {
+        "d": "Cusco",
+        "p": "Chumbivilcas",
+        "di": "Livitaca"
+    },
+    "080706": {
+        "d": "Cusco",
+        "p": "Chumbivilcas",
+        "di": "Llusco"
+    },
+    "080707": {
+        "d": "Cusco",
+        "p": "Chumbivilcas",
+        "di": "Quiñota"
+    },
+    "080708": {
+        "d": "Cusco",
+        "p": "Chumbivilcas",
+        "di": "Velille"
+    },
+    "080801": {
+        "d": "Cusco",
+        "p": "Espinar",
+        "di": "Espinar"
+    },
+    "080802": {
+        "d": "Cusco",
+        "p": "Espinar",
+        "di": "Condoroma"
+    },
+    "080803": {
+        "d": "Cusco",
+        "p": "Espinar",
+        "di": "Coporaque"
+    },
+    "080804": {
+        "d": "Cusco",
+        "p": "Espinar",
+        "di": "Ocoruro"
+    },
+    "080805": {
+        "d": "Cusco",
+        "p": "Espinar",
+        "di": "Pallpata"
+    },
+    "080806": {
+        "d": "Cusco",
+        "p": "Espinar",
+        "di": "Pichigua"
+    },
+    "080807": {
+        "d": "Cusco",
+        "p": "Espinar",
+        "di": "Suyckutambo"
+    },
+    "080808": {
+        "d": "Cusco",
+        "p": "Espinar",
+        "di": "Alto Pichigua"
+    },
+    "080901": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Santa Ana"
+    },
+    "080902": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Echarate"
+    },
+    "080903": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Huayopata"
+    },
+    "080904": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Maranura"
+    },
+    "080905": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Ocobamba"
+    },
+    "080906": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Quellouno"
+    },
+    "080907": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Kimbiri"
+    },
+    "080908": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Santa Teresa"
+    },
+    "080909": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Vilcabamba"
+    },
+    "080910": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Pichari"
+    },
+    "080911": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Inkawasi"
+    },
+    "080912": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Villa Virgen"
+    },
+    "080913": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Villa Kintiarina"
+    },
+    "080914": {
+        "d": "Cusco",
+        "p": "La Convención",
+        "di": "Megantoni"
+    },
+    "081001": {
+        "d": "Cusco",
+        "p": "Paruro",
+        "di": "Paruro"
+    },
+    "081002": {
+        "d": "Cusco",
+        "p": "Paruro",
+        "di": "Accha"
+    },
+    "081003": {
+        "d": "Cusco",
+        "p": "Paruro",
+        "di": "Ccapi"
+    },
+    "081004": {
+        "d": "Cusco",
+        "p": "Paruro",
+        "di": "Colcha"
+    },
+    "081005": {
+        "d": "Cusco",
+        "p": "Paruro",
+        "di": "Huanoquite"
+    },
+    "081006": {
+        "d": "Cusco",
+        "p": "Paruro",
+        "di": "Omachaç"
+    },
+    "081007": {
+        "d": "Cusco",
+        "p": "Paruro",
+        "di": "Paccaritambo"
+    },
+    "081008": {
+        "d": "Cusco",
+        "p": "Paruro",
+        "di": "Pillpinto"
+    },
+    "081009": {
+        "d": "Cusco",
+        "p": "Paruro",
+        "di": "Yaurisque"
+    },
+    "081101": {
+        "d": "Cusco",
+        "p": "Paucartambo",
+        "di": "Paucartambo"
+    },
+    "081102": {
+        "d": "Cusco",
+        "p": "Paucartambo",
+        "di": "Caicay"
+    },
+    "081103": {
+        "d": "Cusco",
+        "p": "Paucartambo",
+        "di": "Challabamba"
+    },
+    "081104": {
+        "d": "Cusco",
+        "p": "Paucartambo",
+        "di": "Colquepata"
+    },
+    "081105": {
+        "d": "Cusco",
+        "p": "Paucartambo",
+        "di": "Huancarani"
+    },
+    "081106": {
+        "d": "Cusco",
+        "p": "Paucartambo",
+        "di": "Kosñipata"
+    },
+    "081201": {
+        "d": "Cusco",
+        "p": "Quispicanchi",
+        "di": "Urcos"
+    },
+    "081202": {
+        "d": "Cusco",
+        "p": "Quispicanchi",
+        "di": "Andahuaylillas"
+    },
+    "081203": {
+        "d": "Cusco",
+        "p": "Quispicanchi",
+        "di": "Camanti"
+    },
+    "081204": {
+        "d": "Cusco",
+        "p": "Quispicanchi",
+        "di": "Ccarhuayo"
+    },
+    "081205": {
+        "d": "Cusco",
+        "p": "Quispicanchi",
+        "di": "Ccatca"
+    },
+    "081206": {
+        "d": "Cusco",
+        "p": "Quispicanchi",
+        "di": "Cusipata"
+    },
+    "081207": {
+        "d": "Cusco",
+        "p": "Quispicanchi",
+        "di": "Huaro"
+    },
+    "081208": {
+        "d": "Cusco",
+        "p": "Quispicanchi",
+        "di": "Lucre"
+    },
+    "081209": {
+        "d": "Cusco",
+        "p": "Quispicanchi",
+        "di": "Marcapata"
+    },
+    "081210": {
+        "d": "Cusco",
+        "p": "Quispicanchi",
+        "di": "Ocongate"
+    },
+    "081211": {
+        "d": "Cusco",
+        "p": "Quispicanchi",
+        "di": "Oropesa"
+    },
+    "081212": {
+        "d": "Cusco",
+        "p": "Quispicanchi",
+        "di": "Quiquijana"
+    },
+    "081301": {
+        "d": "Cusco",
+        "p": "Urubamba",
+        "di": "Urubamba"
+    },
+    "081302": {
+        "d": "Cusco",
+        "p": "Urubamba",
+        "di": "Chinchero"
+    },
+    "081303": {
+        "d": "Cusco",
+        "p": "Urubamba",
+        "di": "Huayllabamba"
+    },
+    "081304": {
+        "d": "Cusco",
+        "p": "Urubamba",
+        "di": "Machupicchu"
+    },
+    "081305": {
+        "d": "Cusco",
+        "p": "Urubamba",
+        "di": "Maras"
+    },
+    "081306": {
+        "d": "Cusco",
+        "p": "Urubamba",
+        "di": "Ollantaytambo"
+    },
+    "081307": {
+        "d": "Cusco",
+        "p": "Urubamba",
+        "di": "Yucay"
+    },
+    "090101": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Huancavelica"
+    },
+    "090102": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Acobambilla"
+    },
+    "090103": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Acoria"
+    },
+    "090104": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Conayca"
+    },
+    "090105": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Cuenca"
+    },
+    "090106": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Huachocolpa"
+    },
+    "090107": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Huayllahuara"
+    },
+    "090108": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Izcuchaca"
+    },
+    "090109": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Laria"
+    },
+    "090110": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Manta"
+    },
+    "090111": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Mariscal Cáceres"
+    },
+    "090112": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Moya"
+    },
+    "090113": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Nuevo Occoro"
+    },
+    "090114": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Palca"
+    },
+    "090115": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Pilchaca"
+    },
+    "090116": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Vilca"
+    },
+    "090117": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Yauli"
+    },
+    "090118": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Ascensión"
+    },
+    "090119": {
+        "d": "Huancavelica",
+        "p": "Huancavelica",
+        "di": "Huando"
+    },
+    "090201": {
+        "d": "Huancavelica",
+        "p": "Acobamba",
+        "di": "Acobamba"
+    },
+    "090202": {
+        "d": "Huancavelica",
+        "p": "Acobamba",
+        "di": "Andabamba"
+    },
+    "090203": {
+        "d": "Huancavelica",
+        "p": "Acobamba",
+        "di": "Anta"
+    },
+    "090204": {
+        "d": "Huancavelica",
+        "p": "Acobamba",
+        "di": "Caja"
+    },
+    "090205": {
+        "d": "Huancavelica",
+        "p": "Acobamba",
+        "di": "Marcas"
+    },
+    "090206": {
+        "d": "Huancavelica",
+        "p": "Acobamba",
+        "di": "Paucara"
+    },
+    "090207": {
+        "d": "Huancavelica",
+        "p": "Acobamba",
+        "di": "Pomacocha"
+    },
+    "090208": {
+        "d": "Huancavelica",
+        "p": "Acobamba",
+        "di": "Rosario"
+    },
+    "090301": {
+        "d": "Huancavelica",
+        "p": "Angaraes",
+        "di": "Lircay"
+    },
+    "090302": {
+        "d": "Huancavelica",
+        "p": "Angaraes",
+        "di": "Anchonga"
+    },
+    "090303": {
+        "d": "Huancavelica",
+        "p": "Angaraes",
+        "di": "Callanmarca"
+    },
+    "090304": {
+        "d": "Huancavelica",
+        "p": "Angaraes",
+        "di": "Ccochaccasa"
+    },
+    "090305": {
+        "d": "Huancavelica",
+        "p": "Angaraes",
+        "di": "Chincho"
+    },
+    "090306": {
+        "d": "Huancavelica",
+        "p": "Angaraes",
+        "di": "Congalla"
+    },
+    "090307": {
+        "d": "Huancavelica",
+        "p": "Angaraes",
+        "di": "Huanca-Huanca"
+    },
+    "090308": {
+        "d": "Huancavelica",
+        "p": "Angaraes",
+        "di": "Huayllay Grande"
+    },
+    "090309": {
+        "d": "Huancavelica",
+        "p": "Angaraes",
+        "di": "Julcamarca"
+    },
+    "090310": {
+        "d": "Huancavelica",
+        "p": "Angaraes",
+        "di": "San Antonio de Antaparco"
+    },
+    "090311": {
+        "d": "Huancavelica",
+        "p": "Angaraes",
+        "di": "Santo Tomas de Pata"
+    },
+    "090312": {
+        "d": "Huancavelica",
+        "p": "Angaraes",
+        "di": "Secclla"
+    },
+    "090401": {
+        "d": "Huancavelica",
+        "p": "Castrovirreyna",
+        "di": "Castrovirreyna"
+    },
+    "090402": {
+        "d": "Huancavelica",
+        "p": "Castrovirreyna",
+        "di": "Arma"
+    },
+    "090403": {
+        "d": "Huancavelica",
+        "p": "Castrovirreyna",
+        "di": "Aurahua"
+    },
+    "090404": {
+        "d": "Huancavelica",
+        "p": "Castrovirreyna",
+        "di": "Capillas"
+    },
+    "090405": {
+        "d": "Huancavelica",
+        "p": "Castrovirreyna",
+        "di": "Chupamarca"
+    },
+    "090406": {
+        "d": "Huancavelica",
+        "p": "Castrovirreyna",
+        "di": "Cocas"
+    },
+    "090407": {
+        "d": "Huancavelica",
+        "p": "Castrovirreyna",
+        "di": "Huachos"
+    },
+    "090408": {
+        "d": "Huancavelica",
+        "p": "Castrovirreyna",
+        "di": "Huamatambo"
+    },
+    "090409": {
+        "d": "Huancavelica",
+        "p": "Castrovirreyna",
+        "di": "Mollepampa"
+    },
+    "090410": {
+        "d": "Huancavelica",
+        "p": "Castrovirreyna",
+        "di": "San Juan"
+    },
+    "090411": {
+        "d": "Huancavelica",
+        "p": "Castrovirreyna",
+        "di": "Santa Ana"
+    },
+    "090412": {
+        "d": "Huancavelica",
+        "p": "Castrovirreyna",
+        "di": "Tantara"
+    },
+    "090413": {
+        "d": "Huancavelica",
+        "p": "Castrovirreyna",
+        "di": "Ticrapo"
+    },
+    "090501": {
+        "d": "Huancavelica",
+        "p": "Churcampa",
+        "di": "Churcampa"
+    },
+    "090502": {
+        "d": "Huancavelica",
+        "p": "Churcampa",
+        "di": "Anco"
+    },
+    "090503": {
+        "d": "Huancavelica",
+        "p": "Churcampa",
+        "di": "Chinchihuasi"
+    },
+    "090504": {
+        "d": "Huancavelica",
+        "p": "Churcampa",
+        "di": "El Carmen"
+    },
+    "090505": {
+        "d": "Huancavelica",
+        "p": "Churcampa",
+        "di": "La Merced"
+    },
+    "090506": {
+        "d": "Huancavelica",
+        "p": "Churcampa",
+        "di": "Locroja"
+    },
+    "090507": {
+        "d": "Huancavelica",
+        "p": "Churcampa",
+        "di": "Paucarbamba"
+    },
+    "090508": {
+        "d": "Huancavelica",
+        "p": "Churcampa",
+        "di": "San Miguel de Mayocc"
+    },
+    "090509": {
+        "d": "Huancavelica",
+        "p": "Churcampa",
+        "di": "San Pedro de Coris"
+    },
+    "090510": {
+        "d": "Huancavelica",
+        "p": "Churcampa",
+        "di": "Pachamarca"
+    },
+    "090511": {
+        "d": "Huancavelica",
+        "p": "Churcampa",
+        "di": "Cosme"
+    },
+    "090601": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "Huaytara"
+    },
+    "090602": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "Ayavi"
+    },
+    "090603": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "Córdova"
+    },
+    "090604": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "Huayacundo Arma"
+    },
+    "090605": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "Laramarca"
+    },
+    "090606": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "Ocoyo"
+    },
+    "090607": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "Pilpichaca"
+    },
+    "090608": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "Querco"
+    },
+    "090609": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "Quito-Arma"
+    },
+    "090610": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "San Antonio de Cusicancha"
+    },
+    "090611": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "San Francisco de Sangayaico"
+    },
+    "090612": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "San Isidro"
+    },
+    "090613": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "Santiago de Chocorvos"
+    },
+    "090614": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "Santiago de Quirahuara"
+    },
+    "090615": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "Santo Domingo de Capillas"
+    },
+    "090616": {
+        "d": "Huancavelica",
+        "p": "Huaytará",
+        "di": "Tambo"
+    },
+    "090701": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Pampas"
+    },
+    "090702": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Acostambo"
+    },
+    "090703": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Acraquia"
+    },
+    "090704": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Ahuaycha"
+    },
+    "090705": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Colcabamba"
+    },
+    "090706": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Daniel Hernández"
+    },
+    "090707": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Huachocolpa"
+    },
+    "090709": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Huaribamba"
+    },
+    "090710": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Ñahuimpuquio"
+    },
+    "090711": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Pazos"
+    },
+    "090713": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Quishuar"
+    },
+    "090714": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Salcabamba"
+    },
+    "090715": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Salcahuasi"
+    },
+    "090716": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "San Marcos de Rocchac"
+    },
+    "090717": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Surcubamba"
+    },
+    "090718": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Tintay Puncu"
+    },
+    "090719": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Quichuas"
+    },
+    "090720": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Andaymarca"
+    },
+    "090721": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Roble"
+    },
+    "090722": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Pichos"
+    },
+    "090723": {
+        "d": "Huancavelica",
+        "p": "Tayacaja",
+        "di": "Santiago de Tucuma"
+    }
+}
