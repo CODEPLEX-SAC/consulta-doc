@@ -1,22 +1,28 @@
 @echo off
 title nginx reverse proxy :443 → :8076
 
-REM ── 1) Ubicar nginx ──────────────────────────────────────────────────────
-set "NGINX_EXE=C:\go\consulta-doc\nginx.exe"
-set "NGINX_CONF=C:\go\consulta-doc\conf\nginx.conf"
+REM ── 1) Ubicar nginx automáticamente ─────────────────────────────────────
+for /f "delims=" %%i in ('where nginx 2^>nul') do set "NGINX_EXE=%%i"
 
-if not exist "%NGINX_EXE%" (
-    echo [ERROR] No se encontro nginx en C:\go\consulta-doc\
+if not defined NGINX_EXE (
+    echo [ERROR] nginx no encontrado en el PATH del sistema.
+    echo         Instala nginx y asegurate de que este en el PATH.
     pause & exit /b 1
 )
 
+echo [INFO] nginx encontrado en: %NGINX_EXE%
+
+REM ── Obtener directorio de nginx ───────────────────────────────────────────
+for %%i in ("%NGINX_EXE%") do set "NGINX_DIR=%%~dpi"
+set "NGINX_CONF=%NGINX_DIR%conf\nginx.conf"
+
 REM ── Crear carpetas temp necesarias ───────────────────────────────────────
-mkdir "C:\go\consulta-doc\temp\client_body_temp" 2>nul
-mkdir "C:\go\consulta-doc\temp\proxy_temp"       2>nul
-mkdir "C:\go\consulta-doc\temp\fastcgi_temp"     2>nul
-mkdir "C:\go\consulta-doc\temp\uwsgi_temp"       2>nul
-mkdir "C:\go\consulta-doc\temp\scgi_temp"        2>nul
-mkdir "C:\go\consulta-doc\logs"                  2>nul
+mkdir "%NGINX_DIR%temp\client_body_temp" 2>nul
+mkdir "%NGINX_DIR%temp\proxy_temp"       2>nul
+mkdir "%NGINX_DIR%temp\fastcgi_temp"     2>nul
+mkdir "%NGINX_DIR%temp\uwsgi_temp"       2>nul
+mkdir "%NGINX_DIR%temp\scgi_temp"        2>nul
+mkdir "%NGINX_DIR%logs"                  2>nul
 
 REM ── 2) Copiar nginx.conf al directorio de nginx ──────────────────────────
 mkdir "C:\go\consulta-doc\conf" 2>nul
