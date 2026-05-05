@@ -1,6 +1,14 @@
 @echo off
 title nginx reverse proxy :443 → :8076
 
+REM ── Verificar que corre como Administrador ────────────────────────────────
+net session >nul 2>&1
+if errorlevel 1 (
+    echo [INFO] Relanzando como Administrador...
+    powershell -Command "Start-Process '%~f0' -Verb RunAs"
+    exit /b
+)
+
 set "NGINX_EXE=C:\nginx\nginx.exe"
 set "NGINX_CONF=C:\nginx\conf\nginx.conf"
 
