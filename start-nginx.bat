@@ -2,8 +2,10 @@
 title nginx reverse proxy :443 → :8076
 
 REM ── 1) Ubicar nginx ──────────────────────────────────────────────────────
-set "NGINX=C:\nginx\nginx.exe"
-if not exist "%NGINX%" (
+set "NGINX_EXE=C:\nginx\nginx.exe"
+set "NGINX_CONF=C:\nginx\conf\nginx.conf"
+
+if not exist "%NGINX_EXE%" (
     echo [ERROR] No se encontro nginx en C:\nginx\
     echo         Descargalo de https://nginx.org/en/download.html
     echo         y extrae el contenido en C:\nginx\
@@ -11,7 +13,7 @@ if not exist "%NGINX%" (
 )
 
 REM ── 2) Copiar nginx.conf al directorio de nginx ──────────────────────────
-copy /Y "%~dp0nginx.conf" "C:\nginx\conf\nginx.conf" >nul
+copy /Y "%~dp0nginx.conf" "%NGINX_CONF%" >nul
 echo [OK] nginx.conf copiado.
 
 REM ── 3) Abrir puerto 443 en el firewall ───────────────────────────────────
@@ -20,9 +22,10 @@ echo [OK] Firewall 443 abierto.
 
 REM ── 4) Detener instancia anterior si existe ───────────────────────────────
 taskkill /IM nginx.exe /F >nul 2>&1
+timeout /t 1 >nul
 
-REM ── 5) Iniciar nginx ─────────────────────────────────────────────────────
-start "" /b "%NGINX%"
+REM ── 5) Iniciar nginx con config explícita ────────────────────────────────
+start "" /b "%NGINX_EXE%" -c "%NGINX_CONF%"
 timeout /t 2 >nul
 
 tasklist | find /I "nginx.exe" >nul
