@@ -2,17 +2,24 @@
 title nginx reverse proxy :443 → :8076
 
 REM ── 1) Ubicar nginx ──────────────────────────────────────────────────────
-set "NGINX_EXE=C:\nginx\nginx.exe"
-set "NGINX_CONF=C:\nginx\conf\nginx.conf"
+set "NGINX_EXE=C:\go\consulta-doc\nginx.exe"
+set "NGINX_CONF=C:\go\consulta-doc\conf\nginx.conf"
 
 if not exist "%NGINX_EXE%" (
-    echo [ERROR] No se encontro nginx en C:\nginx\
-    echo         Descargalo de https://nginx.org/en/download.html
-    echo         y extrae el contenido en C:\nginx\
+    echo [ERROR] No se encontro nginx en C:\go\consulta-doc\
     pause & exit /b 1
 )
 
+REM ── Crear carpetas temp necesarias ───────────────────────────────────────
+mkdir "C:\go\consulta-doc\temp\client_body_temp" 2>nul
+mkdir "C:\go\consulta-doc\temp\proxy_temp"       2>nul
+mkdir "C:\go\consulta-doc\temp\fastcgi_temp"     2>nul
+mkdir "C:\go\consulta-doc\temp\uwsgi_temp"       2>nul
+mkdir "C:\go\consulta-doc\temp\scgi_temp"        2>nul
+mkdir "C:\go\consulta-doc\logs"                  2>nul
+
 REM ── 2) Copiar nginx.conf al directorio de nginx ──────────────────────────
+mkdir "C:\go\consulta-doc\conf" 2>nul
 copy /Y "%~dp0nginx.conf" "%NGINX_CONF%" >nul
 echo [OK] nginx.conf copiado.
 
