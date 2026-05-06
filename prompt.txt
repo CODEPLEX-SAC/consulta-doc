@@ -1,0 +1,816 @@
+# 📦 PROMPT — Microservicio Consulta RUC/DNI con Padrones SUNAT + CockroachDB
+
+## 🎯 Objetivo del proyecto
+
+Construir un microservicio Node.js / PHP / Python que:
+
+1. **Descargue automáticamente** los dos Padrones Reducidos oficiales de SUNAT.
+2. **Importe** la data a CockroachDB para consulta local rápida.
+3. **Combine** datos del Padrón con el scraper de la consulta RUC pública que ya está implementado en el proyecto.
+4. **Exponga** un endpoint HTTP que devuelva el JSON estándar:
+
+```json
+{
+  "success": true,
+  "data": {
+    "rucdni": "10448539500",
+    "nombrerazon": "NUÑEZ VASQUEZ GLADYS NATALI",
+    "activo": 1,
+    "estadosunat": 1,
+    "direccion": "CAL. HUASCAR NRO. 180      JOSE LEONARDO ORTIZ",
+    "ubigeo": "140105",
+    "estado": "ACTIVO",
+    "condicion": "HABIDO"
+  }
+}
+```
+
+---
+
+## 🌐 Fuentes de datos oficiales de SUNAT
+
+### Página de descarga (referencia)
+```
+https://www.sunat.gob.pe/descargaPRR/mrc137_padron_reducido.html
+```
+
+### Archivos a descargar
+| Archivo | URL | Contenido |
+|---|---|---|
+| **Padrón Reducido RUC** | `http://www2.sunat.gob.pe/padron_reducido_ruc.zip` | Todos los contribuyentes activos: RUC, nombre, dirección, ubigeo, estado, condición |
+| **Padrón Reducido Local Anexo** | `http://www2.sunat.gob.pe/padron_reducido_local_anexo.zip` | Establecimientos anexos (sucursales) de cada RUC |
+
+> **Nota**: SUNAT actualiza estos archivos **diariamente** alrededor de las 6am hora Lima.
+> Las URLs son `http://` (no `https://`) — confirmar en la página oficial al implementar.
+
+### Scraper ya existente
+```
+https://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/FrameCriterioBusquedaWeb.jsp
+```
+Este flujo ya está implementado en el proyecto para datos en vivo (estado, condición, comprobantes electrónicos, actividades). **No reimplementar, solo integrar.**
+
+---
+
+## 🗄️ Configuración de Base de Datos — CockroachDB
+
+### Credenciales (mover a variables de entorno, NO hardcodear)
+
+```env
+DB_HOST=144.217.163.120
+DB_PORT=26257
+DB_NAME=consulta_sunat
+DB_USER=dev_user
+DB_PASSWORD=<<<MOVER_A_ENV_Y_ROTAR>>>
+DB_SSL=true
+DB_SSL_MODE=require
+```
+
+### Connection string (formato PostgreSQL)
+```
+postgresql://dev_user:<PASSWORD>@144.217.163.120:26257/consulta_sunat?sslmode=require
+```
+
+### Drivers recomendados
+- **Node.js**: `pg` (node-postgres) — CockroachDB es 100% wire-compatible con PostgreSQL.
+- **PHP**: `pdo_pgsql`.
+- **Python**: `psycopg2-binary` o `psycopg[binary]` v3.
+
+### Notas de CockroachDB vs PostgreSQL
+- Soporta SQL estándar PostgreSQL.
+- Para `UPSERT` masivo usar `INSERT ... ON CONFLICT (ruc) DO UPDATE SET ...` o el `UPSERT` nativo de Cockroach.
+- **Evitar transacciones largas** (>5 min). Para importar millones de filas: usar batches de 1000-5000 filas, cada uno en transacción independiente.
+- **Usar `PRIMARY KEY` con UUID o el RUC mismo**: Cockroach distribuye por hash del PK.
+
+---
+
+## 📐 Esquema de Base de Datos
+
+### Tabla 1: `padron_reducido_ruc`
+
+```sql
+CREATE TABLE IF NOT EXISTS padron_reducido_ruc (
+  ruc                   CHAR(11) PRIMARY KEY,
+  nombre_razon          VARCHAR(300) NOT NULL,
+  estado_contribuyente  VARCHAR(50),         -- ACTIVO, BAJA DE OFICIO, BAJA DEFINITIVA, SUSPENSION TEMPORAL
+  condicion_domicilio   VARCHAR(50),         -- HABIDO, NO HABIDO, NO HALLADO, PENDIENTE
+  ubigeo                CHAR(6),
+  tipo_via              VARCHAR(20),         -- AV., CAL., JR., PSJ., etc.
+  nombre_via            VARCHAR(200),
+  codigo_zona           VARCHAR(20),
+  tipo_zona             VARCHAR(20),         -- URB., AA.HH., COOP., etc.
+  numero                VARCHAR(30),
+  interior              VARCHAR(30),
+  lote                  VARCHAR(30),
+  departamento_addr     VARCHAR(20),         -- "DPTO." (no confundir con departamento del ubigeo)
+  manzana               VARCHAR(20),
+  kilometro             VARCHAR(20),
+  fecha_inscripcion     DATE,
+  -- Campos derivados / mantenimiento
+  direccion_completa    VARCHAR(500),        -- Dirección armada lista para devolver
+  fecha_actualizacion   TIMESTAMP DEFAULT now(),
+  INDEX idx_pr_ruc_ubigeo (ubigeo),
+  INDEX idx_pr_ruc_estado (estado_contribuyente),
+  INDEX idx_pr_ruc_nombre (nombre_razon)
+);
+```
+
+### Tabla 2: `padron_reducido_local_anexo`
+
+```sql
+CREATE TABLE IF NOT EXISTS padron_reducido_local_anexo (
+  id                    UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  ruc                   CHAR(11) NOT NULL,
+  codigo_establecimiento VARCHAR(10) NOT NULL,  -- 0000, 0001, 0002, etc.
+  tipo_establecimiento  VARCHAR(50),             -- CASA MATRIZ, SUCURSAL, AGENCIA, etc.
+  ubigeo                CHAR(6),
+  tipo_via              VARCHAR(20),
+  nombre_via            VARCHAR(200),
+  codigo_zona           VARCHAR(20),
+  tipo_zona             VARCHAR(20),
+  numero                VARCHAR(30),
+  interior              VARCHAR(30),
+  lote                  VARCHAR(30),
+  departamento_addr     VARCHAR(20),
+  manzana               VARCHAR(20),
+  kilometro             VARCHAR(20),
+  actividad_economica   VARCHAR(500),
+  -- Campos derivados
+  direccion_completa    VARCHAR(500),
+  fecha_actualizacion   TIMESTAMP DEFAULT now(),
+  UNIQUE INDEX idx_pr_la_unique (ruc, codigo_establecimiento),
+  INDEX idx_pr_la_ruc (ruc),
+  INDEX idx_pr_la_ubigeo (ubigeo)
+);
+```
+
+### Tabla 3: `ubigeos_sunat` (catálogo)
+
+```sql
+CREATE TABLE IF NOT EXISTS ubigeos_sunat (
+  ubigeo        CHAR(6) PRIMARY KEY,
+  departamento  VARCHAR(50) NOT NULL,
+  provincia     VARCHAR(50) NOT NULL,
+  distrito      VARCHAR(50) NOT NULL
+);
+```
+Cargar 1 sola vez desde `github.com/CONCYTEC/ubigeo-peru` (columna `cod_ubigeo_sunat`).
+
+### Tabla 4: `cache_consulta` (caché de respuestas finales)
+
+```sql
+CREATE TABLE IF NOT EXISTS cache_consulta (
+  rucdni        CHAR(11) PRIMARY KEY,
+  payload       JSONB NOT NULL,
+  fuentes       VARCHAR(100),  -- Ej: "padron+publica", "padron_only", "publica_only"
+  expira_en     TIMESTAMP NOT NULL,
+  creado_en     TIMESTAMP DEFAULT now(),
+  INDEX idx_cache_expira (expira_en)
+);
+```
+
+### Tabla 5: `padron_meta` (metadatos del último import)
+
+```sql
+CREATE TABLE IF NOT EXISTS padron_meta (
+  padron_tipo           VARCHAR(50) PRIMARY KEY,  -- "ruc" | "local_anexo"
+  ultima_descarga       TIMESTAMP,
+  ultima_importacion    TIMESTAMP,
+  filas_importadas      BIGINT,
+  estado_ultimo_import  VARCHAR(20),  -- "ok", "error", "in_progress"
+  mensaje_error         VARCHAR(500),
+  hash_archivo          VARCHAR(64)   -- SHA256 del ZIP descargado para detectar cambios
+);
+```
+
+---
+
+## 🔧 Componentes a implementar
+
+### Componente 1 — `PadronDownloader`
+
+**Responsabilidad**: descargar los dos ZIPs desde SUNAT, descomprimirlos, dejar los TXT listos para procesar.
+
+**Pseudocódigo:**
+```
+function descargarPadron(tipo: "ruc" | "local_anexo"):
+  url = tipo == "ruc"
+    ? "http://www2.sunat.gob.pe/padron_reducido_ruc.zip"
+    : "http://www2.sunat.gob.pe/padron_reducido_local_anexo.zip"
+
+  # 1. Marcar inicio en padron_meta
+  upsert padron_meta: estado_ultimo_import = "in_progress"
+
+  # 2. Descargar ZIP a /tmp con stream (NO cargar en memoria, son cientos de MB)
+  descargar(url) → /tmp/padron_{tipo}.zip
+
+  # 3. Calcular SHA256 del ZIP
+  hash = sha256(/tmp/padron_{tipo}.zip)
+
+  # 4. Comparar con hash anterior; si igual, SKIP el import
+  if hash == padron_meta.hash_archivo:
+    log "Padrón {tipo} sin cambios desde la última descarga"
+    return { skipped: true }
+
+  # 5. Descomprimir
+  unzip /tmp/padron_{tipo}.zip → /tmp/padron_{tipo}.txt
+
+  return { ruta: "/tmp/padron_{tipo}.txt", hash: hash }
+```
+
+**Detalles técnicos:**
+- Usar **streaming HTTP** (no cargar el ZIP entero a memoria). En Node: `axios` con `responseType: 'stream'`. En Python: `requests` con `stream=True`. En PHP: `fopen` con `fwrite`.
+- Timeout: 30 minutos para la descarga.
+- User-Agent realista (Chrome/Firefox).
+- Validar que el archivo descargado no esté vacío (size > 10 MB).
+- Si la descarga falla 3 veces, escalar al log de errores y abortar (no eliminar la tabla anterior).
+
+### Componente 2 — `PadronImporter`
+
+**Responsabilidad**: leer el TXT línea por línea, parsear, hacer UPSERT en batches a CockroachDB.
+
+**Estructura del archivo Padrón Reducido RUC:**
+- Codificación: **ISO-8859-1** (latin1) — NO UTF-8.
+- Separador: **pipe `|`**.
+- Sin header (la primera línea ya es data).
+- Una línea por RUC.
+
+**Columnas esperadas (validar al descargar el archivo real):**
+```
+0:  RUC
+1:  NOMBRE_O_RAZON_SOCIAL
+2:  ESTADO_CONTRIBUYENTE
+3:  CONDICION_DOMICILIO
+4:  UBIGEO
+5:  TIPO_VIA
+6:  NOMBRE_VIA
+7:  CODIGO_ZONA
+8:  TIPO_ZONA
+9:  NUMERO
+10: INTERIOR
+11: LOTE
+12: DEPARTAMENTO (DPTO. de la dirección)
+13: MANZANA
+14: KILOMETRO
+15: FECHA_INSCRIPCION  (formato YYYYMMDD)
+```
+
+> **IMPORTANTE**: SUNAT puede modificar el orden o agregar columnas. Al implementar, descargar UN archivo manualmente, abrirlo con `head -5 archivo.txt` y validar el orden real antes de codificar el parser.
+
+**Pseudocódigo del importer:**
+```
+function importarPadronRuc(rutaArchivo, hashArchivo):
+  client = conectarCockroachDB(SSL=require)
+
+  batch = []
+  totalProcesados = 0
+  BATCH_SIZE = 2000
+
+  abrir archivo en streaming (encoding=latin1)
+
+  for cada linea in archivo:
+    if linea está vacía: continue
+
+    campos = linea.split("|")
+    if campos.length < 16: log warning; continue
+
+    row = {
+      ruc: campos[0].trim(),
+      nombre_razon: campos[1].trim(),
+      estado_contribuyente: campos[2].trim(),
+      condicion_domicilio: campos[3].trim(),
+      ubigeo: campos[4].trim(),
+      tipo_via: campos[5].trim(),
+      nombre_via: campos[6].trim(),
+      codigo_zona: campos[7].trim(),
+      tipo_zona: campos[8].trim(),
+      numero: campos[9].trim(),
+      interior: campos[10].trim(),
+      lote: campos[11].trim(),
+      departamento_addr: campos[12].trim(),
+      manzana: campos[13].trim(),
+      kilometro: campos[14].trim(),
+      fecha_inscripcion: parseFecha(campos[15]),  # YYYYMMDD → YYYY-MM-DD
+    }
+
+    # Construir dirección completa lista para devolver
+    row.direccion_completa = armarDireccion(row)
+
+    batch.push(row)
+
+    if batch.length >= BATCH_SIZE:
+      ejecutarUpsertBatch(client, batch)
+      totalProcesados += batch.length
+      batch = []
+      log "Procesadas: {totalProcesados}"
+
+  # Procesar último batch parcial
+  if batch.length > 0:
+    ejecutarUpsertBatch(client, batch)
+    totalProcesados += batch.length
+
+  # Marcar metadata
+  upsert padron_meta:
+    padron_tipo = "ruc"
+    ultima_importacion = now()
+    filas_importadas = totalProcesados
+    estado_ultimo_import = "ok"
+    hash_archivo = hashArchivo
+
+  log "Import completo: {totalProcesados} filas"
+```
+
+**Función `ejecutarUpsertBatch`:**
+```sql
+INSERT INTO padron_reducido_ruc
+  (ruc, nombre_razon, estado_contribuyente, condicion_domicilio,
+   ubigeo, tipo_via, nombre_via, codigo_zona, tipo_zona,
+   numero, interior, lote, departamento_addr, manzana, kilometro,
+   fecha_inscripcion, direccion_completa, fecha_actualizacion)
+VALUES
+  ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, now()),
+  ($18, $19, ...),
+  ...
+ON CONFLICT (ruc) DO UPDATE SET
+  nombre_razon = EXCLUDED.nombre_razon,
+  estado_contribuyente = EXCLUDED.estado_contribuyente,
+  condicion_domicilio = EXCLUDED.condicion_domicilio,
+  ubigeo = EXCLUDED.ubigeo,
+  tipo_via = EXCLUDED.tipo_via,
+  nombre_via = EXCLUDED.nombre_via,
+  codigo_zona = EXCLUDED.codigo_zona,
+  tipo_zona = EXCLUDED.tipo_zona,
+  numero = EXCLUDED.numero,
+  interior = EXCLUDED.interior,
+  lote = EXCLUDED.lote,
+  departamento_addr = EXCLUDED.departamento_addr,
+  manzana = EXCLUDED.manzana,
+  kilometro = EXCLUDED.kilometro,
+  fecha_inscripcion = EXCLUDED.fecha_inscripcion,
+  direccion_completa = EXCLUDED.direccion_completa,
+  fecha_actualizacion = now();
+```
+
+**Función `armarDireccion`:**
+```javascript
+function armarDireccion(row) {
+  const partes = [];
+
+  if (row.tipo_via && row.nombre_via) {
+    partes.push(`${row.tipo_via} ${row.nombre_via}`);
+  }
+  if (row.numero && row.numero !== '-' && row.numero !== '') {
+    partes.push(`NRO. ${row.numero}`);
+  }
+  if (row.interior && row.interior !== '-' && row.interior !== '') {
+    partes.push(`INT. ${row.interior}`);
+  }
+  if (row.manzana && row.manzana !== '-' && row.manzana !== '') {
+    partes.push(`MZA. ${row.manzana}`);
+  }
+  if (row.lote && row.lote !== '-' && row.lote !== '') {
+    partes.push(`LT. ${row.lote}`);
+  }
+  if (row.kilometro && row.kilometro !== '-' && row.kilometro !== '') {
+    partes.push(`KM. ${row.kilometro}`);
+  }
+
+  let direccion = partes.join(' ');
+
+  // Sufijo zona/distrito al estilo SUNAT (formato compatible miapicloud)
+  if (row.tipo_zona && row.codigo_zona) {
+    direccion += `      ${row.tipo_zona} ${row.codigo_zona}`;
+  }
+
+  return direccion.trim();
+}
+```
+
+### Componente 3 — Importador del Padrón Local Anexo
+
+Mismo flujo que el RUC pero con esquema de columnas diferente. Validar al descargar pero típicamente:
+
+```
+0:  RUC
+1:  CODIGO_ESTABLECIMIENTO
+2:  TIPO_ESTABLECIMIENTO
+3:  UBIGEO
+4:  TIPO_VIA
+5:  NOMBRE_VIA
+6:  CODIGO_ZONA
+7:  TIPO_ZONA
+8:  NUMERO
+9:  INTERIOR
+10: LOTE
+11: DEPARTAMENTO (de dirección)
+12: MANZANA
+13: KILOMETRO
+14: ACTIVIDAD_ECONOMICA
+```
+
+UPSERT clave: `(ruc, codigo_establecimiento)`.
+
+### Componente 4 — `ConsultaService`
+
+**Responsabilidad**: orquestar la respuesta combinando Padrón + scraper público.
+
+**Lógica:**
+
+```javascript
+async function consultar(rucdni) {
+  // 1. Validar formato
+  const ruc = normalizarInput(rucdni);
+  if (!validarFormato(ruc)) {
+    return { success: false, error: "Formato inválido", code: 422 };
+  }
+
+  // 2. Caché de respuestas finales
+  const cached = await getCacheConsulta(ruc);
+  if (cached) return cached;
+
+  // 3. Lookup en Padrón (instantáneo, BD local)
+  const padron = await db.query(
+    `SELECT * FROM padron_reducido_ruc WHERE ruc = $1`, [ruc]
+  );
+
+  // 4. Scraping público en paralelo (datos en vivo)
+  // Solo si el Padrón tiene match (para no gastar captcha en RUC inexistentes)
+  let publica = null;
+  if (padron.length > 0) {
+    try {
+      publica = await scraperConsultaPublica(ruc); // YA EXISTE en el proyecto
+    } catch (e) {
+      log.warn(`Scraping público falló para ${ruc}: ${e.message}`);
+    }
+  } else {
+    // Si no está en Padrón, intentar scraping (puede ser RUC nuevo no en padrón aún)
+    try {
+      publica = await scraperConsultaPublica(ruc);
+    } catch (e) {
+      return { success: false, error: "RUC no encontrado", code: 404 };
+    }
+  }
+
+  // 5. Merge: prioridad pública para datos en vivo, Padrón para dirección/ubigeo
+  const data = mergeData(padron[0], publica);
+
+  if (!data.nombrerazon) {
+    return { success: false, error: "RUC no encontrado", code: 404 };
+  }
+
+  // 6. Cachear 24h
+  await setCacheConsulta(ruc, data, 24 * 3600);
+
+  return { success: true, data };
+}
+```
+
+**Función `mergeData`:**
+
+```javascript
+function mergeData(padronRow, publicaRow) {
+  // Si solo hay una fuente, usarla
+  const usarSolo = !padronRow ? publicaRow : (!publicaRow ? padronRow : null);
+
+  return {
+    rucdni: padronRow?.ruc || publicaRow?.ruc,
+    nombrerazon: publicaRow?.nombrerazon || padronRow?.nombre_razon,
+    activo: esActivo(publicaRow?.estado || padronRow?.estado_contribuyente) ? 1 : 0,
+    estadosunat: 1,
+    direccion: dirEsValida(publicaRow?.direccion)
+               ? publicaRow.direccion
+               : padronRow?.direccion_completa,
+    ubigeo: padronRow?.ubigeo || null,  // SIEMPRE del Padrón (la pública no lo trae)
+    estado: publicaRow?.estado || padronRow?.estado_contribuyente,
+    condicion: publicaRow?.condicion || padronRow?.condicion_domicilio
+  };
+}
+
+function esActivo(estado) {
+  return estado === 'ACTIVO';
+}
+
+function dirEsValida(direccion) {
+  return direccion && direccion.trim() !== '' && direccion.trim() !== '-';
+}
+```
+
+### Componente 5 — Endpoints HTTP
+
+```
+GET  /consultaDocumento/:rucdni      → Consulta principal
+GET  /consultaDocumento/:rucdni/anexos → Lista establecimientos anexos
+GET  /health                          → Healthcheck con info de padrones
+POST /admin/refresh-padron/:tipo      → Forzar refresh manual (auth requerida)
+GET  /admin/stats                     → Estadísticas (auth requerida)
+```
+
+#### `GET /consultaDocumento/:rucdni`
+
+Si entrada es DNI (8 dígitos), convertir a RUC tipo 10:
+```
+RUC = "10" + DNI + dígito_verificador
+```
+
+Devolver:
+```json
+{
+  "success": true,
+  "data": {
+    "rucdni": "10448539500",
+    "nombrerazon": "...",
+    "activo": 1,
+    "estadosunat": 1,
+    "direccion": "...",
+    "ubigeo": "140105",
+    "estado": "ACTIVO",
+    "condicion": "HABIDO"
+  }
+}
+```
+
+#### `GET /consultaDocumento/:rucdni/anexos`
+
+```json
+{
+  "success": true,
+  "data": {
+    "rucdni": "20100017491",
+    "establecimientos": [
+      {
+        "codigo": "0000",
+        "tipo": "CASA MATRIZ",
+        "direccion": "AV. SAN MARTIN NRO. 123",
+        "ubigeo": "150141",
+        "actividad": "..."
+      },
+      {
+        "codigo": "0001",
+        "tipo": "SUCURSAL",
+        ...
+      }
+    ]
+  }
+}
+```
+
+#### `GET /health`
+
+```json
+{
+  "status": "ok",
+  "padron_ruc": {
+    "ultima_actualizacion": "2026-05-06T06:23:14Z",
+    "filas": 12348901,
+    "estado": "ok"
+  },
+  "padron_local_anexo": {
+    "ultima_actualizacion": "2026-05-06T06:45:22Z",
+    "filas": 3421555,
+    "estado": "ok"
+  },
+  "db": "connected"
+}
+```
+
+### Componente 6 — Scheduler
+
+**Refresh diario** de ambos padrones:
+
+```
+# Cron expression: diariamente 6:30am hora Lima (11:30 UTC)
+30 11 * * *  /usr/bin/node /app/jobs/refresh-padrones.js
+```
+
+Implementación:
+```javascript
+async function jobRefreshPadrones() {
+  log.info("Iniciando refresh de padrones");
+
+  for (const tipo of ['ruc', 'local_anexo']) {
+    try {
+      const result = await descargarPadron(tipo);
+      if (result.skipped) {
+        log.info(`Padrón ${tipo} sin cambios, skip import`);
+        continue;
+      }
+
+      if (tipo === 'ruc') {
+        await importarPadronRuc(result.ruta, result.hash);
+      } else {
+        await importarPadronLocalAnexo(result.ruta, result.hash);
+      }
+    } catch (e) {
+      log.error(`Error procesando padrón ${tipo}: ${e.message}`);
+      // NO abortar: si uno falla, intentar el siguiente
+      await marcarPadronError(tipo, e.message);
+      // Enviar alerta (Slack, email, etc.)
+    }
+  }
+
+  log.info("Refresh de padrones completado");
+}
+```
+
+---
+
+## 🛡️ Manejo de errores y casos límite
+
+| Caso | Detección | Acción |
+|---|---|---|
+| ZIP de SUNAT corrupto | unzip falla o tamaño < 10MB | Reintentar 3 veces con backoff (5min, 15min, 60min). Mantener data anterior |
+| RUC en Padrón pero baja en pública | Estados distintos | Priorizar pública (más fresca) |
+| RUC en pública pero NO en Padrón | RUC nuevo (creado hoy) | Devolver con `ubigeo: null`, marcar warning |
+| RUC en Padrón pero NO en pública | RUC dado de baja sin actualizar Padrón | Devolver con datos del Padrón |
+| Captcha falla 3 veces | Scraping abortado | Devolver solo data del Padrón con warning |
+| BD caída | Connection error | Retry 3 veces. Si persiste, solo scraping |
+| Padrón > 7 días sin actualizar | Check en `padron_meta` | Alerta en `/health`, log warning, pero seguir respondiendo |
+| Encoding mal interpretado | Caracteres `Ã±` `Ã©` en data | El importer DEBE usar latin1 explícito |
+
+---
+
+## 🧪 Casos de prueba mínimos
+
+Crear test para cada uno:
+
+| Caso | RUC | Validar |
+|---|---|---|
+| RUC 10 normal | `10448539500` | `ubigeo=140105`, dirección armada con HUASCAR |
+| RUC 20 normal | `20563083183` | `ubigeo=150132` |
+| DNI directo | `44853950` | Auto-convierte a `10448539500`, mismo resultado |
+| RUC inexistente | `99999999999` | `success:false`, code 404 |
+| Formato inválido | `abc123` | `success:false`, code 422 |
+| RUC dado de baja | (uno conocido) | `activo: 0`, datos disponibles |
+| Caché hit | mismo RUC 2x | Segunda llamada < 50ms |
+| Anexos | `20100017491` | Devuelve >1 establecimientos |
+| Health con padrón ok | - | `status: ok`, fechas recientes |
+| Health con padrón viejo | (forzar fecha) | `status: warning` |
+
+---
+
+## 🔧 Variables de entorno (`.env`)
+
+```env
+# Server
+NODE_ENV=production
+PORT=3000
+
+# Database (CockroachDB)
+DB_HOST=144.217.163.120
+DB_PORT=26257
+DB_NAME=consulta_sunat
+DB_USER=dev_user
+DB_PASSWORD=<<<ROTAR_AHORA>>>
+DB_SSL=true
+DB_SSL_MODE=require
+DB_POOL_MIN=2
+DB_POOL_MAX=20
+
+# SUNAT — Padrones
+PADRON_RUC_URL=http://www2.sunat.gob.pe/padron_reducido_ruc.zip
+PADRON_LOCAL_ANEXO_URL=http://www2.sunat.gob.pe/padron_reducido_local_anexo.zip
+PADRON_DOWNLOAD_TIMEOUT_MS=1800000
+PADRON_TMP_DIR=/tmp
+PADRON_REFRESH_CRON=30 11 * * *
+
+# SUNAT — Scraper público (ya existente en proyecto)
+SUNAT_CONSULTA_URL=https://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/FrameCriterioBusquedaWeb.jsp
+SUNAT_CAPTCHA_MAX_RETRIES=3
+SUNAT_REQUEST_TIMEOUT_MS=15000
+SUNAT_MIN_DELAY_MS=2000
+
+# Caché
+CACHE_TTL_HOURS=24
+
+# Auth para endpoints admin
+ADMIN_API_KEY=<<<DEFINIR>>>
+
+# Logs
+LOG_LEVEL=info
+LOG_FORMAT=json
+```
+
+---
+
+## 📋 Estructura de carpetas sugerida
+
+```
+proyecto/
+├── src/
+│   ├── controllers/
+│   │   ├── consulta.controller.js
+│   │   ├── admin.controller.js
+│   │   └── health.controller.js
+│   ├── services/
+│   │   ├── consulta.service.js
+│   │   ├── padron-downloader.service.js
+│   │   ├── padron-importer.service.js
+│   │   ├── scraper-publica.service.js   ← YA EXISTE
+│   │   └── cache.service.js
+│   ├── repositories/
+│   │   ├── padron.repository.js
+│   │   ├── cache.repository.js
+│   │   └── meta.repository.js
+│   ├── db/
+│   │   ├── connection.js                  ← Pool a CockroachDB
+│   │   └── migrations/
+│   │       ├── 001_create_padron_ruc.sql
+│   │       ├── 002_create_padron_local_anexo.sql
+│   │       ├── 003_create_ubigeos.sql
+│   │       ├── 004_create_cache.sql
+│   │       └── 005_create_padron_meta.sql
+│   ├── jobs/
+│   │   └── refresh-padrones.job.js
+│   ├── utils/
+│   │   ├── ruc-validator.js
+│   │   ├── direccion-builder.js
+│   │   └── encoding.js
+│   ├── routes.js
+│   └── app.js
+├── tests/
+│   └── (fixtures + tests)
+├── scripts/
+│   ├── seed-ubigeos.sh
+│   └── manual-refresh.sh
+├── .env.example
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Plan de implementación por días
+
+### Día 1 — Setup base
+- [ ] Crear estructura de proyecto.
+- [ ] Configurar conexión a CockroachDB (probar `SELECT 1` con SSL).
+- [ ] Correr migraciones (crear las 5 tablas).
+- [ ] Cargar tabla `ubigeos_sunat` desde CSV de CONCYTEC.
+
+### Día 2 — Padrón RUC
+- [ ] Implementar `PadronDownloader` con streaming y SHA256.
+- [ ] Descargar manualmente el ZIP, abrir el TXT con `head -5` y validar columnas reales.
+- [ ] Implementar `PadronImporter` para Padrón RUC.
+- [ ] Correr import completo (debe tomar 30-60 min).
+- [ ] Validar con: `SELECT * FROM padron_reducido_ruc WHERE ruc='10448539500';` → debe devolver ubigeo `140105`.
+
+### Día 3 — Padrón Local Anexo
+- [ ] Validar columnas del archivo local anexo.
+- [ ] Implementar importer.
+- [ ] Correr import completo.
+
+### Día 4 — Servicio de consulta + integración
+- [ ] Implementar `ConsultaService` con merge.
+- [ ] Integrar el scraper público existente.
+- [ ] Endpoint `GET /consultaDocumento/:rucdni`.
+- [ ] Caché en tabla `cache_consulta`.
+
+### Día 5 — Anexos, admin, health
+- [ ] Endpoint anexos.
+- [ ] Endpoints admin con auth por API key.
+- [ ] Endpoint `/health`.
+
+### Día 6 — Scheduler y producción
+- [ ] Cron job de refresh.
+- [ ] Logs estructurados JSON.
+- [ ] Tests de integración.
+- [ ] Deploy y monitoreo.
+
+---
+
+## ✅ Criterios de aceptación
+
+El sistema está listo para producción cuando:
+
+1. ✅ `GET /consultaDocumento/10448539500` devuelve **exactamente** el JSON esperado con `ubigeo: "140105"`.
+2. ✅ `GET /consultaDocumento/20563083183` devuelve `ubigeo: "150132"`.
+3. ✅ `GET /consultaDocumento/99999999999` devuelve `success: false, code: 404`.
+4. ✅ `GET /consultaDocumento/44853950` (solo DNI) auto-convierte a RUC y responde.
+5. ✅ Una segunda consulta del mismo RUC devuelve en < 50ms (caché hit).
+6. ✅ El cron job corre diariamente y actualiza `padron_meta`.
+7. ✅ `/health` reporta `status: ok` con padrones < 24h de antigüedad.
+8. ✅ El sistema sigue respondiendo aunque el scraper público falle (con data del Padrón).
+9. ✅ El sistema sigue respondiendo aunque el Padrón esté desactualizado (con data scraping + warning).
+10. ✅ NO hay credenciales hardcoded en el código (todo en `.env`).
+
+---
+
+## 🔒 Seguridad — Recordatorios obligatorios
+
+1. **Rotar la contraseña de `dev_user`** antes de subir a producción.
+2. **`.env` en `.gitignore`** desde el día 1.
+3. **Restringir IP** del CockroachDB en lo posible (firewall, VPN, security groups).
+4. **Endpoints admin protegidos** con API key o JWT.
+5. **Rate limit** en el endpoint público (ej: 100 req/min por IP).
+6. **No logear el RUC completo en producción** si tu sistema procesa datos de personas naturales (privacidad).
+7. **Cumplimiento Ley 29733**: si almacenas datos de personas naturales (RUC tipo 10), tu sistema debe tener finalidad legítima documentada.
+
+---
+
+## 📚 Referencias
+
+- Padrón Reducido SUNAT: https://www.sunat.gob.pe/descargaPRR/mrc137_padron_reducido.html
+- Consulta RUC pública: https://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/FrameCriterioBusquedaWeb.jsp
+- Ubigeos CONCYTEC: https://github.com/CONCYTEC/ubigeo-peru
+- CockroachDB drivers: https://www.cockroachlabs.com/docs/stable/install-client-drivers
+- Ley 29733 Protección de Datos Personales (Perú).
